@@ -59,7 +59,7 @@ Modele generatywne muzyki symbolicznej coraz częściej oferują kontrolę nad a
 
 # Stack technologiczny
 
-W ramach głównym językiem wykorzystywanym do tworzenia systemu będzie Python. Dodatkowo planowane jest wykorzystanie narzędzia make w celu automatyzacji poszczególnych kroków w przetwarzaniu danych, zachowując przy tym wysoką czytelność i łatwość pracy w stworzonym środowisku. Eksperymenty wykonywane, a szczególnie te związane z wykorzystaniem modeli generatywnym będą częściowo przeprowadzane z wykorzystaniem narzędzia Jupyter Notebook.  
+Głównym językiem wykorzystywanym do tworzenia systemu będzie Python. Dodatkowo planowane jest wykorzystanie narzędzia make w celu automatyzacji poszczególnych kroków w przetwarzaniu danych, zachowując przy tym wysoką czytelność i łatwość pracy w stworzonym środowisku. Eksperymenty wykonywane, a szczególnie te związane z wykorzystaniem modeli generatywnym będą częściowo przeprowadzane z wykorzystaniem narzędzia Jupyter Notebook.  
 
 ---
 
