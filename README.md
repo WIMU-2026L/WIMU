@@ -9,31 +9,6 @@ Paweł Kutyła
 
 ---
 
-# Dataset
-
-acousticbrainz_genre - okazuje się że tutaj jest zwykła muzyka - potrzebujemy muzyki symbolicznej, można użyć danych z Lakh MIDI Dataset - midi i potem zrobić match z zbiorem acousticbrainz żeby uzyskać etykiety gatunku
-
-Można użyć zbioru MetaMIDI Dataaset - jest już wszystko w nim  
-https://github.com/jeffreyjohnens/MetaMIDIDataset/tree/master
-
-GTZan - zły bo też posiada gotowe utwory a nie w formacie midi  
-
-- gatunek: …  
-- nastrój: …  
-- instrumentacja: …  
-
----
-
-# Modele
-
-FIGARO - nie generuje kontretnego gatunku muzyki tylko cechy niższe poziomowo można zmieniać jak PITCH etc.  
-https://github.com/dvruette/figaro?tab=readme-ov-file#generation
-
-MuseCoco  
-https://github.com/microsoft/muzic/blob/main/musecoco/README.md#environment
-
----
-
 # Opis projektu
 
 Modele generatywne muzyki symbolicznej coraz częściej oferują kontrolę nad atrybutami wyjścia (gatunek, nastrój, instrumentacja). Projekt polega na użyciu FMD do zbadania, czy generacje warunkowane danym atrybutem rzeczywiście trafiają w rozkład odpowiedniego podzbioru referencyjnego. Dla wybranego modelu należy wygenerować próbki dla każdej klasy i porównać FMD względem odpowiednich i nieodpowiednich podzbiorów. Wyniki warto odnieść do klasyfikacji zero-shot z CLaMP 3 jako niezależnej metody weryfikacji.
