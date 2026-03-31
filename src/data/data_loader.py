@@ -1,8 +1,8 @@
 from pathlib import Path
 import zipfile
 import gdown
-from src.data.midisample_class import MidiSample, load_midi_samples
-from src.config import XMIDI_URL, XMIDI_ZIP_PATH, XMIDI_DIR
+from data.midisample_class import MidiSample, load_midi_samples
+from config import XMIDI_URL, XMIDI_ZIP_PATH, XMIDI_DIR
 
 def load_data(data_dir: Path) -> list[MidiSample]:
     return load_midi_samples(data_dir)
