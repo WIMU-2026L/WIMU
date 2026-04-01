@@ -1,7 +1,16 @@
 # env
 .venv/
 .env
+venv/
+
+# ide
+.idea/
 
 # data
 data/XMIDI_Dataset/
 data/generated/
+data/*
+!data/.gitkeep
+
+!src/logs/*
+!src/logs/.gitkeep
