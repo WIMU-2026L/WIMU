@@ -1,0 +1,3 @@
+[submodule "muzic"]
+	path = muzic
+	url = https://github.com/microsoft/muzic.git
