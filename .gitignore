@@ -1,0 +1,7 @@
+# env
+.venv/
+.env
+
+# data
+data/XMIDI_Dataset/
+data/generated/
