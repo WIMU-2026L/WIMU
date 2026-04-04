@@ -69,3 +69,43 @@ Następnym etapem jest ewaluacja z wykorzystaniem CLaMP3 przyjmująca wygenerowa
 Ostatecznym krokiem potoku jest zebranie danych z procesu i wizualizacja ich np. wykorzystując raport z wcześniej zdefiniowanym szablonem lub zebranie czytelnych logów w pliku.
 
 Poszczególne etapy będą mogły być wywoływane z wykorzystaniem narzędzia make i przyjmowały formę np:
+
+
+## Instrukcja uruchomienia projektu
+
+### 1. Sklonowanie repozytorium
+
+```bash
+git clone --recurse-submodules [<URL_TWOJEGO_REPO>](https://github.com/WIMU-2026L/WIMU)
+cd WIMU
+```
+
+---
+
+### 2. Konfiguracja środowiska (głównego projektu)
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+```
+
+---
+
+### 3. Konfiguracja MIDI-LLM (submodule)
+
+Przejdź do repo modelu:
+
+```bash
+cd external/midi-llm
+```
+
+Utwórz środowisko (zgodnie z repo MIDI-LLM, zwykle conda):
+
+```bash
+conda create -n midi-llm python=3.10
+conda activate midi-llm
+pip install -r requirements.txt
+```
+
+
