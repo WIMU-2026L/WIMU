@@ -69,3 +69,65 @@ Następnym etapem jest ewaluacja z wykorzystaniem CLaMP3 przyjmująca wygenerowa
 Ostatecznym krokiem potoku jest zebranie danych z procesu i wizualizacja ich np. wykorzystując raport z wcześniej zdefiniowanym szablonem lub zebranie czytelnych logów w pliku.
 
 Poszczególne etapy będą mogły być wywoływane z wykorzystaniem narzędzia make i przyjmowały formę np:
+
+
+## Instrukcja uruchomienia projektu
+
+### 1. Sklonowanie repozytorium
+
+```bash
+git clone --recurse-submodules [<URL_TWOJEGO_REPO>](https://github.com/WIMU-2026L/WIMU)
+cd WIMU
+```
+
+---
+
+### 2. Konfiguracja środowiska (głównego projektu)
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+```
+
+---
+
+### 3. Konfiguracja MIDI-LLM (submodule)
+
+Przejdź do repo modelu:
+
+```bash
+cd external/midi-llm
+```
+
+Utwórz środowisko (zgodnie z repo MIDI-LLM, zwykle conda):
+
+```bash
+conda create -n midi-llm python=3.10
+conda activate midi-llm
+pip install -r requirements.txt
+```
+
+### 4. Konfiguracja MuseCoco (submodule)
+
+Przejdź do repo modelu:
+
+```bash
+cd muzic/musecoco
+```
+
+Utwórz środowisko (zgodnie z repo MIDI-LLM, zwykle conda):
+
+```bash
+conda create -n MuseCoco python=3.8
+conda activate MuseCoco
+conda install pytorch=1.11.0 -c pytorch
+pip install -r requirements.txt
+```
+Additionally our machine should be provided with appropriate gcc and nvidia toolkit for CUDA usage.
+
+To run test sample generation, we should download model from the link [https://huggingface.co/XinXuNLPer/MuseCoco_attribute2music/tree/main], put it in 2-attribute2music_model/checkpoint... dircetory.
+
+Now, we can run the script form 2-attribute2musci_model dir with `bach interactive_1bilion.sh 0 10`, this will generate 20 samples (10 prompts x 2 batch size) in the new generate directory.
+
+
