@@ -1,3 +1,6 @@
+[submodule "external/midi-llm"]
+	path = external/midi-llm
+	url = https://github.com/slSeanWU/MIDI-LLM.git
 [submodule "muzic"]
 	path = muzic
 	url = https://github.com/microsoft/muzic.git
