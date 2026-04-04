@@ -108,4 +108,26 @@ conda activate midi-llm
 pip install -r requirements.txt
 ```
 
+### 4. Konfiguracja MuseCoco (submodule)
+
+Przejdź do repo modelu:
+
+```bash
+cd muzic/musecoco
+```
+
+Utwórz środowisko (zgodnie z repo MIDI-LLM, zwykle conda):
+
+```bash
+conda create -n MuseCoco python=3.8
+conda activate MuseCoco
+conda install pytorch=1.11.0 -c pytorch
+pip install -r requirements.txt
+```
+Additionally our machine should be provided with appropriate gcc and nvidia toolkit for CUDA usage.
+
+To run test sample generation, we should download model from the link [https://huggingface.co/XinXuNLPer/MuseCoco_attribute2music/tree/main], put it in 2-attribute2music_model/checkpoint... dircetory.
+
+Now, we can run the script form 2-attribute2musci_model dir with `bach interactive_1bilion.sh 0 10`, this will generate 20 samples (10 prompts x 2 batch size) in the new generate directory.
+
 
