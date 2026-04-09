@@ -23,6 +23,7 @@ markdown-it-py==4.0.0
 MarkupSafe==3.0.3
 mdurl==0.1.2
 mido==1.3.3
+miditok==3.0.6.post1
 mpmath==1.3.0
 networkx==3.6.1
 numpy==2.4.4

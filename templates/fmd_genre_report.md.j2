@@ -1,0 +1,137 @@
+# {{ title if title is defined else "FMD Genre Comparison Report" }}
+
+{% if generated_at is defined %}
+Generated at: {{ generated_at }}
+{% endif %}
+{% if experiment_name is defined %}
+Experiment: {{ experiment_name }}
+{% endif %}
+
+## Overview
+
+{% if overview is defined %}
+{{ overview }}
+{% else %}
+This report summarizes Frechet Music Distance comparisons between XMIDI reference genres and generated music genres.
+{% endif %}
+
+## Configuration
+
+| Field | Value |
+| --- | --- |
+| Reference root | `{{ reference_root }}` |
+| Test root | `{{ test_root }}` |
+| Feature extractor | `{{ feature_extractor | default("clamp2") }}` |
+| Gaussian estimator | `{{ gaussian_estimator | default("mle") }}` |
+| FMD-Inf steps | `{{ fmd_inf_steps | default(25) }}` |
+| FMD-Inf min_n | `{{ fmd_inf_min_n | default(500) }}` |
+
+{% if summary is defined %}
+## Summary
+
+| Metric | Value |
+| --- | --- |
+{% if summary.total_reference_genres is defined %}
+| Total reference genres | `{{ summary.total_reference_genres }}` |
+{% endif %}
+{% if summary.total_generated_genres is defined %}
+| Total generated genres | `{{ summary.total_generated_genres }}` |
+{% endif %}
+{% if summary.total_comparisons is defined %}
+| Total comparisons | `{{ summary.total_comparisons }}` |
+{% endif %}
+{% if summary.best_pair is defined %}
+| Best pair | `{{ summary.best_pair.reference_genre }} -> {{ summary.best_pair.test_genre }}` |
+| Best pair FMD-Inf | `{{ "%.4f"|format(summary.best_pair.fmd_inf.score) }}` |
+{% endif %}
+{% if summary.worst_pair is defined %}
+| Worst pair | `{{ summary.worst_pair.reference_genre }} -> {{ summary.worst_pair.test_genre }}` |
+| Worst pair FMD-Inf | `{{ "%.4f"|format(summary.worst_pair.fmd_inf.score) }}` |
+{% endif %}
+
+{% if summary.notes is defined and summary.notes %}
+### Notes
+
+{% for note in summary.notes %}
+- {{ note }}
+{% endfor %}
+{% endif %}
+{% endif %}
+
+## Pairwise Results
+
+| XMIDI genre | Generated genre | Reference samples | Test samples | FMD | FMD-Inf | R^2 | Slope |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+{% for comparison in comparisons %}
+| {{ comparison.reference_genre }} | {{ comparison.test_genre }} | {{ comparison.reference_count }} | {{ comparison.test_count }} | {{ "%.4f"|format(comparison.fmd_score) if comparison.fmd_score is not none else "n/a" }} | {{ "%.4f"|format(comparison.fmd_inf.score) if comparison.fmd_inf is defined and comparison.fmd_inf.score is not none else "n/a" }} | {{ "%.4f"|format(comparison.fmd_inf.r2) if comparison.fmd_inf is defined and comparison.fmd_inf.r2 is not none else "n/a" }} | {{ "%.4f"|format(comparison.fmd_inf.slope) if comparison.fmd_inf is defined and comparison.fmd_inf.slope is not none else "n/a" }} |
+{% endfor %}
+
+## Detailed Comparisons
+
+{% for comparison in comparisons %}
+### {{ comparison.reference_genre }} vs {{ comparison.test_genre }}
+
+| Field | Value |
+| --- | --- |
+| Reference genre | `{{ comparison.reference_genre }}` |
+| Generated genre | `{{ comparison.test_genre }}` |
+| Reference path | `{{ comparison.reference_path }}` |
+| Test path | `{{ comparison.test_path }}` |
+| Reference samples | `{{ comparison.reference_count }}` |
+| Test samples | `{{ comparison.test_count }}` |
+| FMD | `{{ "%.6f"|format(comparison.fmd_score) if comparison.fmd_score is not none else "n/a" }}` |
+| FMD-Inf score | `{{ "%.6f"|format(comparison.fmd_inf.score) if comparison.fmd_inf is defined and comparison.fmd_inf.score is not none else "n/a" }}` |
+| FMD-Inf R^2 | `{{ "%.6f"|format(comparison.fmd_inf.r2) if comparison.fmd_inf is defined and comparison.fmd_inf.r2 is not none else "n/a" }}` |
+| FMD-Inf slope | `{{ "%.6f"|format(comparison.fmd_inf.slope) if comparison.fmd_inf is defined and comparison.fmd_inf.slope is not none else "n/a" }}` |
+
+{% if comparison.interpretation is defined %}
+Interpretation: {{ comparison.interpretation }}
+{% endif %}
+
+{% if comparison.fmd_inf is defined and comparison.fmd_inf.points %}
+#### FMD-Inf Point Estimates
+
+| Sample size | Point estimate |
+| ---: | ---: |
+{% for point in comparison.fmd_inf.points %}
+| {{ point[0] }} | {{ "%.6f"|format(point[1]) }} |
+{% endfor %}
+{% endif %}
+
+{% if comparison.notes is defined and comparison.notes %}
+#### Notes
+
+{% for note in comparison.notes %}
+- {{ note }}
+{% endfor %}
+{% endif %}
+
+{% endfor %}
+
+{% if aggregate_by_reference_genre is defined and aggregate_by_reference_genre %}
+## Aggregate By XMIDI Genre
+
+| XMIDI genre | Mean FMD | Mean FMD-Inf | Best generated genre | Worst generated genre |
+| --- | ---: | ---: | --- | --- |
+{% for row in aggregate_by_reference_genre %}
+| {{ row.reference_genre }} | {{ "%.4f"|format(row.mean_fmd) if row.mean_fmd is not none else "n/a" }} | {{ "%.4f"|format(row.mean_fmd_inf) if row.mean_fmd_inf is not none else "n/a" }} | {{ row.best_test_genre | default("n/a") }} | {{ row.worst_test_genre | default("n/a") }} |
+{% endfor %}
+{% endif %}
+
+{% if aggregate_by_generated_genre is defined and aggregate_by_generated_genre %}
+## Aggregate By Generated Genre
+
+| Generated genre | Mean FMD | Mean FMD-Inf | Best XMIDI genre | Worst XMIDI genre |
+| --- | ---: | ---: | --- | --- |
+{% for row in aggregate_by_generated_genre %}
+| {{ row.test_genre }} | {{ "%.4f"|format(row.mean_fmd) if row.mean_fmd is not none else "n/a" }} | {{ "%.4f"|format(row.mean_fmd_inf) if row.mean_fmd_inf is not none else "n/a" }} | {{ row.best_reference_genre | default("n/a") }} | {{ row.worst_reference_genre | default("n/a") }} |
+{% endfor %}
+{% endif %}
+
+{% if conclusions is defined and conclusions %}
+## Conclusions
+
+{% for conclusion in conclusions %}
+- {{ conclusion }}
+{% endfor %}
+{% endif %}

@@ -3,6 +3,13 @@
 .env
 venv/
 
+# os
+.DS_Store
+
+# python
+__pycache__/
+*.py[cod]
+
 # ide
 .idea/
 
@@ -12,5 +19,6 @@ data/generated/
 data/*
 !data/.gitkeep
 
-!src/logs/*
+# logs
+src/logs/*
 !src/logs/.gitkeep
