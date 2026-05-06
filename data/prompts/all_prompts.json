@@ -1,0 +1,2126 @@
+{
+    "rock": {
+        "angry": [
+            {
+                "text": "This track features an incredibly angry and aggressive rock sound, utilizing a 4/4 time signature at a fast tempo of 160 BPM. Driven by distorted power chords and relentless double-bass drumming, it spans 32 bars of high-intensity energy."
+            },
+            {
+                "text": "An angry rock composition in a minor key that emphasizes heavy syncopation. The music lasts for 45 seconds and features a wide pitch range of 4 octaves, creating a volatile and explosive atmosphere."
+            },
+            {
+                "text": "The music presents an angry rock aesthetic with a slow, sludge-like tempo of 70 BPM. Spanning 16 bars, the deep, resonant bass notes and crashing cymbals provide a sense of overwhelming weight and fury."
+            },
+            {
+                "text": "This short 20-second snippet of angry rock music is characterized by a rapid-fire 12/8 time signature. The melody is dissonant and sharp, played across a 3-octave range to evoke a feeling of chaotic frustration."
+            },
+            {
+                "text": "Featuring a dense polyphonic texture, this angry rock track runs for 60 seconds. It utilizes frequent staccato notes and a highly irregular rhythmic pattern to mirror a sense of unpredictable rage."
+            },
+            {
+                "text": "An intense angry rock performance spanning 24 bars. The piece is dominated by a mid-range pitch focus and a constant crescendo, leading to a powerful and sonically abrasive climax."
+            },
+            {
+                "text": "This track is a fast-paced angry rock anthem in a Phrygian mode, adding a dark, menacing quality to the sound. It maintains a consistent 4/4 meter over 40 bars with a very high velocity for all MIDI notes."
+            },
+            {
+                "text": "A gritty and angry rock piece that focuses on a low-register riff. The music has a runtime of 35 seconds and uses a 3/4 time signature to create a jarring, waltz-from-hell rhythmic feel."
+            },
+            {
+                "text": "This song features an angry rock vibe with sharp, biting articulation and a syncopated rhythm. Spanning 20 bars, the composition uses a wide dynamic range to transition from simmering tension to explosive outbursts."
+            },
+            {
+                "text": "A 50-second angry rock track with a complex arrangement of 16th-note patterns. The harmonic language is filled with tritones and chromaticism, emphasizing a raw and unyielding musical character."
+            }
+        ],
+        "quiet": [
+            {
+                "text": "This quiet rock track features a mellow acoustic guitar arpeggio in a 4/4 time signature. It spans 32 bars with a slow tempo of 75 BPM, creating a serene and introspective atmosphere over 60 seconds."
+            },
+            {
+                "text": "A soft electric piano leads this quiet rock composition, utilizing a minor key to evoke a melancholic mood. The piece lasts for 45 seconds, covering 20 bars with a focus on mid-range pitches."
+            },
+            {
+                "text": "Driven by a light, brushed drum kit and a subtle bassline, this quiet rock song maintains a steady rhythm in a major key. It spans 16 bars and has a duration of approximately 30 seconds."
+            },
+            {
+                "text": "This instrumental quiet rock piece features a clean electric guitar with heavy reverb. It uses a 3/4 time signature and a moderate-slow tempo, progressing through 24 bars for a total of 50 seconds."
+            },
+            {
+                "text": "Characterized by a low-velocity piano melody and a distant slide guitar, this quiet rock track has a wide pitch range of 4 octaves. It plays for 40 seconds across 12 bars of expressive, sparse arrangement."
+            },
+            {
+                "text": "This short quiet rock clip features a syncopated bass rhythm and a gentle tambourine. It spans 8 bars in a 4/4 time signature, delivering a relaxed yet rhythmic performance for 15 seconds."
+            },
+            {
+                "text": "A melodic quiet rock arrangement with a focus on harmonic depth, utilizing a Dorian mode. The piece lasts for 55 seconds and covers 28 bars with a very high density of sustained notes."
+            },
+            {
+                "text": "This quiet rock ballad relies on a simple I-IV-V chord progression in G major. It features a soft synth pad in the background, spanning 20 bars and lasting roughly 42 seconds."
+            },
+            {
+                "text": "With a minimalist approach, this quiet rock track uses only two instruments: a muted electric guitar and a soft kick drum. It has a runtime of 35 seconds and covers 14 bars at 90 BPM."
+            },
+            {
+                "text": "This ambient quiet rock sequence emphasizes long-tail delays and a slow harmonic rhythm. It spans 16 bars with a total play time of 48 seconds, maintaining a consistent low-intensity energy."
+            }
+        ],
+        "exciting": [
+            {
+                "text": "This exciting rock track features an aggressive 4/4 beat at a high tempo of 145 BPM. Spanning 32 bars with a wide pitch range of 6 octaves, the distorted electric guitar melodies create an electrifying atmosphere for 45 seconds."
+            },
+            {
+                "text": "Driven by a powerful syncopated rhythm, this exciting rock composition stays in a minor key to deliver a moody yet high-energy performance. It plays for 60 seconds across 24 bars with a focus on mid-range power chords."
+            },
+            {
+                "text": "An exciting rock anthem with a heavy emphasis on percussion and a fast tempo. The music lasts for 30 seconds, covering 16 bars with a dense melodic structure that utilizes a 5-octave span to maintain intensity."
+            },
+            {
+                "text": "This piece showcases an exciting rock sound characterized by a 3/4 time signature and a moderate but driving tempo. It spans 20 bars and roughly 40 seconds, featuring a bright major key and soaring lead lines."
+            },
+            {
+                "text": "Featuring a gritty bassline and sharp snare hits, this exciting rock track builds tension over 12 bars. The pitch range is concentrated in the lower 4 octaves, providing a heavy and grounded feel for its 25-second duration."
+            },
+            {
+                "text": "A fast-paced and exciting rock sequence that utilizes rapid-fire 16th notes. This 50-second track spans 40 bars, shifting through multiple major scales to create a sense of constant movement and athletic musicality."
+            },
+            {
+                "text": "This track is an exciting rock ballad that begins with a soft 4-octave range and swells into a 6-octave climax. It runs for 70 seconds across 32 bars, utilizing a moderate tempo to highlight emotional depth."
+            },
+            {
+                "text": "An exciting rock riff-based composition with a highly intense rhythm and a runtime of 35 seconds. Spanning 18 bars, the use of a chromatic scale adds a sense of urgency and chaos to the high-tempo performance."
+            },
+            {
+                "text": "This song delivers an exciting rock experience through a steady, driving rhythm and a runtime of 55 seconds. It covers 28 bars in a 4/4 time signature, featuring a balanced pitch range and a resonant, distorted timbre."
+            },
+            {
+                "text": "An explosive and exciting rock finale that spans 15 bars and 30 seconds. With a very high tempo and a 5-octave pitch range, the music employs complex polyrhythms to create a dense and overwhelming wall of sound."
+            }
+        ],
+        "happy": [
+            {
+                "text": "This upbeat happy rock track features a bright major key and a driving 4/4 rhythm. It spans 32 bars with a duration of 60 seconds, showcasing a wide pitch range across 5 octaves for a full, energetic band sound."
+            },
+            {
+                "text": "Characterized by a fast tempo and syncopated electric guitar riffs, this happy rock piece plays for 45 seconds. The arrangement covers 24 bars and utilizes a high density of notes to create a celebratory atmosphere."
+            },
+            {
+                "text": "A melodic happy rock composition with a steady, pounding drum beat and a soaring lead melody. It lasts for 30 seconds across 16 bars, maintaining a consistent intensity and a classic 4-octave range."
+            },
+            {
+                "text": "This short 15-second happy rock snippet features a catchy hook in a major scale. With a moderate tempo and a 3-octave pitch range, it provides a lighthearted and punchy musical statement over 8 bars."
+            },
+            {
+                "text": "An anthemic happy rock song with heavy power chords and a triumphant melody. The track spans 64 bars and 120 seconds, featuring dynamic shifts and a rich, layered texture within a 6-octave span."
+            },
+            {
+                "text": "This 40-second happy rock track uses a 12/8 shuffle feel to create a bouncy, blues-influenced rhythm. Spanning 20 bars, the music stays within a 4-octave range to emphasize the rhythmic groove."
+            },
+            {
+                "text": "Featuring a bright acoustic guitar foundation layered with overdriven electrics, this happy rock piece lasts 50 seconds. It covers 28 bars and uses a high-velocity piano accompaniment for added sparkle."
+            },
+            {
+                "text": "This high-energy happy rock sequence is written in a bright D Major key with a very fast BPM. It runs for 25 seconds across 12 bars, utilizing rapid arpeggios and a wide 5-octave melodic spread."
+            },
+            {
+                "text": "A pop-infused happy rock track with a simple, memorable melody and a standard backbeat. The music spans 32 bars over 60 seconds, focusing on a mid-range 3-octave pitch spread for clarity."
+            },
+            {
+                "text": "This complex happy rock arrangement features polyphonic textures and a driving bassline. It plays for 75 seconds over 40 bars, incorporating sudden dynamic changes and a full 6-octave keyboard range."
+            }
+        ],
+        "funny": [
+            {
+                "text": "This funny rock track features a bouncy 4/4 rhythm with a fast tempo, spanning 32 bars. The melody uses a wide pitch range of 4 octaves to create a comedic, high-energy atmosphere that lasts for about 45 seconds."
+            },
+            {
+                "text": "A humorous and funny rock piece played in a major key with a moderate tempo. It covers 16 bars and 5 octaves, delivering a bright and quirky sound for a duration of 30 seconds."
+            },
+            {
+                "text": "This song is a short, funny rock snippet with an intense rhythm and a 2/4 time signature. Lasting only 15 seconds over 8 bars, it uses a sharp, staccato articulation to emphasize its comedic timing."
+            },
+            {
+                "text": "A groovy and funny rock composition with a syncopated beat that progresses over 24 bars. The track features a runtime of 40 seconds and a playful pitch range, perfect for a lighthearted musical performance."
+            },
+            {
+                "text": "This funny rock anthem utilizes a heavy, distorted guitar-like MIDI texture with a steady 4/4 beat. Spanning 20 bars and 3 octaves, the music conveys a parody of classic stadium rock for 35 seconds."
+            },
+            {
+                "text": "Featuring a unique and resonant sound, this funny rock track uses a mix of high-pitched lead lines and a driving drum rhythm. It plays for 50 seconds and covers a span of 40 bars."
+            },
+            {
+                "text": "The music in this track is based on a slow tempo but maintains a funny rock vibe through its odd time signature. It spans 12 bars and creates a whimsical, stumbling rhythm for 25 seconds."
+            },
+            {
+                "text": "This funny rock song has an electrifying rhythm and a bright harmonic profile in a major key. It spans 5 octaves and 30 bars, resulting in a vibrant and silly performance lasting 55 seconds."
+            },
+            {
+                "text": "A compact and funny rock piece with a pitch range of 2 octaves, focused on a repetitive and catchy hook. It lasts for 20 seconds and covers 10 bars with a very high intensity."
+            },
+            {
+                "text": "This funny rock track explores a wide variety of MIDI velocities to create a dynamic and slapstick musical effect. It spans 16 bars and has a total runtime of about 30 seconds."
+            }
+        ],
+        "fear": [
+            {
+                "text": "This fear rock composition features a distorted minor-key melody over 16 bars. The relentless 4/4 rhythm and heavy bass create a sense of impending dread, spanning a wide pitch range of 5 octaves for 35 seconds."
+            },
+            {
+                "text": "Characterized by frantic tempo and dissonant chords, this track embodies fear through rock instrumentation. It lasts for 25 seconds across 12 bars, utilizing high-velocity percussion to drive an anxious energy."
+            },
+            {
+                "text": "A slow, dragging tempo defines this fear rock piece, which spans 10 bars. The low-register guitar riffs create a suffocating atmosphere, playing for a duration of 45 seconds in a dark harmonic minor scale."
+            },
+            {
+                "text": "This track utilizes sudden dynamic shifts from quiet whispers to explosive rock choruses to evoke fear. Spanning 20 bars and 4 octaves, the music provides a jarring 50-second experience."
+            },
+            {
+                "text": "With a complex 7/8 time signature, this fear rock arrangement feels unstable and unpredictable. The technical proficiency spans 15 bars, maintaining a tense and sharp timbre for 30 seconds."
+            },
+            {
+                "text": "Deeply resonant low-end frequencies dominate this fear rock song. It plays for 40 seconds over 14 bars, with a pitch range focused on the lower 3 octaves to ground the listener in a heavy, somber mood."
+            },
+            {
+                "text": "This fast-paced fear rock anthem features rapid-fire drum fills and chromatic scales. Spanning 18 bars, the high-intensity rhythm conveys a 'fight or flight' response over a 28-second duration."
+            },
+            {
+                "text": "The music in this track uses a 3/4 time signature to create a haunting, waltz-like fear rock vibe. It progresses through 16 bars of melodic minor scales, lasting approximately 32 seconds."
+            },
+            {
+                "text": "Industrial textures meet fear rock in this 45-second track. The mechanical, repetitive rhythm covers 20 bars, utilizing a dense pitch range to simulate an overwhelming and claustrophobic environment."
+            },
+            {
+                "text": "This fear rock piece focuses on sustained, feedback-heavy notes and a slow 12-bar progression. The minimalist but sharp arrangement evokes a lingering sense of unease throughout its 55-second runtime."
+            }
+        ],
+        "sad": [
+            {
+                "text": "A melancholic and slow-tempo sad rock piece in 4/4 time. The composition features heavy, sustained electric guitar chords and a prominent minor key melody. Spanning 16 bars with a duration of 45 seconds, the arrangement emphasizes a downward melodic contour to evoke deep sorrow."
+            },
+            {
+                "text": "This sad rock track is characterized by a mid-tempo drive and a 3/4 waltz-like rhythm. It spans 24 bars and utilizes a wide pitch range of 4 octaves, featuring a clean guitar arpeggio that creates a sense of loneliness and emotional weight over 60 seconds."
+            },
+            {
+                "text": "An intense sad rock ballad in a minor key with a highly syncopated rhythm. The music lasts for 35 seconds across 12 bars, focusing on high-velocity drum hits and distorted power chords that convey a sense of frustration and grief."
+            },
+            {
+                "text": "This somber composition is a slow sad rock instrumental featuring a descending bassline. It plays for 50 seconds and covers 16 bars. The use of a small pitch range and soft dynamics creates an intimate, reflective atmosphere typical of modern alternative rock."
+            },
+            {
+                "text": "A dark and atmospheric sad rock track with a 6/8 time signature. The melody is centered in a low register, spanning 20 bars and 55 seconds. The rhythmic pattern is steady yet heavy, utilizing long-duration notes to enhance the feeling of despair."
+            },
+            {
+                "text": "A short, impactful sad rock segment of 15 seconds. It features a high-pitched, weeping lead guitar solo in a minor scale. Spanning 8 bars, the rhythm is rubato-style, giving the music a fragile and unpredictable emotional quality."
+            },
+            {
+                "text": "This track is a mid-tempo sad rock anthem with a rich harmonic structure in a natural minor key. It spans 32 bars and plays for 70 seconds, featuring a layered arrangement of acoustic and electric guitars that builds emotional tension."
+            },
+            {
+                "text": "A minimalist sad rock piece focusing on a repetitive, mournful piano and guitar motif. It spans 16 bars with a duration of 40 seconds. The sparse rhythm and low note density highlight the emptiness and 'sad' character of the rock subgenre."
+            },
+            {
+                "text": "This sad rock song features a driving 4/4 beat with a moderate tempo but maintains a gloomy mood through its flat-six and flat-seven chord progressions. It spans 28 bars and lasts 65 seconds, utilizing a broad 5-octave pitch range."
+            },
+            {
+                "text": "An experimental sad rock track in 5/4 time signature, creating a restless and uneasy feeling. The composition lasts for 48 seconds over 18 bars, using dissonance and muted guitar strokes to articulate a complex sense of sadness."
+            }
+        ],
+        "lazy": [
+            {
+                "text": "This lazy rock track features a slow tempo of 70 BPM and spans 16 bars in a standard 4/4 time signature. With a duration of about 30 seconds, the music utilizes a 4-octave pitch range to deliver a laid-back, clean guitar-driven sound."
+            },
+            {
+                "text": "Characterized by a swinging 3/4 time signature, this lazy rock piece flows through 12 bars of melodic acoustic instrumentation. The pitch range is confined to 3 octaves, creating a cozy and intimate atmosphere for 25 seconds."
+            },
+            {
+                "text": "This song presents a lazy rock vibe with a slightly distorted guitar melody spanning 20 bars. It features a moderate pitch range of 5 octaves and a steady, unhurried rhythm that plays for approximately 45 seconds."
+            },
+            {
+                "text": "Set in a bright major key, this lazy rock composition spans 14 bars and evokes a sun-drenched, relaxed feeling. The music has a runtime of 35 seconds and maintains a focused pitch range across 4 octaves."
+            },
+            {
+                "text": "This lazy rock track utilizes a minor key to convey a melancholic and dreamy mood over 18 bars. The instrumentation covers a wide 6-octave pitch range, resulting in a resonant and atmospheric performance lasting 50 seconds."
+            },
+            {
+                "text": "With a runtime of 40 seconds, this lazy rock piece features a steady, behind-the-beat drum groove across 16 bars. The pitch range is concentrated in the middle 4 octaves, providing a balanced and grounded sound."
+            },
+            {
+                "text": "Spanning 24 bars, this extended lazy rock sequence maintains a low intensity and a slow, walking pace. The music explores a 5-octave range and plays for nearly 60 seconds, perfect for a chill-out setting."
+            },
+            {
+                "text": "This short lazy rock snippet lasts for 15 seconds and covers 8 bars in a 4/4 time signature. It features a simple, repetitive riff within a 3-octave pitch range, emphasizing a minimalist and tired aesthetic."
+            },
+            {
+                "text": "The music in this track is a bass-heavy lazy rock groove that spans 13 bars. Its use of a 4-octave pitch range and a very slow tempo results in a heavy, slouching musical feel that lasts for 30 seconds."
+            },
+            {
+                "text": "This lazy rock composition features an experimental lo-fi texture across 15 bars. It spans a 5-octave pitch range and uses a slightly irregular phrasing to enhance its sleepy, unpolished character for 40 seconds."
+            }
+        ],
+        "warm": [
+            {
+                "text": "This warm rock track features a lush 4/4 meter at a relaxed tempo of 90 BPM. Spanning 16 bars, the composition utilizes a major key to create a comforting atmosphere, sustained by vintage guitar tones over 30 seconds."
+            },
+            {
+                "text": "A rhythmic and warm rock piece with a syncopated feel, playing for 45 seconds. It covers 24 bars with a melodic range of 4 octaves, emphasizing a rich mid-range frequency typical of classic analog recordings."
+            },
+            {
+                "text": "This music exhibits a warm rock aesthetic with a steady 120 BPM drive. Lasting 40 seconds across 20 bars, the dense harmonic texture and overdriven tube-amp sounds provide a heartfelt and grounded musical experience."
+            },
+            {
+                "text": "Characterized by a 3/4 time signature, this warm rock ballad flows gracefully for 60 seconds. The 32-bar structure focuses on a narrow pitch range, delivering a soulful and intimate performance with soft percussion."
+            },
+            {
+                "text": "A high-intensity yet warm rock anthem that spans 15 bars. The use of a bright major scale and a driving 4/4 beat creates an uplifting 35-second sequence with resonant bass and thick guitar layers."
+            },
+            {
+                "text": "This 20-second snippet offers a warm rock soundscape with a moderate tempo. Within its 8 bars, the music balances a wide pitch range of 5 octaves, providing a spacious yet cozy tonal quality."
+            },
+            {
+                "text": "Featuring a minor-key progression with a surprisingly warm rock feel, this track lasts 50 seconds. It moves through 28 bars with a gentle rhythmic pulse, evoking a nostalgic and sun-drenched mood."
+            },
+            {
+                "text": "This song presents a warm rock rhythm with an emphasis on low-end warmth. Over 12 bars and 25 seconds, the melody stays within 3 octaves, ensuring a focused and mellow auditory impact."
+            },
+            {
+                "text": "An upbeat warm rock composition that spans 18 bars. At a brisk tempo, it maintains a runtime of 42 seconds, utilizing organic drum sounds and saturated guitar chords for a full-bodied texture."
+            },
+            {
+                "text": "This track is a masterclass in warm rock dynamics, lasting 55 seconds across 30 bars. The 4/4 rhythm is steady and inviting, paired with a harmonic structure that feels both resonant and earthy."
+            }
+        ],
+        "magnificent": [
+            {
+                "text": "This magnificent rock anthem features a driving 4/4 beat with a powerful 12-bar structure. The arrangement showcases soaring guitar leads across a 4-octave range, delivering a triumphant major-key melody that lasts for 45 seconds."
+            },
+            {
+                "text": "A magnificent rock composition characterized by intricate syncopation and a fast tempo. It spans 24 bars and utilizes a minor key to create a dark, epic atmosphere, featuring heavy distortion and a runtime of 60 seconds."
+            },
+            {
+                "text": "This track presents a magnificent rock ballad in 6/8 time. With a moderate tempo and a wide pitch range of 5 octaves, the music builds from a soft piano intro to a thunderous climax over 32 bars and 75 seconds."
+            },
+            {
+                "text": "A magnificent rock piece with a gritty, blues-influenced rhythm. The song maintains a steady groove for 16 bars, utilizing a mid-range pitch spread and a runtime of 30 seconds to deliver a punchy, energetic performance."
+            },
+            {
+                "text": "Experience a magnificent rock masterpiece featuring complex time signature changes and high-intensity drumming. Spanning 40 bars, the track uses a sharp, resonant sound profile and lasts for 90 seconds of pure sonic power."
+            },
+            {
+                "text": "This magnificent rock sequence is built on a 3/4 time signature, offering a waltz-like yet heavy feel. It covers a pitch range of 3 octaves and runs for 20 bars, creating a unique and regal musical texture over 40 seconds."
+            },
+            {
+                "text": "A magnificent rock track with a bright, uplifting major key and a very fast tempo. The music spans 12 ~ 15 bars with a focused melodic line, providing a burst of high-octane energy for exactly 25 seconds."
+            },
+            {
+                "text": "This magnificent rock arrangement features a deep, resonant bassline and a steady 4/4 rhythm. Spanning 18 bars and 50 seconds, the composition uses a low-frequency pitch range to create a grounding and powerful sound."
+            },
+            {
+                "text": "A magnificent rock odyssey with a sprawling 6-octave pitch range. The piece evolves through various rhythmic textures over 64 bars, maintaining a highly intense energy throughout its 120-second duration."
+            },
+            {
+                "text": "This magnificent rock sketch emphasizes a minimalist yet impactful harmonic structure. Played for 35 seconds across 10 bars, it utilizes a mid-tempo pace and a soaring solo section to capture the essence of stadium rock."
+            }
+        ],
+        "romantic": [
+            {
+                "text": "This romantic rock piece features a slow 4/4 tempo with a lush arrangement of overdriven guitars and soft piano. Spanning 32 bars, the melody explores a 4-octave range, delivering a heartfelt performance that lasts for 60 seconds."
+            },
+            {
+                "text": "A mid-tempo romantic rock track in a major key, characterized by a driving drum rhythm and melodic basslines. It spans 24 bars and maintains a bright, uplifting atmosphere for approximately 45 seconds."
+            },
+            {
+                "text": "This music is a romantic rock ballad in 3/4 time signature, featuring a delicate acoustic guitar intro that transitions into a powerful electric solo. It spans 20 bars with a runtime of 40 seconds."
+            },
+            {
+                "text": "Intense and passionate, this romantic rock composition utilizes a high-energy rhythm and a wide pitch range of 5 octaves. The track progresses through 16 bars of dramatic minor-key harmonies over 30 seconds."
+            },
+            {
+                "text": "A smooth romantic rock song with a steady 4/4 pulse and syncopated rhythmic patterns. It features a rich texture of synth pads and clean electric guitars, playing for 50 seconds across 28 bars."
+            },
+            {
+                "text": "This track showcases the soft side of romantic rock, focusing on a 2-octave vocal-like melody and a minimalist percussion section. It has a duration of 35 seconds and covers 12 bars."
+            },
+            {
+                "text": "An anthemic romantic rock piece with a fast tempo and a soaring lead guitar. Spanning 40 bars, the music employs a resonant major key to evoke a sense of longing, lasting for 75 seconds."
+            },
+            {
+                "text": "This romantic rock composition features a blues-inspired rhythm and a moderate tempo. It spans 18 bars and uses a 3-octave pitch range to create an intimate, soulful sound for 30 seconds."
+            },
+            {
+                "text": "A cinematic romantic rock arrangement with building intensity and orchestral layers. The track plays for 90 seconds, spanning 48 bars with a complex rhythmic structure and a 6-octave range."
+            },
+            {
+                "text": "Characterized by a gritty yet melodic tone, this romantic rock song features a prominent bass groove and 4/4 time signature. It spans 22 bars and provides a steady, rhythmic flow for 42 seconds."
+            }
+        ]
+    },
+    "country": {
+        "happy": [
+            {
+                "text": "This happy country track features a bright major key and a bouncy 4/4 rhythm. Spanning 16 bars with a moderate tempo, the melody uses a 4-octave range to create a cheerful and uplifting atmosphere typical of classic honky-tonk."
+            },
+            {
+                "text": "A fast-paced happy country song with a driving bluegrass rhythm and a runtime of 45 seconds. The music spans 32 bars, utilizing high-register acoustic guitar and fiddle notes within a 5-octave range to evoke pure joy."
+            },
+            {
+                "text": "This music is a happy country ballad in 3/4 time signature, conveying a warm and resonant sound. It lasts for 30 seconds across 12 bars, featuring a steady, simple rhythm and a compact pitch range for an intimate feel."
+            },
+            {
+                "text": "Featuring an electrifying rhythm and a sunny disposition, this happy country piece plays for 20 seconds. The 8-bar progression relies heavily on major chords and a wide pitch range to deliver a high-energy performance."
+            },
+            {
+                "text": "This 24-bar track is a quintessential happy country tune with a syncopated swing feel. It spans a 3-octave range and lasts 40 seconds, using a playful melody and a moderate tempo to maintain a lighthearted mood."
+            },
+            {
+                "text": "A smooth and steady happy country arrangement that progresses over 16 bars. Its use of a bright major scale and a runtime of 35 seconds results in a focused, impactful, and thoroughly optimistic musical experience."
+            },
+            {
+                "text": "This happy country composition has a runtime of 50 seconds and a highly intense, foot-stomping rhythm. Spanning 40 bars, the melody explores a 5-octave range, capturing the vibrant spirit of a summer festival."
+            },
+            {
+                "text": "Based on a 2/4 time signature, this happy country ditty features a crisp, staccato rhythm. It spans 14 bars and 25 seconds, utilizing a mid-range pitch selection to create a catchy and accessible melodic hook."
+            },
+            {
+                "text": "This song presents a happy country sound through a lush, major-key harmony and a gentle tempo. It lasts for 60 seconds across 20 bars, offering a resonant and peaceful vibe with a balanced 4-octave pitch distribution."
+            },
+            {
+                "text": "An upbeat happy country track with a 4/4 time signature and an infectious groove. Spanning 18 bars and 30 seconds, the music employs a wide melodic span and a sharp rhythm to ensure a celebratory and lively feel."
+            }
+        ],
+        "sad": [
+            {
+                "text": "This sad country piece features a slow tempo in 4/4 time, spanning 16 bars. The melody utilizes a wide pitch range of 4 octaves, creating a melancholic atmosphere that lasts for 30 seconds."
+            },
+            {
+                "text": "A heartbreaking and sad country song written in a minor key with a runtime of 45 seconds. It consists of 24 bars with a steady, walking rhythm and a moderate-slow tempo."
+            },
+            {
+                "text": "This track is a quintessential sad country ballad in 3/4 time signature. It spans 12 bars with a very low pitch range, emphasizing a deep, somber resonance over 20 seconds."
+            },
+            {
+                "text": "Featuring a highly intense rhythm despite its slow speed, this sad country composition lasts for 40 seconds. It covers 32 bars and focuses on a narrow 2-octave pitch range."
+            },
+            {
+                "text": "The music in this sad country track follows a 4/4 meter with a syncopated rhythm. Spanning 18 bars, the piece has a duration of 35 seconds and utilizes a major key for a bittersweet feel."
+            },
+            {
+                "text": "This 50-second sad country piece is characterized by a very slow tempo and a sparse rhythm. It spans 10 bars and uses a wide 5-octave pitch range to convey deep emotional longing."
+            },
+            {
+                "text": "An evocative sad country melody that plays for 25 seconds across 14 bars. It features a simple, repetitive rhythm in a minor key with a focused pitch range."
+            },
+            {
+                "text": "This song is a fast-tempo but emotionally heavy sad country track. It spans 40 bars in 60 seconds, utilizing a complex rhythm and a variety of pitch jumps across 3 octaves."
+            },
+            {
+                "text": "A brief, 15-second sad country instrumental consisting of 8 bars. It has a smooth rhythm in 4/4 time and a very low-velocity performance to match the gloomy mood."
+            },
+            {
+                "text": "This sad country track spans 20 bars with a runtime of 30 seconds. The 3/4 time signature and the use of a high-pitch range create a fragile and lonely musical texture."
+            }
+        ],
+        "romantic": [
+            {
+                "text": "This romantic country piece features a gentle 3/4 waltz time signature with a moderate tempo. Spanning 16 bars, the melody uses a warm acoustic guitar texture in a major key, creating a tender atmosphere that lasts for 30 seconds."
+            },
+            {
+                "text": "A romantic country ballad with a slow, soulful tempo and a runtime of 45 seconds. The arrangement is built around a soft piano and steel guitar, covering 12 bars with a high degree of melodic expression and a narrow pitch range."
+            },
+            {
+                "text": "This track is a romantic country mid-tempo song in a major key, featuring a steady 4/4 rhythm. Over 24 bars and 40 seconds, the composition emphasizes a rich harmonic progression typical of Nashville storytelling."
+            },
+            {
+                "text": "Featuring a heartfelt violin lead, this romantic country melody spans 20 bars. The music has a soft intensity and a fluid rhythm, conveying deep emotion through a 4-octave pitch range over 35 seconds."
+            },
+            {
+                "text": "This romantic country arrangement uses a fingerpicked acoustic guitar pattern with a bright, resonant sound. It plays for 25 seconds across 16 bars, maintaining a light and airy rhythm in a major scale."
+            },
+            {
+                "text": "A romantic country duet style track with a syncopated but gentle rhythm. Spanning 32 bars and 55 seconds, the piece utilizes a wide pitch range to simulate vocal interplay between high and low registers."
+            },
+            {
+                "text": "This 50-second romantic country composition features a walking bassline and a moderate tempo. With 18 bars of music, it captures a nostalgic mood through the use of traditional I-IV-V chord progressions."
+            },
+            {
+                "text": "A short, 20-second romantic country snippet designed with a focus on a lush string section. The music occupies 8 bars in a minor-key variation that resolves into a sweet, major-key finish."
+            },
+            {
+                "text": "This romantic country track showcases a slow-dance rhythm with a very low intensity. Spanning 14 bars and 30 seconds, the focus is on a legato melody played with a clean electric guitar tone."
+            },
+            {
+                "text": "An upbeat yet romantic country tune with a runtime of 40 seconds. The song features a 4/4 time signature and 20 bars of rhythmic strumming, characterized by a joyful and bright harmonic structure."
+            }
+        ],
+        "warm": [
+            {
+                "text": "This warm country track features a gentle acoustic guitar melody in a major key, spanning 16 bars with a relaxed tempo of 85 BPM. The arrangement evokes a sun-drenched porch feeling, maintaining a steady 4/4 rhythm for a duration of 30 seconds."
+            },
+            {
+                "text": "A warm country ballad in 3/4 time signature, characterized by a soulful pedal steel guitar and a narrow pitch range of 3 octaves. The piece flows smoothly over 24 bars, creating a cozy and nostalgic atmosphere throughout its 45-second runtime."
+            },
+            {
+                "text": "The music presents a warm country vibe with a bright piano accompaniment and a moderate tempo. Covering 12 bars, the composition utilizes a pentatonic scale to produce a comforting and resonant sound that lasts for approximately 20 seconds."
+            },
+            {
+                "text": "This upbeat yet warm country song features a driving bassline and rhythmic acoustic strumming. It spans 32 bars with a high note density, reflecting a joyful energy while staying within a 4-octave range for 60 seconds."
+            },
+            {
+                "text": "Featuring a soft fiddle melody, this warm country piece is set in a slow 4/4 meter. The progression covers 8 bars with a very low velocity, resulting in an intimate and quiet musical performance of 15 seconds."
+            },
+            {
+                "text": "A mid-tempo warm country arrangement with a rich harmonic structure in G major. The track extends for 20 bars and features a balanced distribution of notes across 5 octaves, providing a full and inviting sound for 40 seconds."
+            },
+            {
+                "text": "This track offers a warm country aesthetic with a syncopated rhythm and a medium pitch register. The music lasts for 35 seconds, spanning 18 bars, and uses a traditional I-IV-V chord progression to evoke a sense of home."
+            },
+            {
+                "text": "A minimalist warm country sketch focused on fingerpicked guitar. With a runtime of 25 seconds and a length of 10 bars, the piece uses a major scale and a soft touch to create a soothing and golden-hour ambiance."
+            },
+            {
+                "text": "The music is a warm country anthem with a wide dynamic range and a powerful 4/4 beat. It spans 40 bars and 6 octaves, blending traditional folk elements with a modern country production style for a total of 75 seconds."
+            },
+            {
+                "text": "A short and sweet warm country loop featuring a mandolin lead. The track is exactly 4 bars long with a cheerful tempo, utilizing a high pitch range to deliver a bright and toasted sound over 10 seconds."
+            }
+        ],
+        "exciting": [
+            {
+                "text": "This exciting country track features a driving 4/4 meter and a fast tempo, spanning 32 bars. The arrangement utilizes a bright major key and a wide 5-octave pitch range to deliver a high-energy performance lasting 45 seconds."
+            },
+            {
+                "text": "An exciting country composition with a syncopated rhythm and a runtime of 60 seconds. It moves through 24 bars of melodic storytelling, emphasizing sharp accents and a vibrant chord progression."
+            },
+            {
+                "text": "The music in this track is an exciting country piece based on a 2/4 time signature, typical of a fast-paced polka-style dance. It spans 16 bars with an intense rhythmic density that lasts for 30 seconds."
+            },
+            {
+                "text": "This song presents an exciting country vibe with a focus on 12-bar blues structure. It features a dense harmonic texture and a duration of 50 seconds, showcasing an impressive 6-octave range."
+            },
+            {
+                "text": "An exciting country melody that incorporates a moderate swing feel over 20 bars. The use of a major pentatonic scale creates an uplifting atmosphere during its 40-second runtime."
+            },
+            {
+                "text": "This track is an exciting country anthem with a very high velocity and heavy rhythmic pulse. Spanning 32 bars, the music maintains a consistent, driving energy for a full 55 seconds."
+            },
+            {
+                "text": "Featuring a brisk tempo and sharp staccato notes, this exciting country piece lasts for 35 seconds. It covers a pitch range of 4 octaves across 18 bars of complex instrumental interplay."
+            },
+            {
+                "text": "This music delivers an exciting country experience through a 3/4 waltz time signature played at a rapid pace. The track spans 24 bars and provides a resonant, full-bodied sound for 42 seconds."
+            },
+            {
+                "text": "An exciting country instrumental featuring rapid-fire arpeggios and a steady 4/4 beat. The song spans 12 bars of highly technical MIDI data, resulting in a focused 25-second performance."
+            },
+            {
+                "text": "This song has an exciting country rhythm characterized by frequent syncopation and a bright tonal center. It runs for 48 seconds and utilizes a broad pitch range to create a sense of vast, open space."
+            }
+        ],
+        "funny": [
+            {
+                "text": "This funny country track features a high-energy 2/4 rhythm, often referred to as a 'boom-chicka' beat, spanning 16 bars with a bright major key and twangy guitar solos."
+            },
+            {
+                "text": "A mid-tempo funny country song in 4/4 time that utilizes a wide pitch range of 4 octaves to emphasize comedic vocal leaps and a bouncy bassline over 20 bars."
+            },
+            {
+                "text": "This 30-second funny country piece is driven by a fast tempo and a syncopated banjo melody, maintaining a lighthearted mood in a G major scale across 12 bars."
+            },
+            {
+                "text": "The music here is a slow, satirical funny country ballad in 3/4 waltz time, featuring a weeping steel guitar and a narrow melodic range for 45 seconds."
+            },
+            {
+                "text": "Characterized by a heavy honky-tonk piano and a steady 4/4 shuffle, this funny country tune spans 24 bars with an emphasis on a rhythmic, 'clunky' percussion style."
+            },
+            {
+                "text": "An upbeat funny country instrumental lasting 25 seconds, featuring rapid-fire violin runs and a simple I-IV-V chord progression in a high register."
+            },
+            {
+                "text": "This track is a funny country anthem with a very intense, stomping rhythm and a runtime of 40 seconds, using a bluesy pentatonic scale to create a humorous grit."
+            },
+            {
+                "text": "A short 15-bar funny country ditty with a moderate tempo, featuring a call-and-response structure between a harmonica and a jaw harp in a C major key."
+            },
+            {
+                "text": "This 50-second funny country composition uses a quirky, irregular rhythmic pattern and a 5-octave pitch range to mimic barnyard sounds through MIDI instrumentation."
+            },
+            {
+                "text": "A funny country track with a smooth, walking bassline in 4/4 time, spanning 32 bars with a focus on clean acoustic guitar strumming and a relaxed, comedic pace."
+            }
+        ],
+        "angry": [
+            {
+                "text": "This track features an angry country energy with a fast tempo in 4/4 time. It spans 16 bars with heavy syncopated rhythms on a honky-tonk piano and aggressive acoustic guitar strums, creating a volatile atmosphere across a 4-octave range."
+            },
+            {
+                "text": "An angry country ballad in a minor key, played with a slow but forceful 3/4 waltz rhythm. The music lasts for 45 seconds, utilizing a wide pitch range to emphasize the emotional outbursts of a distorted slide guitar."
+            },
+            {
+                "text": "This 30-second piece captures an angry country vibe with a highly intense rhythm and high velocity MIDI notes. The 12-bar sequence is centered in the mid-to-low register to provide a dark, growling foundation."
+            },
+            {
+                "text": "Driven by a pounding kick drum and sharp banjo plucking, this angry country composition spans 20 bars. The melody moves rapidly across 5 octaves, conveying a sense of frantic urgency and resentment."
+            },
+            {
+                "text": "The music in this track is defined by an angry country stomping rhythm. It features a runtime of 40 seconds and uses a minor pentatonic scale to create a gritty, rebellious sound within a compact 10-bar structure."
+            },
+            {
+                "text": "A mid-tempo angry country arrangement that lasts for 55 seconds. The arrangement uses dense chords and a jagged melodic contour to reflect frustration, spanning 32 bars of continuous, driving percussion."
+            },
+            {
+                "text": "This short 15-second snippet delivers an angry country punch with a very high density of notes in the treble clef. The 4/4 meter is broken by frequent accents, highlighting a sharp and biting fiddle performance."
+            },
+            {
+                "text": "Spanning 24 bars, this angry country track utilizes a low-register bass line and aggressive chord stabs. The use of a chromatic scale adds a dissonant edge to the typical country progression, resulting in a tense 50-second play time."
+            },
+            {
+                "text": "This song features a relentless and angry country beat at a blistering 180 BPM. The music covers 48 bars with a focus on repetitive, percussive guitar riffs that evoke a feeling of simmering rage."
+            },
+            {
+                "text": "An angry country instrumental that balances a major key with high-velocity note transitions to sound sarcastic and biting. It spans 16 bars and 30 seconds, using a 3-octave range for a focused, aggressive delivery."
+            }
+        ],
+        "lazy": [
+            {
+                "text": "A lazy country ballad in 4/4 time with a slow tempo. It features a relaxed acoustic guitar strumming pattern over 16 bars, maintaining a mellow, laid-back atmosphere for 30 seconds."
+            },
+            {
+                "text": "This lazy country instrumental is set in a major key with a moderate-slow pace. Spanning 20 bars, the melody has a swinging, rhythmic feel that evokes a sunny, idle afternoon."
+            },
+            {
+                "text": "A soulful and lazy country piece with a 3/4 waltz signature. The composition lasts for 45 seconds, utilizing a wide pitch range across 24 bars to create a sense of drift and ease."
+            },
+            {
+                "text": "Characterized by a sparse arrangement, this lazy country track features a steady, simple beat. It plays for 20 seconds across 12 bars, emphasizing a quiet, contemplative mood."
+            },
+            {
+                "text": "This 40-second lazy country song uses a low-register bass line and soft piano chords. The rhythm is highly relaxed, moving slowly through 18 bars in a minor key."
+            },
+            {
+                "text": "A breezy, lazy country tune with a syncopated rhythm. It spans 16 bars and 30 seconds, featuring a narrow pitch range that keeps the sound focused and unhurried."
+            },
+            {
+                "text": "The music is a classic lazy country shuffle with a walking bass line. It progresses through 32 bars of moderate tempo, lasting for about 50 seconds with a gentle, rolling energy."
+            },
+            {
+                "text": "A short, 15-second snippet of lazy country music with a very slow tempo. The melody spans just 8 bars, creating a brief but deep sense of rural relaxation."
+            },
+            {
+                "text": "This track is a lazy country composition in a bright major key. It features a melodic repetition over 20 bars and a 35-second runtime, perfect for a slow-motion scene."
+            },
+            {
+                "text": "An atmospheric and lazy country piece with a focus on legato phrasing. It spans 14 bars and 28 seconds, using a minimalist rhythm to emphasize a slow, dragging feel."
+            }
+        ],
+        "quiet": [
+            {
+                "text": "This quiet country track features a gentle acoustic guitar melody in a 4/4 time signature. Spanning 16 bars with a slow tempo, the music maintains a narrow pitch range of 3 octaves, creating a peaceful and intimate atmosphere for 30 seconds."
+            },
+            {
+                "text": "A soft, quiet country ballad played in a major key with a moderate tempo. The piece lasts for 45 seconds over 24 bars, utilizing a mid-range pitch spread to evoke a sense of nostalgic rural storytelling."
+            },
+            {
+                "text": "This instrumental piece is a quiet country song with a 3/4 waltz rhythm. It features a steady, simple harmonic progression across 12 bars and a runtime of 25 seconds, focusing on low-register notes for a grounded feel."
+            },
+            {
+                "text": "Characterized by a sparse arrangement, this quiet country composition spans 20 bars. The melody uses a pentatonic scale within a 2-octave range, delivering a serene and minimalist performance that lasts about 40 seconds."
+            },
+            {
+                "text": "This track offers a quiet country vibe with a very slow tempo and light rhythmic accents. It covers 8 bars of music with a duration of 20 seconds, using high-register flourishes to mimic a lonely fiddle sound."
+            },
+            {
+                "text": "A quiet country melody in a minor key that conveys a touch of melancholy. The track runs for 50 seconds over 32 bars, maintaining a consistent and soft velocity throughout the performance."
+            },
+            {
+                "text": "Featuring a fingerstyle technique, this quiet country piece has a fluid rhythm in 4/4 time. The music spans 15 bars and 35 seconds, with a dynamic range that stays strictly within a soft, piano volume."
+            },
+            {
+                "text": "This quiet country arrangement focuses on a steady bassline and light chords over 18 bars. With a duration of 42 seconds, it explores a wide pitch range of 5 octaves but keeps the density of notes very low."
+            },
+            {
+                "text": "A rhythmic but quiet country track with a syncopated acoustic pattern. It plays for 30 seconds across 16 bars in a bright major key, providing a warm and comforting musical backdrop."
+            },
+            {
+                "text": "This short quiet country snippet spans 10 bars with a slow, strolling tempo. The piece lasts 22 seconds and features a simple, repetitive melodic motif designed for a calm and rustic aesthetic."
+            }
+        ],
+        "magnificent": [
+            {
+                "text": "A magnificent country ballad in a soulful 4/4 time signature, featuring a wide pitch range of 6 octaves. The piece spans 32 bars with a slow, expressive tempo, delivering a heartfelt performance for 60 seconds."
+            },
+            {
+                "text": "This magnificent country track showcases a lively 2/4 rhythm with a bright major key. It spans 24 bars and maintains a high-intensity energy throughout its 45-second duration."
+            },
+            {
+                "text": "With a runtime of 30 seconds, this magnificent country composition utilizes a steady 3/4 waltz time. The melody flows across 16 bars with a moderate pitch range, creating a resonant acoustic atmosphere."
+            },
+            {
+                "text": "A magnificent country stomp featuring a highly syncopated rhythm and a runtime of 40 seconds. The piece is structured over 20 bars in a minor key, providing a gritty and impactful musical narrative."
+            },
+            {
+                "text": "This short yet magnificent country instrumental spans 12 bars with a focus on intricate fingerstyle patterns. It features a compact pitch range and a runtime of 25 seconds in a crisp 4/4 signature."
+            },
+            {
+                "text": "Characterized by a sweeping 6/8 meter, this magnificent country anthem covers 48 bars. The music travels through a 5-octave range, delivering an epic and expansive sound for a full 70 seconds."
+            },
+            {
+                "text": "A magnificent country dance track with a driving, upbeat tempo and a major key. Spanning 16 ~ 20 bars, the rhythm is electrifying and stays consistent for a duration of 35 seconds."
+            },
+            {
+                "text": "This magnificent country piece is based on a pentatonic scale, spanning 14 bars with a moderate tempo. The music uses a 4-octave range to create a traditional and nostalgic feel over 30 seconds."
+            },
+            {
+                "text": "An intense and magnificent country rock fusion featuring a dense harmonic structure. It spans 28 bars with a heavy 4/4 beat, lasting for 50 seconds with a focus on low-register melodic lines."
+            },
+            {
+                "text": "Spanning 18 bars, this magnificent country arrangement features a soft, legato articulation. It utilizes a 3/4 time signature and a bright, resonant timbre that lasts for approximately 42 seconds."
+            }
+        ],
+        "fear": [
+            {
+                "text": "Evoking a sense of deep-seated fear, this country track features a slow, dragging tempo in a minor key. The composition spans 12 bars with a low-register acoustic guitar melody that mimics a heartbeat, creating a haunting atmosphere over 35 seconds."
+            },
+            {
+                "text": "This fear-inducing country piece is built on an unsteady 4/4 time signature with sudden, sharp violin screeches. Spanning 16 bars, the music uses a wide 5-octave pitch range to oscillate between low drones and high-pitched stabs for 45 seconds."
+            },
+            {
+                "text": "With an intense and frantic rhythm, this song captures the essence of rural fear through rapid banjo picking in a dissonant scale. It runs for about 30 seconds across 20 bars, utilizing a high-density note arrangement."
+            },
+            {
+                "text": "The music in this track creates an atmosphere of creeping fear, typical of dark country subgenres. It features a moderate tempo, a runtime of 40 seconds, and a 14-bar structure dominated by a somber, reverberating steel guitar."
+            },
+            {
+                "text": "This country composition utilizes a 3/4 waltz time signature to create an uncanny feeling of fear and dread. The 18-bar melody stays within a compact 3-octave range, providing a claustrophobic musical experience for 50 seconds."
+            },
+            {
+                "text": "Driven by a heavy, thumping percussion that signals approaching fear, this country track spans 15 bars. The use of a minor pentatonic scale and a highly intense rhythm creates a 25-second burst of suspenseful energy."
+            },
+            {
+                "text": "This song features a sparse and minimalist country arrangement meant to instill fear through silence and sudden accents. It plays for 60 seconds over 12 bars, using a very low pitch range to ground the dark harmonic texture."
+            },
+            {
+                "text": "An electrifying and chaotic country rhythm defines this track, representing a sudden jump-scare or fear. It has a runtime of 20 seconds and spans 8 bars with volatile velocity changes and a wide melodic span."
+            },
+            {
+                "text": "The music conveys a lingering sense of fear, utilizing a slow 10-bar progression in a dark country style. The steady but heavy rhythm is accompanied by dissonant chords, playing for a total of 42 seconds."
+            },
+            {
+                "text": "Spanning 24 bars, this fear-themed country track uses a complex polyrhythmic structure. The pitch range covers 4 octaves, delivering a resonant and unsettling sound that lasts for approximately 55 seconds."
+            }
+        ]
+    },
+    "jazz": {
+        "lazy": [
+            {
+                "text": "This lazy jazz piece features a laid-back 4/4 swing feel at a slow tempo of 60 BPM. The arrangement focuses on extended seventh chords and chromatic passing tones, spanning 32 bars with a runtime of 120 seconds."
+            },
+            {
+                "text": "A soulful and lazy jazz composition in a minor key, characterized by a walking bassline and syncopated piano melodies. It covers a pitch range of 4 octaves and lasts for approximately 45 seconds across 16 bars."
+            },
+            {
+                "text": "This track embodies lazy jazz with its heavy use of rubato and melodic improvisation. The music maintains a soft dynamic level throughout 24 bars, creating a relaxed atmosphere for 80 seconds."
+            },
+            {
+                "text": "Featuring a 3/4 time signature, this lazy jazz waltz utilizes lush harmonies and a gentle brushes-on-snare percussion style. The piece spans 5 octaves and concludes after 60 seconds."
+            },
+            {
+                "text": "A minimal lazy jazz arrangement featuring a solo melancholic saxophone over a steady double bass. The music uses a Dorian mode to enhance the relaxed mood over a 20-bar duration."
+            },
+            {
+                "text": "This lazy jazz performance emphasizes space and silence between notes, utilizing a wide pitch range of 6 octaves. The rhythm is sparse and understated, playing for a total of 50 seconds."
+            },
+            {
+                "text": "A mid-tempo lazy jazz track in a major key that highlights bright piano clusters and a subtle swing. It covers 32 bars of music, providing a 90-second window into a sophisticated soundscape."
+            },
+            {
+                "text": "The music presents a lazy jazz vibe with complex altered chords and a fluid, non-repetitive structure. It spans 12 bars and focuses on high-register instrumental textures for 35 seconds."
+            },
+            {
+                "text": "This lazy jazz sequence features a classic ii-V-I progression with a heavy emphasis on tension and release. The music flows at a leisurely pace for 70 seconds across a 5-octave range."
+            },
+            {
+                "text": "An evocative lazy jazz piece that incorporates blues notes and a call-and-response pattern between instruments. The 16-bar structure is delivered with a drowsy, off-beat rhythmic feel."
+            }
+        ],
+        "happy": [
+            {
+                "text": "This happy jazz track features a lively 4/4 swing feel with a bright tempo of 160 BPM. The piece spans 32 bars in a major key, utilizing a wide pitch range of 5 octaves to create a cheerful and sophisticated atmosphere."
+            },
+            {
+                "text": "A buoyant and happy jazz composition with a syncopated rhythm and a runtime of 45 seconds. It employs a rich harmonic progression of ii-V-I chords across 24 bars, delivering a classic upbeat bebop energy."
+            },
+            {
+                "text": "This music is a happy jazz tune in 3/4 time, reminiscent of a jazz waltz. It has a moderate tempo, spans 16 bars, and uses a melodic pitch range of 3 octaves to convey a lighthearted, dancing mood."
+            },
+            {
+                "text": "Featuring an electrifying and happy jazz rhythm, this track plays for 60 seconds. It is characterized by a high note density and a rapid tempo, with a focus on bright major scales and playful improvisational patterns."
+            },
+            {
+                "text": "This happy jazz piece has a smooth, steady bossa nova beat that progresses over 20 bars. The use of a major 7th chord palette and a runtime of 30 seconds creates a relaxing yet joyful musical experience."
+            },
+            {
+                "text": "A short and punchy happy jazz riff spanning 8 bars. It features a walking bassline rhythm, a moderate pitch range, and a highly resonant sound typical of celebratory big band swing."
+            },
+            {
+                "text": "This track is a happy jazz arrangement with a 12-bar blues structure in a major key. It lasts for 40 seconds and features a high-intensity rhythm with frequent syncopation and a wide melodic span."
+            },
+            {
+                "text": "The music in this happy jazz track is based on a fast 4/4 meter and spans 48 bars. Its use of bright brass-like textures and a 4-octave pitch range results in a vibrant and spirited performance."
+            },
+            {
+                "text": "A gentle yet happy jazz melody with a runtime of 35 seconds. It utilizes a moderate tempo and a compact pitch range of 2 octaves, focusing on a clear, consonant, and optimistic harmonic structure."
+            },
+            {
+                "text": "This happy jazz song features a ragtime-influenced rhythm with a steady pulse across 16 bars. The major key and playful staccato notes create a festive and timeless sound lasting for 25 seconds."
+            }
+        ],
+        "romantic": [
+            {
+                "text": "This romantic jazz piece features a lush, 4/4 swing rhythm at a slow tempo of 60 BPM. The arrangement spans 32 bars, utilizing rich extended chords like 9ths and 13ths to create a sophisticated, intimate atmosphere over a 60-second duration."
+            },
+            {
+                "text": "A sentimental romantic jazz ballad in a 3/4 time signature, characterized by a lyrical piano melody and a walking bassline. It spans 16 bars with a wide dynamic range, focusing on the expressive qualities of the major seventh chords."
+            },
+            {
+                "text": "This track is a mid-tempo romantic jazz composition with a runtime of 45 seconds. It features syncopated rhythms and a melody that spans 4 octaves, evoking a nostalgic and warm feeling through its use of the Dorian mode."
+            },
+            {
+                "text": "The music presents a soft, romantic jazz aesthetic with a very slow tempo. Spanning 12 bars of a blues-inflected structure, the piece emphasizes subtle brush strokes on the drums and a mellow trumpet lead."
+            },
+            {
+                "text": "Featuring a runtime of 30 seconds, this romantic jazz snippet uses a 4/4 meter with a steady, smooth rhythmic flow. The harmony relies on frequent ii-V-I progressions, providing a classic and elegant harmonic movement."
+            },
+            {
+                "text": "This romantic jazz track showcases a compact pitch range and a moderate tempo. Over 20 bars, the composition focuses on melodic improvisation and a light, airy texture suitable for a quiet evening setting."
+            },
+            {
+                "text": "A highly expressive romantic jazz piece in a minor key, conveying a sense of longing. It spans 24 bars and features a rubato introduction followed by a steady 4/4 pulse with a runtime of approximately 55 seconds."
+            },
+            {
+                "text": "This song features a sophisticated romantic jazz arrangement with complex polyrhythms and a bright tempo. Spanning 32 bars, the track uses a wide 5-octave range to create a vibrant and passionate musical dialogue."
+            },
+            {
+                "text": "A short 15-second romantic jazz phrase characterized by a chromatic melody and lush, stacked harmonies. The 3/4 time signature adds a waltz-like grace to the focused and impactful performance."
+            },
+            {
+                "text": "This music has a runtime of 40 seconds and spans 16 bars of romantic jazz. Its use of the Lydian mode and a syncopated bossa nova rhythm results in a unique, breezy, and resonant sound."
+            }
+        ],
+        "exciting": [
+            {
+                "text": "An exciting jazz performance in 4/4 time with a blistering tempo and complex syncopation. This high-energy piece spans 32 bars with a wide 5-octave pitch range, delivering an intense and virtuosic musical experience for 45 seconds."
+            },
+            {
+                "text": "This exciting jazz track features a bright major key and a swing feel that lasts for 30 seconds. Over 16 bars, the melody jumps across 4 octaves, creating a buoyant and celebratory atmosphere with rapid rhythmic pulses."
+            },
+            {
+                "text": "A fusion-style exciting jazz composition with a heavy, driving beat in 7/8 time. Playing for 60 seconds across 24 bars, it utilizes a dense harmonic structure and an expansive pitch range to maintain a sense of urgency."
+            },
+            {
+                "text": "This song presents an exciting jazz improvisation focused on a blues scale, spanning 20 bars and 40 seconds. The rhythm is highly irregular and frantic, pushing the boundaries of the 5-octave range for a truly gripping sound."
+            },
+            {
+                "text": "An exciting jazz big-band arrangement with powerful brass stabs and a 140 BPM tempo. This 15-bar segment features a rich, multi-layered texture and a resonant 4-octave spread, lasting for approximately 25 seconds."
+            },
+            {
+                "text": "The music in this track is an exciting jazz bebop flurry with a runtime of 35 seconds. Spanning 32 bars of rapid-fire notes in a minor key, it creates a dark yet exhilarating mood within a focused 3-octave pitch range."
+            },
+            {
+                "text": "Featuring a Latin-inspired groove, this exciting jazz piece runs for 50 seconds. It moves through 28 bars with a syncopated bassline and high-register piano trills, covering a full 5 octaves of musical space."
+            },
+            {
+                "text": "This exciting jazz snippet is based on a 3/4 waltz time but played with aggressive intensity for 20 seconds. It covers 12 bars with sharp dynamic shifts and a mid-to-high pitch range that feels both elegant and chaotic."
+            },
+            {
+                "text": "A short, 15-second blast of exciting jazz fusion, this track utilizes a chromatic scale and a highly intense polyrhythmic structure. It spans 8 bars with a dense 4-octave range, providing a brief but impactful sonic explosion."
+            },
+            {
+                "text": "This exciting jazz composition features a walking bassline at a double-time pace, lasting 55 seconds. Across 40 bars, the melody explores a 5-octave range with frequent modulations, keeping the listener engaged through constant rhythmic tension."
+            }
+        ],
+        "fear": [
+            {
+                "text": "This fear jazz composition features erratic syncopation and dissonant piano clusters, creating a sense of dread over 16 bars with a wide 6-octave pitch range."
+            },
+            {
+                "text": "A haunting fear jazz track with a slow, dragging tempo and minor-key brass stabs that evoke a lingering anxiety throughout its 45-second duration."
+            },
+            {
+                "text": "Characterized by unpredictable polyrhythms and high-intensity percussion, this fear jazz piece spans 20 bars and utilizes a dense, claustrophobic harmonic structure."
+            },
+            {
+                "text": "This fear jazz music employs a 5/4 time signature and microtonal inflections in the woodwinds to craft an unsettling atmosphere for about 35 seconds."
+            },
+            {
+                "text": "With a fast, frantic tempo and jagged melodic lines, this fear jazz sequence covers 12 bars and uses a sharp, piercing velocity to simulate sudden panic."
+            },
+            {
+                "text": "This track is a dark fear jazz exploration with low-register double bass drones and sparse, ghostly trumpet trills, maintaining a tense silence across 14 bars."
+            },
+            {
+                "text": "An avant-garde fear jazz arrangement featuring extreme pitch jumps and chaotic improvisation, resulting in a terrifying soundscape that lasts for 50 seconds."
+            },
+            {
+                "text": "This song blends traditional swing elements with sudden harmonic shifts and screeching saxophones to define the unsettling essence of fear jazz over 18 bars."
+            },
+            {
+                "text": "A short, impactful fear jazz motif spanning 8 bars, using a 7/8 time signature and high-velocity staccato notes to create a jarring, jump-scare effect."
+            },
+            {
+                "text": "This fear jazz piece uses a chromatic scale and a fluctuating tempo to mirror a rising heartbeat, progressing through a complex rhythmic layer for 40 seconds."
+            }
+        ],
+        "angry": [
+            {
+                "text": "This track captures an angry jazz atmosphere with a fast tempo and aggressive 4/4 swing. Spanning 24 bars, it features dissonant chords and a wide pitch range of 6 octaves, creating a chaotic and tense performance that lasts for 45 seconds."
+            },
+            {
+                "text": "An angry jazz composition characterized by a sharp, irregular rhythm in 7/8 time. The piece runs for 30 seconds over 12 bars, utilizing high-velocity note strikes and minor-key clusters to evoke a sense of frantic frustration."
+            },
+            {
+                "text": "This song presents an angry jazz style with a runtime of 60 seconds. It spans 32 bars and employs a dense harmonic structure with heavy syncopation and a low-register emphasis that sounds dark and confrontational."
+            },
+            {
+                "text": "Featuring an intense and angry jazz aesthetic, this 20-second snippet spans 8 bars. It is defined by rapid-fire melodic runs, a 5-octave pitch spread, and a highly erratic rhythmic feel that conveys sudden outbursts of temper."
+            },
+            {
+                "text": "This music is an example of angry jazz driven by a pounding 4/4 beat at a high BPM. Over 16 bars and 40 seconds, the track uses chromaticism and sharp staccato articulations to create a piercing, dissonant soundscape."
+            },
+            {
+                "text": "A 15-bar piece of angry jazz that focuses on high-pitched, screaming instrumentals across a 4-octave range. The song lasts 35 seconds and maintains a relentless, driving energy with no moments of resolution."
+            },
+            {
+                "text": "This track showcases angry jazz through the use of polyrhythms and clashing intervals. It progresses over 20 bars and 50 seconds, featuring a heavy velocity range that mimics a performer playing with extreme force."
+            },
+            {
+                "text": "This 55-second composition is an exploration of angry jazz, utilizing an unusual 5/4 time signature. Spanning 28 bars, the music is filled with jarring transitions, sudden dynamic shifts, and a heavy, weighted rhythmic pulse."
+            },
+            {
+                "text": "An angry jazz arrangement that spans 14 bars with a compact runtime of 25 seconds. It uses a very high note density and complex syncopation to simulate a heated musical argument between different melodic lines."
+            },
+            {
+                "text": "This music has a runtime of 45 seconds and spans 22 bars. Its use of the Locrian mode conveys a dark, angry jazz mood, accompanied by a highly intense and unstable rhythm that never settles."
+            }
+        ],
+        "funny": [
+            {
+                "text": "This funny jazz track features a stumbling syncopated rhythm in a 4/4 time signature, lasting for 20 seconds. The playful piano melodies skip across 4 octaves, creating a whimsical atmosphere within 12 bars."
+            },
+            {
+                "text": "Characterized by an exaggerated swing and a moderate tempo, this funny jazz composition spans 16 bars. The use of dissonant chords in a major key evokes a sense of musical slapstick over a 30-second duration."
+            },
+            {
+                "text": "This short 15-second snippet of funny jazz music utilizes a fast 2/4 meter, resembling a cartoon chase. It covers a wide pitch range of 5 octaves, delivering a high-energy and comical performance across 8 bars."
+            },
+            {
+                "text": "A mid-tempo funny jazz piece that relies on unpredictable rhythmic breaks and a 3/4 waltz feel. The track plays for 45 seconds, exploring a lighthearted harmonic progression through 24 bars."
+            },
+            {
+                "text": "This funny jazz song features a 'honking' saxophone style and a bouncy rhythm that lasts for about 40 seconds. Spanning 16 bars, the music maintains a compact 3-octave range to emphasize the humorous motifs."
+            },
+            {
+                "text": "The music in this funny jazz track is built on a 5/4 time signature with a quirky, off-kilter beat. It runs for 35 seconds over 14 bars, using sudden dynamic shifts to enhance the comedic effect."
+            },
+            {
+                "text": "Featuring a walking bass line that occasionally 'trips,' this funny jazz arrangement lasts 25 seconds. It is set in a bright major key and covers 20 bars of lighthearted, syncopated melodies."
+            },
+            {
+                "text": "This funny jazz composition focuses on a call-and-response between a muted trumpet and a slide whistle. The track spans 12 bars and 30 seconds, maintaining an intense yet silly rhythm throughout."
+            },
+            {
+                "text": "A highly intense and fast-paced funny jazz track that spans 32 bars. The 50-second performance uses chromatic runs and wide interval leaps across 5 octaves to create a chaotic, humorous sound."
+            },
+            {
+                "text": "This song is a slow-tempo funny jazz blues with an intentionally 'clumsy' piano accompaniment. It plays for 60 seconds over 16 bars, using a minor-to-major shift to provide a musical punchline."
+            }
+        ],
+        "quiet": [
+            {
+                "text": "This quiet jazz piece features a sophisticated 4/4 swing feel at a slow tempo of 60 BPM. The arrangement spans 32 bars, utilizing lush extended chords and a wide pitch range of 6 octaves to create a mellow, nocturnal atmosphere."
+            },
+            {
+                "text": "A delicate and quiet jazz composition in a 3/4 waltz time signature. This track runs for approximately 45 seconds, focusing on a melodic piano lead within a 4-octave range, conveying a sense of gentle intimacy."
+            },
+            {
+                "text": "Characterized by a sparse arrangement and a soft brushes-on-snare rhythm, this quiet jazz track lasts for 16 bars. It uses a minor key to evoke a reflective mood, keeping the pitch range compact at 3 octaves."
+            },
+            {
+                "text": "This music is a quiet jazz ballad with a very slow, rubato-style rhythm that stretches over 20 bars. The use of chromatic harmonies and a runtime of 60 seconds provides a deep, resonant soundscape."
+            },
+            {
+                "text": "Featuring a smooth, walking bassline and syncopated melodies, this quiet jazz tune maintains a moderate-slow tempo. It spans 24 bars and is played for about 40 seconds with a focus on middle-register textures."
+            },
+            {
+                "text": "A serene quiet jazz track based on a modal structure. It features a long-duration harmonic rhythm over 15 bars, using a 5-octave pitch range to allow for airy, improvisational flourishes."
+            },
+            {
+                "text": "This quiet jazz arrangement utilizes a 5/4 time signature to create a unique but understated rhythmic flow. It spans 40 seconds and 12 bars, maintaining a soft dynamic level throughout."
+            },
+            {
+                "text": "Driven by elegant seventh chords and a light touch, this quiet jazz piece runs for 30 seconds. The melody stays within a 2-octave range, ensuring a focused and tranquil musical performance."
+            },
+            {
+                "text": "This track is a quiet jazz exploration of a major key, providing a warm and uplifting yet restrained sound. It covers 18 bars with a steady, uncomplicated rhythm suitable for background ambiance."
+            },
+            {
+                "text": "A minimalist quiet jazz composition that spans 10 bars and uses a very narrow pitch range. The runtime of 25 seconds highlights the beauty of silence and the space between the notes."
+            }
+        ],
+        "warm": [
+            {
+                "text": "This track features a warm jazz atmosphere with a slow tempo of 60 BPM. Set in a 4/4 time signature over 16 bars, the piece utilizes rich seventh chords and a smooth saxophone melody, spanning a runtime of 45 seconds."
+            },
+            {
+                "text": "A warm jazz composition in a 3/4 waltz time signature, characterized by a moderate tempo and a runtime of 30 seconds. The music features a walking bassline and soft piano comping across 12 bars."
+            },
+            {
+                "text": "This 20-second snippet offers a warm jazz sound in a major key with a high note density. The arrangement spans 8 bars and focuses on a fluid, legato trumpet solo with a gentle rhythmic swing."
+            },
+            {
+                "text": "Featuring a 5-octave pitch range, this warm jazz piece maintains a steady, medium tempo. The 16-bar progression is built on complex extended harmonies, providing a sophisticated and cozy musical texture."
+            },
+            {
+                "text": "This song presents a warm jazz aesthetic with a syncopated rhythm and a runtime of 50 seconds. Spanning 24 bars, the track highlights a melodic dialogue between a hollow-body guitar and a soft upright bass."
+            },
+            {
+                "text": "A brief 15-second warm jazz phrase in a minor key, utilizing a 4/4 time signature. The music has a low velocity and a focused pitch range, creating an intimate and dark tonal quality over 4 bars."
+            },
+            {
+                "text": "This track is a 10-bar warm jazz exploration with a highly intense rhythm despite its mellow tone. It features rapid piano arpeggios and a runtime of 25 seconds, spanning 4 octaves."
+            },
+            {
+                "text": "The music in this track is based on a 4/4 time signature and a very slow tempo, delivering a warm jazz experience. It plays for 60 seconds across 16 bars with a focus on lush, sustained chords."
+            },
+            {
+                "text": "This warm jazz piece features a brush-led drum pattern and a walking bass, progressing over 20 bars. The runtime is 40 seconds, characterized by a medium pitch range and a bright, major tonality."
+            },
+            {
+                "text": "A 32-bar warm jazz arrangement with a runtime of 55 seconds. The composition uses a moderate tempo and varied velocity to create a dynamic yet smooth rhythmic flow, utilizing the full range of a grand piano."
+            }
+        ],
+        "sad": [
+            {
+                "text": "This sad jazz piece features a slow tempo in a minor key, spanning 16 bars. The melody is played with a melancholic, breathy saxophone quality over a 4-octave range, lasting approximately 45 seconds with frequent rubato."
+            },
+            {
+                "text": "A somber sad jazz composition in 4/4 time with a sparse arrangement. It spans 12 bars and focuses on a low-register piano accompaniment, creating a dark atmosphere over a runtime of 30 seconds."
+            },
+            {
+                "text": "This track is a hauntingly sad jazz ballad with a very slow bpm. It covers 20 bars and utilizes complex extended chords like minor 9ths to evoke grief, played for about 60 seconds."
+            },
+            {
+                "text": "Featuring a walking bass line played at a sluggish, tired pace, this sad jazz tune spans 14 bars. The pitch range is wide, reaching across 5 octaves, and lasts for 40 seconds."
+            },
+            {
+                "text": "This music evokes a rainy night through a sad jazz style in a 3/4 time signature. With a duration of 35 seconds and spanning 16 bars, the rhythm is syncopated yet heavy and dragging."
+            },
+            {
+                "text": "A minimalist sad jazz piece consisting of a lonely trumpet melody over 8 bars. The pitch range is narrow, focused on the mid-range for 25 seconds of reflective, sorrowful sound."
+            },
+            {
+                "text": "This song presents a sad jazz aesthetic with a dissonant harmonic structure. Spanning 18 bars, it uses a variety of velocities to simulate a weeping effect, playing for a total of 50 seconds."
+            },
+            {
+                "text": "This track is a mid-tempo but emotionally heavy sad jazz arrangement. It spans 15 bars and uses a Dorian mode to create a sense of longing, lasting approximately 42 seconds."
+            },
+            {
+                "text": "A brief 20-second sad jazz interlude spanning 6 bars. It features a high-pitched, fragile piano melody that contrasts with deep, resonant bass notes across a 6-octave span."
+            },
+            {
+                "text": "This sad jazz composition features a steady, slow rhythmic pulse over 24 bars. It uses chromatic descents to emphasize a feeling of loss, resulting in a 55-second musical performance."
+            }
+        ],
+        "magnificent": [
+            {
+                "text": "This magnificent jazz composition features a complex syncopated rhythm in 4/4 time, spanning 32 bars with a wide pitch range of 6 octaves. The piece showcases virtuosic piano improvisations and a walking bassline, delivering a sophisticated sound for 60 seconds."
+            },
+            {
+                "text": "A magnificent jazz ballad with a slow tempo and a soulful melody played on a tenor saxophone. The music uses a melancholic minor key over 16 bars, creating an intimate and emotional atmosphere that lasts for about 45 seconds."
+            },
+            {
+                "text": "This track is a magnificent jazz fusion piece characterized by high-energy drumming and electric guitar riffs. It follows a fast 7/8 time signature across 24 bars, offering a rhythmically intense experience for 35 seconds."
+            },
+            {
+                "text": "Experience a magnificent jazz swing number with a bright major key and a lively brass section. The arrangement covers 20 bars with a moderate-fast tempo, resulting in a cheerful and danceable performance of 40 seconds."
+            },
+            {
+                "text": "The music presents a magnificent jazz bossa nova style, blending smooth acoustic guitar chords with a gentle percussion rhythm. Spanning 12 bars in a 2/4 signature, this relaxed piece plays for 30 seconds."
+            },
+            {
+                "text": "This magnificent jazz orchestral arrangement features a lush string section and a soaring trumpet lead. With a runtime of 55 seconds and a length of 28 bars, the wide dynamic range creates a truly cinematic musical landscape."
+            },
+            {
+                "text": "A magnificent jazz solo piano piece utilizing rich modal harmonies and a rubato feel. The performance spans 15 bars with a deep, resonant pitch range, offering a reflective and artistic sound for 50 seconds."
+            },
+            {
+                "text": "This track features a magnificent jazz bebop influence, characterized by rapid-fire melodic lines and frequent chord changes. Played at a blistering tempo over 32 bars, it delivers a high-intensity sound for 25 seconds."
+            },
+            {
+                "text": "A magnificent jazz waltz in 3/4 time signature, featuring a delicate flute melody and light brushwork on the drums. The song progresses gracefully over 18 bars, providing a sophisticated backdrop for 42 seconds."
+            },
+            {
+                "text": "This magnificent jazz funk hybrid utilizes a heavy, repetitive bass groove and sharp horn stabs. Spanning 16 bars with a highly syncopated rhythm, the track maintains a gritty and powerful energy for 38 seconds."
+            }
+        ]
+    },
+    "pop": {
+        "lazy": [
+            {
+                "text": "This track features a slow, lazy pop groove in a 4/4 time signature. The melody stays within a narrow 2-octave range over 16 bars, creating a relaxed and effortless atmosphere for 30 seconds."
+            },
+            {
+                "text": "A laid-back piece of lazy pop music with a moderate tempo and soft syncopation. It spans 20 bars in a major key, characterized by a smooth, lingering rhythm and a duration of 45 seconds."
+            },
+            {
+                "text": "The music presents a hazy, lazy pop vibe with a low-density note arrangement. It lasts for 40 seconds across 12 bars, using a 4/4 meter and a very simple, repetitive chord progression."
+            },
+            {
+                "text": "This composition is a quintessential lazy pop song with a runtime of 35 seconds. It utilizes a minor key and a relaxed swing feel across 14 bars, maintaining a calm and steady energy."
+            },
+            {
+                "text": "Spanning 16 bars, this lazy pop arrangement features a mid-range pitch distribution and a 4/4 time signature. The rhythmic intensity is very low, providing a sleepy, melodic backdrop for 30 seconds."
+            },
+            {
+                "text": "This track is a 60-second exploration of lazy pop textures. It features a slow tempo, 24 bars of music, and a focus on long-duration notes that create a spacious and unhurried feel."
+            },
+            {
+                "text": "A 20-second snippet of lazy pop music that emphasizes a gentle, lofi-inspired rhythm. The melody occupies 8 bars and stays within a 3-octave range, delivering a chill and resonant sound."
+            },
+            {
+                "text": "The track uses a 3/4 time signature to create a unique waltz-like lazy pop feel. Spanning 18 bars with a duration of 45 seconds, the piece maintains a soft, understated melodic profile."
+            },
+            {
+                "text": "Characterized by a heavy use of rubato, this lazy pop track spans 15 bars. The pitch range is wide at 4 octaves, yet the performance remains slow and tranquil for its 40-second duration."
+            },
+            {
+                "text": "This 50-second track offers a bright but lazy pop aesthetic. Set in a major key over 22 bars, the rhythm is steady and uncomplicated, emphasizing a carefree and relaxed musicality."
+            }
+        ],
+        "romantic": [
+            {
+                "text": "A tender romantic pop ballad in 4/4 time with a slow tempo. Featuring lush piano chords and a gentle melodic contour, this piece spans 16 bars and uses a major key to evoke a sense of warmth and intimacy."
+            },
+            {
+                "text": "This upbeat romantic pop track features a syncopated rhythm and a bright, danceable energy. Lasting about 45 seconds across 32 bars, it employs a wide pitch range and catchy melodic hooks typical of modern radio hits."
+            },
+            {
+                "text": "An acoustic-driven romantic pop song with a moderate tempo. The music flows through 24 bars with a simple harmonic progression in a major key, creating a heartfelt and sincere atmosphere over a 30-second duration."
+            },
+            {
+                "text": "A melancholic yet romantic pop composition in a minor key. It features a steady 4/4 beat and a runtime of 40 seconds, using layered textures and a 4-octave pitch range to express deep emotional longing."
+            },
+            {
+                "text": "This elegant romantic pop piece is set in a 3/4 waltz time signature. Spanning 16 bars with a moderate pace, the melody is fluid and graceful, supported by a sophisticated chord arrangement and a 3-octave range."
+            },
+            {
+                "text": "A high-energy romantic pop anthem with an intense rhythm and a driving bassline. The track spans 20 bars and lasts approximately 35 seconds, utilizing a major key and powerful melodic leaps for an uplifting feel."
+            },
+            {
+                "text": "A soft, ambient romantic pop track with a very slow tempo. The music spans 12 bars over 50 seconds, emphasizing long sustained notes and a narrow pitch range to create a dreamy, atmospheric soundscape."
+            },
+            {
+                "text": "This mid-tempo romantic pop song features a classic verse-chorus structure across 32 bars. With a balanced distribution of pitch and a runtime of 60 seconds, it delivers a smooth and polished musical narrative."
+            },
+            {
+                "text": "A rhythmic romantic pop track characterized by light staccato notes and a playful melody. It spans 16 bars in a bright major key, providing a cheerful and flirtatious mood lasting about 25 seconds."
+            },
+            {
+                "text": "A cinematic romantic pop arrangement featuring a wide 5-octave pitch range and dramatic dynamic shifts. Spanning 24 bars, the piece uses complex harmonies to build tension and resolution over a 45-second runtime."
+            }
+        ],
+        "happy": [
+            {
+                "text": "This bright and happy pop track features a 4/4 time signature and a fast tempo. Spanning 16 bars with a wide pitch range of 4 octaves, the major key and syncopated rhythm create a high-energy feel for 30 seconds."
+            },
+            {
+                "text": "A cheerful and happy pop melody played in a major scale, lasting about 45 seconds. The music spans 24 bars with a moderate density of notes and a very steady, upbeat rhythm."
+            },
+            {
+                "text": "This happy pop song is characterized by a bouncy rhythm and a 4/4 time signature. It runs for 20 seconds across 8 bars, utilizing a high pitch register to maintain a light and airy atmosphere."
+            },
+            {
+                "text": "Featuring a highly intense rhythm and a bright major tonality, this happy pop piece spans 32 bars. The performance lasts 60 seconds and showcases a dynamic range across 5 octaves."
+            },
+            {
+                "text": "This track is a mid-tempo happy pop arrangement in a 4/4 meter. It covers 12 bars and 25 seconds, focusing on a catchy, repetitive melodic motif with a low rhythmic complexity."
+            },
+            {
+                "text": "With a runtime of 40 seconds, this happy pop music uses a 3/4 waltz-like feel but maintains a modern pop aesthetic. It spans 16 bars and stays within a 3-octave pitch range for a focused sound."
+            },
+            {
+                "text": "An electrifying and happy pop anthem with a very fast tempo and 4/4 time signature. It progresses over 20 bars and 35 seconds, featuring a dense arrangement and driving rhythmic patterns."
+            },
+            {
+                "text": "This short 15-second happy pop clip spans 8 bars. It uses a major key and a simple, staccato rhythm to convey a sense of pure joy and celebration within a 4-octave range."
+            },
+            {
+                "text": "A smooth and steady happy pop groove that lasts for 50 seconds. Spanning 30 bars, the music features a 4/4 time signature and a lush, chordal texture in a bright major key."
+            },
+            {
+                "text": "This happy pop composition features a 110 BPM tempo and a 4/4 meter. Spanning 16 bars and 30 seconds, the track employs a wide variety of velocities and a 5-octave pitch range for a vibrant performance."
+            }
+        ],
+        "funny": [
+            {
+                "text": "This track is a fast-paced, funny pop song in a bright major key, featuring a quirky synth melody across 16 bars and a bouncy 4/4 rhythm that lasts for 30 seconds."
+            },
+            {
+                "text": "A mid-tempo funny pop piece spanning 20 bars with a playful, staccato bassline and a repetitive, catchy hook that creates a humorous atmosphere over 40 seconds."
+            },
+            {
+                "text": "Characterized by high-pitched, comedic sound effects, this funny pop melody uses a wide 5-octave pitch range and complex syncopation across 12 bars."
+            },
+            {
+                "text": "This 50-second funny pop composition features a sudden tempo shift from slow to frantic, utilizing a chromatic scale to enhance its whimsical and eccentric character."
+            },
+            {
+                "text": "With a runtime of 25 seconds, this funny pop track uses a 3/4 waltz time signature combined with a modern electronic beat to create a sarcastic, upbeat vibe over 14 bars."
+            },
+            {
+                "text": "This music is a minimalist funny pop loop of 8 bars, focusing on a heavy, comical percussion section and a simple, repetitive major chord progression."
+            },
+            {
+                "text": "An energetic funny pop song that spans 32 bars, featuring a call-and-response structure between a bright piano and a buzzing synth, lasting exactly 60 seconds."
+            },
+            {
+                "text": "This track is a funny pop anthem with an intense, driving rhythm in a high BPM, spanning 18 bars with a narrow pitch range to emphasize its frantic, silly nature."
+            },
+            {
+                "text": "A short 15-second funny pop sting featuring a descending glissando and a sharp, sudden ending, composed within a 10-bar structure in a cheerful G major."
+            },
+            {
+                "text": "This 45-second piece is a funny pop track that blends a reggae-style offbeat rhythm with bubblegum pop synth leads, spanning 24 bars of lighthearted musical fun."
+            }
+        ],
+        "exciting": [
+            {
+                "text": "This exciting pop track features a high-energy 4/4 time signature with a fast tempo, spanning 32 bars. The melody utilizes a wide pitch range of 4 octaves to create a vibrant and uplifting atmosphere over its 60-second duration."
+            },
+            {
+                "text": "An exciting pop composition in a bright major key, this piece runs for 45 seconds and covers 16 bars. It features syncopated rhythms and a dense harmonic structure that drives a powerful, feel-good momentum."
+            },
+            {
+                "text": "Driven by a punchy bassline and a steady pulse, this exciting pop music spans 20 bars with a runtime of 40 seconds. The narrow pitch range and repetitive rhythmic motifs emphasize a catchy and infectious groove."
+            },
+            {
+                "text": "This exciting pop song utilizes a 4/4 meter and a moderate-to-fast tempo across 24 bars. Lasting 50 seconds, it showcases a dynamic progression from a soft intro to a highly intense and resonant chorus."
+            },
+            {
+                "text": "With a runtime of 30 seconds and a span of 12 bars, this exciting pop snippet features rapid-fire melodic lines and a shimmering major scale, creating a sense of constant movement and energy."
+            },
+            {
+                "text": "This track is an exciting pop anthem featuring a 4-octave pitch range and a very high note density. It plays for 55 seconds over 28 bars, characterized by an aggressive beat and bright synth-like polyphony."
+            },
+            {
+                "text": "Set in an upbeat tempo, this exciting pop arrangement lasts 35 seconds and covers 14 bars. The music uses a mix of staccato notes and flowing arpeggios to maintain a restless and exhilarating pace."
+            },
+            {
+                "text": "A brief but exciting pop sequence of 10 bars and 25 seconds, featuring a soaring melody in a high register. The rhythm is highly syncopated, providing a modern and danceable edge to the composition."
+            },
+            {
+                "text": "Spanning 40 bars with a duration of 75 seconds, this exciting pop piece explores a complex harmonic progression. It maintains a consistent 4/4 rhythm while utilizing a full 5-octave range for maximum impact."
+            },
+            {
+                "text": "This exciting pop music features a driving 120 BPM tempo and a major key signature across 18 bars. Lasting 45 seconds, the piece is defined by its crisp percussion and wide-reaching melodic leaps."
+            }
+        ],
+        "warm": [
+            {
+                "text": "This warm pop arrangement features a gentle 4/4 time signature and a bright C major key. Spanning 32 bars with a moderate tempo of 110 BPM, the melody occupies a 3-octave range, creating a cozy and inviting atmosphere for its 60-second duration."
+            },
+            {
+                "text": "A soft and warm pop track characterized by a lush harmonic progression in 7th chords. It runs for about 45 seconds across 24 bars, utilizing a medium-low pitch density to maintain a relaxed, lounge-inspired feel."
+            },
+            {
+                "text": "This upbeat yet warm pop piece is set in a syncopated 4/4 rhythm. With a runtime of 30 seconds and a span of 16 bars, it uses a high velocity for the piano chords to create a sun-drenched, energetic vibe."
+            },
+            {
+                "text": "Featuring a steady pulsing beat, this warm pop composition moves through 20 bars in a minor key with a hopeful resolution. The 4-octave pitch range ensures a rich, full-bodied sound that lasts for roughly 40 seconds."
+            },
+            {
+                "text": "This music provides a warm pop experience with a slow, ballad-like tempo and a 3/4 waltz-inspired time signature. It covers 12 bars with legato phrasing, resulting in a smooth and fluid 35-second performance."
+            },
+            {
+                "text": "A driving warm pop rhythm defines this 50-second track. It spans 32 bars with a heavy emphasis on the downbeat, utilizing a major pentatonic scale to ensure a catchy and accessible melodic flow."
+            },
+            {
+                "text": "This track is a masterclass in warm pop textures, featuring a narrow pitch range centered in the middle register. It plays for 25 seconds over 14 bars, maintaining a consistent and comforting rhythmic steady state."
+            },
+            {
+                "text": "In this warm pop piece, the melody is characterized by frequent arpeggiation and a medium tempo. Spanning 18 bars and 5 octaves, the expansive arrangement provides a sense of depth and space over its 42-second runtime."
+            },
+            {
+                "text": "This short 15-second warm pop snippet features a highly rhythmic and staccato bassline. It spans 8 bars in a bright G major key, delivering a punchy and clear musical statement with moderate intensity."
+            },
+            {
+                "text": "With a runtime of 55 seconds, this warm pop song utilizes a complex 4/4 meter with occasional triplets. Spanning 40 bars, the composition relies on sustained pad-like chords to create a resonant and enveloping soundscape."
+            }
+        ],
+        "angry": [
+            {
+                "text": "This high-octane angry pop track features a driving 4/4 beat at a fast tempo. Spanning 16 bars with a wide pitch range of 5 octaves, the music utilizes aggressive synth stabs and a minor key to create a sense of urgent defiance over 30 seconds."
+            },
+            {
+                "text": "An angry pop composition in a minor key, characterized by heavy syncopation and a runtime of 45 seconds. The 24-bar structure focuses on lower-register melodies to emphasize a brooding, resentful atmosphere with intense rhythmic energy."
+            },
+            {
+                "text": "This track is a short, 20-second burst of angry pop energy. It features a 4/4 time signature, a very fast tempo, and a dense 8-bar arrangement where sharp melodic leaps across 4 octaves convey sudden frustration."
+            },
+            {
+                "text": "Built on a 12-bar loop, this angry pop music uses a 3/4 time signature to create a waltz-like but unsettling tension. The moderate tempo and mid-range pitch focus provide a cold, calculated tone for its 35-second duration."
+            },
+            {
+                "text": "With an electrifying and chaotic rhythm, this 50-second piece of angry pop spans 32 bars. The use of chromaticism and a large pitch range of 6 octaves reflects a state of total emotional outburst in a major key turned sour."
+            },
+            {
+                "text": "This song features a gritty, lo-fi aesthetic within an angry pop framework. It plays for 40 seconds over 16 bars, utilizing a steady but heavy rhythm and a restricted 3-octave pitch range to simmer with internalised rage."
+            },
+            {
+                "text": "A 15-bar angry pop sequence with a runtime of 28 seconds. The music is defined by a highly intense rhythm and frequent velocity changes, using a minor key to highlight a sharp, biting melodic contour."
+            },
+            {
+                "text": "This angry pop track showcases a unique and resonant sound by blending a fast-paced 4/4 rhythm with dissonant chords. It spans 20 bars and 5 octaves, maintaining a relentless energy throughout its 42-second length."
+            },
+            {
+                "text": "Characterized by a staccato bassline and sharp percussion, this 30-second angry pop piece moves through 16 bars. Its high-pitched lead synth spans the upper 2 octaves, creating a piercing and confrontational auditory experience."
+            },
+            {
+                "text": "This music has a runtime of about 55 seconds and spans 32 bars. As an angry pop anthem, it employs a massive, wall-of-sound arrangement in a minor key with a powerful, straightforward rhythm that demands attention."
+            }
+        ],
+        "quiet": [
+            {
+                "text": "This quiet pop track features a gentle 4/4 time signature and a slow tempo. Spanning 16 bars with a soft melodic contour, the music uses a major key to create a peaceful atmosphere over its 30-second duration."
+            },
+            {
+                "text": "A minimalist quiet pop arrangement characterized by a sparse texture and a narrow pitch range of 3 octaves. The piece lasts for 45 seconds, maintaining a steady, low-velocity rhythm throughout its 20 bars."
+            },
+            {
+                "text": "This music is a quiet pop ballad in a minor key, evoking a melancholic mood. It features a moderate tempo and spans 32 bars, focusing on mid-range pitches to ensure a smooth and unobtrusive sound."
+            },
+            {
+                "text": "With a runtime of 40 seconds, this quiet pop composition utilizes a 3/4 waltz rhythm. The melody is delicate and breathy, staying within a 4-octave range to maintain a sense of intimacy across 24 bars."
+            },
+            {
+                "text": "This quiet pop sequence is built on a 4/4 meter with a very low density of notes. The track plays for 25 seconds, featuring a simple harmonic progression that repeats over a compact 12-bar structure."
+            },
+            {
+                "text": "Characterized by subtle syncopation, this quiet pop track has a relaxed feel. It spans 16 bars with a runtime of 35 seconds, using soft articulation and a balanced distribution of high and low pitches."
+            },
+            {
+                "text": "This is a quiet pop instrumental with a slow, lulling rhythm and a duration of 50 seconds. The music is set in a major scale and covers 28 bars, emphasizing a stable and soothing tonal center."
+            },
+            {
+                "text": "A short 15-second quiet pop loop featuring a repetitive and melodic motif. The track uses a 4/4 time signature and a moderate tempo, keeping the energy levels low and consistent across 8 bars."
+            },
+            {
+                "text": "This quiet pop piece spans 20 bars and features a smooth legato phrasing. The music lasts for 42 seconds, utilizing a wide but very soft dynamic range to create a dreamy, atmospheric texture."
+            },
+            {
+                "text": "Featuring a runtime of 30 seconds, this quiet pop song is defined by its steady eighth-note pulse and 4-octave pitch range. The 16-bar structure is supported by simple, clear chords in a bright key."
+            }
+        ],
+        "sad": [
+            {
+                "text": "A slow-tempo sad pop ballad in 4/4 time. The track features a melancholic piano melody spanning 16 bars with a narrow pitch range of 3 octaves, creating an intimate and emotional atmosphere for 40 seconds."
+            },
+            {
+                "text": "This sad pop song is characterized by a somber minor key and a steady, downbeat rhythm. It spans 32 bars with a duration of 60 seconds, utilizing a wide pitch range to convey deep longing."
+            },
+            {
+                "text": "A minimalist sad pop arrangement with a runtime of 30 seconds. The music follows a 3/4 waltz time signature, featuring sparse instrumentation and a delicate melody across 12 bars."
+            },
+            {
+                "text": "Featuring a moderately slow tempo, this sad pop track utilizes syncopated rhythms to create a sense of instability. It plays for 45 seconds and spans 20 bars in a natural minor scale."
+            },
+            {
+                "text": "This 15-second sad pop loop features a high-pitched, fragile lead synth. The rhythm is repetitive and slow, spanning 8 bars with a focus on harmonic tension and resolution."
+            },
+            {
+                "text": "A dark and atmospheric sad pop piece with a duration of 50 seconds. It features a heavy, reverb-drenched bassline and a mid-range melody spanning 24 bars in a 4/4 time signature."
+            },
+            {
+                "text": "This sad pop track has a runtime of 55 seconds and spans 28 bars. The use of a flat-key signature and a descending melodic contour emphasizes the grief-stricken mood of the music."
+            },
+            {
+                "text": "A mid-tempo sad pop song that blends electronic textures with a soulful piano. It features a varied rhythm over 18 bars and lasts for 35 seconds, covering a 4-octave pitch range."
+            },
+            {
+                "text": "Spanning 16 bars, this sad pop composition uses a slow 4/4 beat and soft velocity hits to create a muted, subdued sound. The piece runs for exactly 42 seconds."
+            },
+            {
+                "text": "A haunting sad pop melody in a 6/8 time signature. The music spans 24 bars and 50 seconds, featuring a rich harmonic structure and a climax with a wide pitch range of 5 octaves."
+            }
+        ],
+        "fear": [
+            {
+                "text": "This fear pop track features a haunting minor key melody played on a dark synth, spanning 16 bars with a moderate tempo. The rhythmic pulse is erratic yet danceable, creating an atmosphere of suspense throughout the 30-second duration."
+            },
+            {
+                "text": "A chilling fear pop composition in 4/4 time, utilizing a wide 5-octave pitch range to contrast deep, ominous basslines with piercing high-frequency stabs. The 45-second piece maintains a high intensity through 24 bars of syncopated rhythms."
+            },
+            {
+                "text": "This track explores fear pop through a slow, dragging tempo and a heavy use of dissonance. Spanning 12 bars and roughly 40 seconds, the music employs a chromatic scale to evoke a sense of creeping dread within a pop structure."
+            },
+            {
+                "text": "Featuring an electrifying yet anxious rhythm, this fear pop song runs for 20 seconds over 8 bars. The dense melodic texture and sudden volume shifts emphasize a jump-scare aesthetic common in the genre."
+            },
+            {
+                "text": "This fear pop arrangement is built on a 3/4 time signature, giving it a twisted, carnival-like feel. The music spans 16 bars and 35 seconds, focusing on a repetitive, hypnotic minor-mode motif that induces a feeling of unease."
+            },
+            {
+                "text": "A high-tempo fear pop track characterized by rapid-fire percussion and a narrow 2-octave pitch range. The 50-second performance stays within 32 bars, using constant 16th-note patterns to simulate a racing heartbeat."
+            },
+            {
+                "text": "This 60-second fear pop piece utilizes a mix of major and minor modes to create 'uncanny valley' vibes. Spanning 20 bars, the smooth rhythm is occasionally interrupted by sharp, dissonant chords that define the fear element of the pop track."
+            },
+            {
+                "text": "A dark and atmospheric fear pop song with a very low tempo, playing for about 45 seconds across 10 bars. The minimalist arrangement relies on deep sub-bass and sparse, echoing melodies to build a palpable sense of fear."
+            },
+            {
+                "text": "This fear pop track features a highly intense, industrial-influenced rhythm. Spanning 15 bars and 30 seconds, the music uses a wide pitch range to create a chaotic, overwhelming soundscape that pushes the boundaries of conventional pop."
+            },
+            {
+                "text": "Designed for a sense of claustrophobia, this fear pop loop lasts 15 seconds and covers 4 bars. The mid-range focus and steady, mechanical beat create an inescapable rhythmic loop that anchors the fear-driven pop melody."
+            }
+        ],
+        "magnificent": [
+            {
+                "text": "This magnificent pop track features a lush orchestral arrangement with a soaring melody in a major key. Spanning 16 bars with a tempo of 120 BPM, the piece utilizes a wide pitch range of 5 octaves to create a cinematic and uplifting atmosphere."
+            },
+            {
+                "text": "Experience a magnificent pop anthem characterized by driving electronic drums and shimmering synth pads. The music follows a 4/4 time signature over 32 bars, delivering a high-energy performance with a bright and resonant tonal quality."
+            },
+            {
+                "text": "A magnificent pop ballad with a focus on delicate piano textures and a slow, emotive tempo. Playing for 45 seconds across 12 bars, this piece employs a 3/4 time signature and a rich harmonic progression to evoke deep sentiment."
+            },
+            {
+                "text": "This track presents a magnificent pop fusion, blending funk-inspired basslines with a crisp rhythmic drive. With a duration of 30 seconds and a moderate tempo, the sequence spans 16 bars and emphasizes a punchy, mid-range pitch density."
+            },
+            {
+                "text": "A magnificent pop arrangement featuring intricate polyphonic layers and a vibrant 4/4 rhythm. The song spans 20 bars with a runtime of 40 seconds, utilizing a varied dynamic range to build a truly grand and impactful soundscape."
+            },
+            {
+                "text": "This magnificent pop composition is set in a minor key, providing a sophisticated and moody aesthetic. It features a steady 110 BPM tempo over 16 bars, with a 4-octave pitch range that ensures a balanced yet powerful musical delivery."
+            },
+            {
+                "text": "Radiating energy, this magnificent pop piece uses syncopated rhythms and bright brass stabs. The 24-bar sequence plays for 50 seconds, maintaining a highly intense momentum and a diverse melodic contour typical of modern chart-toppers."
+            },
+            {
+                "text": "A magnificent pop loop designed with a 6/8 time signature, offering a unique swinging feel. The music spans 8 bars with a runtime of 20 seconds, focusing on a catchy, high-pitched lead melody and a warm, supportive harmonic base."
+            },
+            {
+                "text": "This magnificent pop track is built on a minimalist yet resonant beat, spanning 16 bars. With a focused 3-octave range and a runtime of 35 seconds, it captures a sleek and polished contemporary sound with an infectious groove."
+            },
+            {
+                "text": "A magnificent pop masterpiece featuring a dramatic crescendo and complex chord voicings. The piece extends over 32 bars with a 128 BPM tempo, showcasing a full-spectrum frequency distribution and an electrifying rhythmic structure."
+            }
+        ]
+    },
+    "classical": {
+        "funny": [
+            {
+                "text": "This funny classical piece features a playful staccato melody in a high register, spanning 16 bars. With a fast tempo and a 2/4 time signature, the sudden dynamic shifts and 'wrong-note' humor create a whimsical 20-second performance."
+            },
+            {
+                "text": "A funny classical composition in a major key that utilizes a jaunty, syncopated rhythm across 12 bars. The moderate tempo and 4/4 meter support a comical call-and-response between registers, lasting approximately 25 seconds."
+            },
+            {
+                "text": "The music in this track is a funny classical arrangement with an exaggeratedly slow tempo that suddenly accelerates. Spanning 20 bars, it uses a wide pitch range of 6 octaves to create a slapstick effect over 45 seconds."
+            },
+            {
+                "text": "This funny classical song is based on a 3/4 waltz time signature but features unexpected pauses and rhythmic hiccups. It plays for 30 seconds and covers 14 bars, conveying a sense of clumsy elegance."
+            },
+            {
+                "text": "Featuring an intense and bouncy rhythm, this funny classical piece spans 15 bars. The use of chromatic clusters and rapid scales in a 6/8 meter results in a chaotic and humorous sound lasting 35 seconds."
+            },
+            {
+                "text": "This funny classical track uses a 4/4 time signature and a bright major scale to evoke a circus-like atmosphere. It spans 18 bars with a very high density of notes, playing for a spirited 40 seconds."
+            },
+            {
+                "text": "A short and funny classical motif spanning only 8 bars. It features a plodding, low-pitched melody in a 2/4 time signature, creating a satirical and 'heavy' musical character for about 15 seconds."
+            },
+            {
+                "text": "This funny classical performance spans 5 octaves and 16 bars. It utilizes repetitive, minimalist patterns that slowly become 'out of tune' or dissonant, providing a quirky and ironic listening experience for 50 seconds."
+            },
+            {
+                "text": "With a runtime of 28 seconds, this funny classical piece uses a 3/8 time signature. The melody is characterized by wide leaps and trills, spanning 22 bars and conveying a lighthearted, caffeinated energy."
+            },
+            {
+                "text": "This funny classical composition explores a minor key used in a parody of a funeral march. It spans 13 bars with a moderate tempo and 4/4 meter, using exaggerated rubato to create a mock-tragic effect over 42 seconds."
+            }
+        ],
+        "magnificent": [
+            {
+                "text": "This magnificent classical composition features a grand orchestral arrangement in a 4/4 time signature. It spans 32 bars with a wide 6-octave pitch range, delivering a majestic and resonant sound over a duration of 60 seconds."
+            },
+            {
+                "text": "A magnificent classical solo piano piece with a moderate tempo and a complex, flowing melody. The track lasts 45 seconds, utilizing a major key to create a bright, uplifting atmosphere across 24 bars."
+            },
+            {
+                "text": "This magnificent classical track is characterized by a slow, solemn tempo and a minor key, evoking deep emotion. It plays for 55 seconds and covers a pitch range of 4 octaves within 16 bars."
+            },
+            {
+                "text": "Featuring an electrifying and highly intense rhythm, this magnificent classical work spans 20 bars. The music uses a 3/4 time signature (waltz) and lasts for approximately 40 seconds."
+            },
+            {
+                "text": "This magnificent classical string quartet piece has a runtime of 30 seconds. It features a dense polyphonic texture and a focused pitch range of 5 octaves, progressing smoothly over 12 bars."
+            },
+            {
+                "text": "A magnificent classical symphony excerpt with a fast, virtuosic tempo and a dramatic crescendo. The performance covers 13 ~ 16 bars and provides an impactful sound for 35 seconds."
+            },
+            {
+                "text": "This magnificent classical etude focuses on a steady rhythm and intricate arpeggios. Spanning 28 bars in a major key, it delivers a unique and harmonious performance for 50 seconds."
+            },
+            {
+                "text": "The music in this track is a magnificent classical adagio with a runtime of 45 seconds. It maintains a compact pitch range and a very low intensity, creating a serene and peaceful environment over 10 bars."
+            },
+            {
+                "text": "This magnificent classical piece utilizes a 6/8 time signature with a playful, galloping rhythm. It spans a broad pitch range of 6 octaves and lasts for 40 seconds across 20 bars."
+            },
+            {
+                "text": "A magnificent classical choral arrangement that features a resonant and powerful sound. The track spans 15 bars with a runtime of 30 seconds, utilizing a highly complex harmonic structure."
+            }
+        ],
+        "happy": [
+            {
+                "text": "This happy classical piece features a bright C major tonality and a lively allegro tempo. Spanning 16 bars with a 4/4 time signature, the staccato articulation in the upper register creates a joyful and bouncy atmosphere."
+            },
+            {
+                "text": "A happy classical composition characterized by a fast 3/4 waltz rhythm and a wide pitch range of 6 octaves. The piece lasts for 45 seconds, utilizing flowing arpeggios and high velocity notes to convey a sense of elegance and cheer."
+            },
+            {
+                "text": "This track is a happy classical movement in a major key with a moderate tempo. It consists of 24 bars where the melody is primarily in the treble clef, providing a light and airy texture that feels consistently uplifting."
+            },
+            {
+                "text": "Featuring a dense polyphonic texture, this happy classical track uses a 6/8 compound meter to create a galloping, energetic feel. The runtime is approximately 35 seconds, showcasing a vibrant harmonic progression."
+            },
+            {
+                "text": "The music is a short 12-bar happy classical phrase with a very high tempo. It utilizes a 2/4 time signature and emphasizes strong downbeats, resulting in a playful and rhythmic character typical of a scherzo."
+            },
+            {
+                "text": "This happy classical song has a duration of 50 seconds and spans 32 bars. Its use of diatonic harmonies and repetitive melodic motifs in a high register results in a bright, resonant, and celebratory sound."
+            },
+            {
+                "text": "A happy classical piece with a smooth, legato melody supported by a simple Alberti bass accompaniment. It follows a 4/4 time signature and maintains a steady, moderate pace for a duration of 30 seconds."
+            },
+            {
+                "text": "This composition is a happy classical track featuring rapid scale passages and a pitch range covering 5 octaves. The intense rhythm and major scale brilliance convey a triumphant and spirited mood over 20 bars."
+            },
+            {
+                "text": "This track showcases a happy classical style with a syncopated rhythmic structure in a 4/4 meter. Lasting for 40 seconds, the piece transitions between various major chords to maintain a sunny and optimistic disposition."
+            },
+            {
+                "text": "A happy classical arrangement that focuses on a 13 ~ 16 bar structure with a 3/4 time signature. The melody uses high-velocity dynamics and a crisp touch, ensuring a lively and radiant musical performance."
+            }
+        ],
+        "exciting": [
+            {
+                "text": "This exciting classical composition features a rapid 4/4 time signature and a very high tempo, spanning 32 bars. The wide pitch range of 6 octaves and the use of virtuosic violin arpeggios create an intense and brilliant energy throughout the 45-second performance."
+            },
+            {
+                "text": "Driven by a powerful orchestral swell, this exciting classical track utilizes a minor key and high velocity dynamics. It runs for 60 seconds across 24 bars, delivering a dark, thunderous, and rhythmically complex soundscape."
+            },
+            {
+                "text": "This exciting classical piece is characterized by a bright major key and a lively 6/8 gallop rhythm. Spanning 16 ~ 20 bars, the woodwind-heavy arrangement provides a playful yet high-energy atmosphere for 30 seconds."
+            },
+            {
+                "text": "Featuring sharp staccato notes and a highly syncopated rhythm, this exciting classical music spans 5 octaves. The intense brass fanfares and sudden dynamic shifts create a dramatic and heroic feel over its 40-second duration."
+            },
+            {
+                "text": "This track is an exciting classical masterpiece with a dense polyphonic texture and a fast-paced fugal structure. It spans 40 bars with a complex interplay of voices, resulting in a sophisticated and high-velocity musical experience."
+            },
+            {
+                "text": "An exciting classical piano solo that uses a wide pitch range and rapid 16th-note runs. The composition lasts 55 seconds and covers 30 bars, showcasing a frantic and breathtakingly technical performance in a chromatic style."
+            },
+            {
+                "text": "This exciting classical arrangement features a 3/4 time signature with an accelerating tempo (accelerando). It spans 12 ~ 15 bars and builds to a massive fortissimo climax, making for a truly impactful 35-second audio clip."
+            },
+            {
+                "text": "With an emphasis on heavy percussion and low-register strings, this exciting classical piece offers a rhythmic drive that is both primal and intense. It plays for about 50 seconds and maintains a highly focused pitch range."
+            },
+            {
+                "text": "This exciting classical music employs a D major key and frequent trills to evoke a sense of triumph. Spanning 20 bars, the high-pitched flute and trumpet melodies create a shimmering and energetic sound for 25 seconds."
+            },
+            {
+                "text": "The music in this track is based on an irregular meter and an unpredictable, exciting classical structure. Over 45 seconds and 18 bars, the use of sharp dissonances and extreme volume changes results in a gripping and modernistic performance."
+            }
+        ],
+        "sad": [
+            {
+                "text": "A mournful and sad classical piece for solo piano, featuring a slow tempo and a 4/4 time signature. The melody is composed of long, flowing phrases in a minor key, spanning 12 ~ 16 bars and lasting about 45 seconds, evoking a sense of deep solitude."
+            },
+            {
+                "text": "This sad classical composition features a somber string quartet arrangement. It has a very slow pace, characterized by dissonant harmonies and a narrow pitch range of 3 octaves. The piece spans 8 ~ 10 bars and plays for approximately 30 seconds."
+            },
+            {
+                "text": "A hauntingly sad classical track with a 3/4 time signature, reminiscent of a funeral march. The music uses a low register and heavy chordal textures, progressing over 20 bars with a total runtime of 60 seconds."
+            },
+            {
+                "text": "This track is a sad classical adagio with a delicate and fragile melody. The rhythm is steady but slow, spanning 5 octaves to create a wide, airy soundscape. It plays for about 40 seconds across 14 bars."
+            },
+            {
+                "text": "A melancholic and sad classical solo cello piece. It features a rubato rhythm that feels hesitant and emotional. The music stays within a 2-octave range, focusing on the deep, resonant tones of the instrument for 15 bars and 35 seconds."
+            },
+            {
+                "text": "This sad classical piece employs a polyphonic texture with overlapping minor-key melodies. It has a moderate-slow tempo and a 4/4 time signature, spanning 18 bars and lasting 50 seconds, creating an atmosphere of quiet despair."
+            },
+            {
+                "text": "A brief but intensely sad classical interlude, featuring sharp, staccato notes in a high register that sound like weeping. The piece is compact, spanning 6 ~ 8 bars and playing for just 20 seconds."
+            },
+            {
+                "text": "This sad classical music is characterized by a descending melodic line and a very soft dynamic level. It uses a major-key variation that still feels bittersweet and nostalgic, spanning 12 bars over 30 seconds."
+            },
+            {
+                "text": "A dramatic and sad classical orchestral segment with high rhythmic intensity but a slow, dragging pulse. It spans 5 octaves and features a dense harmonic structure, playing for 55 seconds across 16 bars."
+            },
+            {
+                "text": "This song is a minimalist and sad classical arrangement. It focuses on a repeating, simple rhythmic motif in a 6/8 time signature, creating a hypnotic and sorrowful effect over 24 bars and 45 seconds."
+            }
+        ],
+        "romantic": [
+            {
+                "text": "This romantic classical composition features a lush, lyrical melody in a major key, spanning 16 bars with a moderate tempo. The 4/4 time signature supports a rich harmonic texture typical of the mid-19th century, lasting approximately 45 seconds."
+            },
+            {
+                "text": "A dramatic romantic classical piece in a minor key with a highly intense rhythm and wide dynamic range. It covers 32 bars across 5 octaves, creating a turbulent emotional atmosphere over a 60-second duration."
+            },
+            {
+                "text": "This romantic classical track utilizes a delicate 3/4 waltz time signature with a rubato feel. Spanning 24 bars, the music emphasizes expressive phrasing and chromatic harmonies, playing for about 50 seconds."
+            },
+            {
+                "text": "Characterized by a slow, solemn tempo, this romantic classical work features a dense chordal structure in the lower register. It runs for 40 seconds and covers 12 bars, evoking a sense of deep melancholy."
+            },
+            {
+                "text": "An uplifting romantic classical melody with a bright, virtuosic piano-style texture. The piece spans 20 bars with a fast tempo and a wide pitch range of 6 octaves, lasting roughly 30 seconds."
+            },
+            {
+                "text": "This romantic classical excerpt showcases a call-and-response structure between registers. With a steady 2/4 rhythm and a runtime of 35 seconds, it spans 18 bars using a diatonic major scale."
+            },
+            {
+                "text": "A short romantic classical nocturne featuring a flowing arpeggiated accompaniment and a cantabile melody. It plays for 55 seconds, covering 15 bars with frequent use of accidentals for emotional tension."
+            },
+            {
+                "text": "This powerful romantic classical sequence features heavy syncopation and a fortissimo volume. It spans 14 bars with a compact but high-register pitch range, resulting in an energetic 25-second performance."
+            },
+            {
+                "text": "A romantic classical piece focusing on thematic transformation, moving from a soft pianissimo to a grand climax. It lasts 60 seconds and spans 40 bars with a complex, evolving rhythmic pattern."
+            },
+            {
+                "text": "This romantic classical track is built on a series of suspended chords and slow resolutions. Spanning 10 bars in a 6/8 time signature, it provides a dreamlike and ethereal sound for 42 seconds."
+            }
+        ],
+        "quiet": [
+            {
+                "text": "This quiet classical piece features a delicate piano solo in a major key. It maintains a slow tempo across 16 bars with a soft velocity, creating a peaceful and minimalist atmosphere for 30 seconds."
+            },
+            {
+                "text": "A quiet classical composition for a string quartet, characterized by long, sustained legato notes. The track spans 24 bars in a 4/4 time signature with a narrow dynamic range and a runtime of 45 seconds."
+            },
+            {
+                "text": "This track is a quiet classical adagio with a 3/4 time signature. It utilizes a low pitch range and very low MIDI velocity, progressing through 12 bars of somber, reflective melodies over 40 seconds."
+            },
+            {
+                "text": "A quiet classical woodwind arrangement featuring a solo flute. The music spans 5 octaves with frequent ornaments and a moderate tempo, covering 20 bars and lasting approximately 35 seconds."
+            },
+            {
+                "text": "This quiet classical recording focuses on a gentle harpsichord melody. It has a steady rhythm, a bright major tonality, and spans 16 bars with a total duration of 25 seconds."
+            },
+            {
+                "text": "A quiet classical lullaby played on a celeste. The music features a high-register pitch range and a simple, repetitive rhythmic pattern over 8 bars, lasting for 20 seconds."
+            },
+            {
+                "text": "This quiet classical piece is an ethereal choral arrangement. It uses a 6/8 time signature and features soft, swelling dynamics across 14 bars, resulting in a 50-second performance."
+            },
+            {
+                "text": "A quiet classical nocturne with complex arpeggios but a very soft touch. The track covers a wide pitch range of 6 octaves and spans 32 bars, playing for a total of 60 seconds."
+            },
+            {
+                "text": "This quiet classical music features a slow-moving cello melody in a minor key. The rhythm is rubato and fluid, spanning 10 bars of deep, resonant tones over a 40-second runtime."
+            },
+            {
+                "text": "A quiet classical chamber piece with a focus on counterpoint. It maintains a strict 2/4 time signature and a consistent pianissimo volume through 18 bars, lasting 30 seconds."
+            }
+        ],
+        "fear": [
+            {
+                "text": "This fear-inducing classical piece features haunting string tremolos and sudden orchestral stabs in a minor key. Spanning 16 bars with a wide 6-octave range, it creates a sense of imminent danger over its 30-second duration."
+            },
+            {
+                "text": "A classical composition designed to evoke deep fear through dissonant harmonies and a slow, creeping tempo. The piece lasts for 45 seconds, utilizing low-register piano notes across 12 bars to build a claustrophobic atmosphere."
+            },
+            {
+                "text": "Characterized by frantic woodwind runs and irregular rhythms, this classical track embodies a state of panic and fear. It plays for 20 seconds with a high-intensity 4/4 meter over 14 bars."
+            },
+            {
+                "text": "This track is a somber classical arrangement for solo cello, focusing on the cold, lonely aspect of fear. It spans 10 bars with a melancholic melody and a runtime of 40 seconds."
+            },
+            {
+                "text": "An aggressive classical movement with heavy brass accents and complex polyrhythms that inspire a sense of primal fear. It covers a broad pitch range of 5 octaves and lasts for 50 seconds."
+            },
+            {
+                "text": "Featuring sharp, staccato violin strikes and eerie silences, this classical piece represents the jump-scare element of fear. It is a brief, 15-second composition spanning 8 bars."
+            },
+            {
+                "text": "This classical work uses a chromatic scale and whispering flute motifs to simulate a psychological sense of fear. It runs for 35 seconds with a moderate, unsettling tempo across 13 bars."
+            },
+            {
+                "text": "A grand classical orchestral piece with thunderous percussion and a fast tempo, portraying an epic chase fueled by fear. The track spans 20 bars and lasts approximately 42 seconds."
+            },
+            {
+                "text": "Utilizing microtonal shifts and sustained dissonant chords, this classical track creates an otherworldly, creeping fear. It features a compact pitch range and a steady rhythm over 25 seconds."
+            },
+            {
+                "text": "This classical composition uses repetitive, pulsing bass patterns and high-pitched dissonant clusters to evoke a feeling of dread and fear. It spans 18 bars and plays for 55 seconds."
+            }
+        ],
+        "warm": [
+            {
+                "text": "This warm classical composition features a lush string ensemble playing in a major key with a moderate tempo. Spanning 16 bars, the piece maintains a legato articulation and a rich harmonic texture throughout its 30-second duration."
+            },
+            {
+                "text": "A gentle and warm classical solo piano piece characterized by a soft dynamic range and expressive rubato. The melody flows across 4 octaves over 12 bars, creating a serene atmosphere for 25 seconds."
+            },
+            {
+                "text": "This warm classical track is built on a steady 4/4 time signature with a focus on mid-range woodwinds. The music progresses through 20 bars of consonant harmonies and a balanced rhythmic density, lasting 45 seconds."
+            },
+            {
+                "text": "Characterized by its lyrical melody and rich cello accompaniment, this warm classical piece spans 5 octaves. It uses a 3/4 waltz rhythm over 18 bars to deliver a resonant and comforting performance for 40 seconds."
+            },
+            {
+                "text": "This music offers a warm classical soundscape with a slow tempo and high polyphonic density. The arrangement utilizes 24 bars of intricate counterpoint in a major mode, resulting in a 50-second runtime."
+            },
+            {
+                "text": "A warm classical chamber music excerpt featuring a violin and viola duet. The pitch range is compact at 3 octaves, focusing on a sweet, vibrato-heavy performance that lasts for 15 bars and 30 seconds."
+            },
+            {
+                "text": "This warm classical orchestral piece emphasizes a soaring horn section and a bright major key. With a runtime of 55 seconds and 32 bars, it showcases a wide dynamic swell and a majestic, rounded rhythmic feel."
+            },
+            {
+                "text": "An intimate warm classical guitar piece with a simple, folk-inspired melody. It plays for 20 seconds over 8 bars, utilizing a narrow pitch range and consistent eighth-note rhythms to evoke a cozy feeling."
+            },
+            {
+                "text": "This warm classical track features a harpsichord and flute playing in a graceful 6/8 meter. The music spans 14 bars with a focus on ornamentation and light, warm timbres, running for a total of 35 seconds."
+            },
+            {
+                "text": "A deep and resonant warm classical arrangement for low strings and bassoon. The 10-bar progression uses a low register and slow harmonic rhythm to create a grounding and velvety sound over 40 seconds."
+            }
+        ],
+        "angry": [
+            {
+                "text": "This angry classical composition features a rapid 4/4 meter with aggressive staccato strings. Spanning 24 bars, the piece utilizes a wide 6-octave pitch range to create a sense of volatile rage, lasting approximately 45 seconds."
+            },
+            {
+                "text": "An angry classical track characterized by a heavy, triple meter (3/4) and a minor key. The music progresses through 16 bars of thunderous low-register piano chords, providing a dark and brooding atmosphere for 30 seconds."
+            },
+            {
+                "text": "This piece of angry classical music is defined by its dissonant harmonies and frantic 16th-note runs. With a duration of 50 seconds and a span of 32 bars, the high-intensity rhythm conveys a sense of sharp, piercing frustration."
+            },
+            {
+                "text": "Driven by a fast tempo and irregular syncopation, this angry classical melody uses a compact 3-octave range to build tension. The track lasts for 20 seconds and covers 12 bars of dense, polyphonic textures."
+            },
+            {
+                "text": "Featuring sharp dynamic contrasts between fortissimo and piano, this angry classical work spans 20 bars. The use of chromaticism and a runtime of 40 seconds heightens the feeling of unpredictable and chaotic fury."
+            },
+            {
+                "text": "This angry classical arrangement focuses on the brass section with loud, accented blasts in a 2/4 march time. The 15-bar sequence lasts for 25 seconds, utilizing a major key in a distorted, sarcastic manner."
+            },
+            {
+                "text": "A brief but intense 10-second burst of angry classical energy, this track features tremolo strings and a rapid ascent across 5 octaves. It spans 8 bars with an extremely high note density."
+            },
+            {
+                "text": "This 60-second angry classical piece utilizes a 6/8 time signature with a driving, galloping rhythm. Spanning 40 bars, the constant use of diminished chords creates a feeling of relentless and structured hostility."
+            },
+            {
+                "text": "This angry classical track features a slow, dragging tempo that emphasizes heavy, dissonant clusters in the lower register. Spanning 14 bars and 55 seconds, the rhythm feels like a weighted, simmering anger."
+            },
+            {
+                "text": "An angry classical finale that employs rapid-fire percussion and soaring woodwind trills. The music covers 28 bars over 48 seconds, using a wide pitch range to deliver a triumphant yet furious musical statement."
+            }
+        ],
+        "lazy": [
+            {
+                "text": "This lazy classical piece features a slow 4/4 meter with a dragging rubato feel. Spanning 16 bars, it utilizes a mid-range piano melody with soft velocities to create a relaxed, sleepy atmosphere for 30 seconds."
+            },
+            {
+                "text": "A lazy classical composition in a 3/4 waltz time, but played at a very low BPM. The track lasts 45 seconds over 20 bars, focusing on a legato string section with minimal rhythmic complexity and a major key."
+            },
+            {
+                "text": "This track is a lazy classical adagio with a runtime of 40 seconds. It spans 12 bars and uses a wide pitch range of 4 octaves, featuring sparse polyphonic textures and a somber minor key signature."
+            },
+            {
+                "text": "Characterized by its lazy classical style, this 15-bar piece has a very low note density. The melody is played by a solo woodwind instrument over a simple harmonic accompaniment for 35 seconds."
+            },
+            {
+                "text": "A lazy classical arrangement for solo cello, this music spans 8 long bars in 4/4 time. It lasts for 25 seconds, utilizing heavy sustain and a narrow pitch range to evoke a sense of deep lethargy."
+            },
+            {
+                "text": "This lazy classical music track features a gentle, wandering harpsichord melody. It plays for 50 seconds across 24 bars, maintaining a steady but incredibly slow tempo with a bright, airy major tonality."
+            },
+            {
+                "text": "With a runtime of 60 seconds, this lazy classical piece explores a 6/8 meter with a swaying, lulling rhythm. It covers 18 bars and emphasizes soft dynamics and long-duration notes."
+            },
+            {
+                "text": "A lazy classical chamber piece featuring a duo of violin and piano. It spans 14 bars and lasts 32 seconds, characterized by delayed attacks and a relaxed, improvisational rhythmic structure."
+            },
+            {
+                "text": "This lazy classical composition uses a 2/2 time signature but at a half-time pace. Spanning 16 bars and 45 seconds, the piece focuses on low-register brass instruments performing slow, resonant chords."
+            },
+            {
+                "text": "This lazy classical track is a short 10-bar sketch with a runtime of 20 seconds. It features a high-register flute melody with plenty of silence between notes, creating a sparse and tranquil soundscape."
+            }
+        ]
+    },
+    "traditional": {
+        "sad": [
+            {
+                "text": "A sad traditional piece in a minor key featuring a slow tempo and rubato timing. The melody spans 16 bars with a narrow pitch range of 2 octaves, creating a somber and intimate atmosphere for 30 seconds."
+            },
+            {
+                "text": "This sad traditional composition utilizes a descending melodic contour across 12 bars. With a very low velocity and sparse density, the music evokes deep melancholy over a duration of 45 seconds."
+            },
+            {
+                "text": "Characterized by a 4/4 time signature and a heavy, dragging rhythm, this sad traditional track lasts for 20 bars. The use of dissonant harmonies and a 3-octave range emphasizes a sense of longing."
+            },
+            {
+                "text": "This track features a sad traditional folk style with a moderate-slow tempo. It spans 24 bars and 4 octaves, using frequent legato phrasing to sustain a mournful and reflective mood for 60 seconds."
+            },
+            {
+                "text": "A sad traditional lament with a highly irregular rhythm and frequent pauses. The music progresses through 10 bars with a high pitch register, sounding fragile and poignant for 25 seconds."
+            },
+            {
+                "text": "The music in this track is a sad traditional arrangement in a Dorian mode. It features a steady, pulsing rhythm over 32 bars, maintaining a dark and resonant quality throughout its 50-second runtime."
+            },
+            {
+                "text": "This sad traditional piece is built on a 3/4 waltz-like structure but played with a very low intensity. Spanning 18 bars and a 5-octave range, it creates a sweeping, tragic soundscape for 40 seconds."
+            },
+            {
+                "text": "A brief sad traditional melody consisting of only 8 bars. The pitch range is extremely focused within 1 octave, relying on microtonal-like fluctuations and a slow decay to convey grief in 15 seconds."
+            },
+            {
+                "text": "This song features a sad traditional harmonic progression with a thick texture and high note density. Despite the complexity, the slow BPM and minor scale keep the tone deeply sorrowful over 28 bars."
+            },
+            {
+                "text": "A sad traditional instrumental spanning 20 bars with a 2-octave range. The rhythm is characterized by syncopated, hesitant beats that mimic a sobbing breath, lasting for a total of 35 seconds."
+            }
+        ],
+        "quiet": [
+            {
+                "text": "This quiet traditional piece features a gentle 4/4 meter with a slow tempo. Spanning 32 bars, the melody uses a pentatonic scale within a 2-octave range, creating a serene and timeless atmosphere for 60 seconds."
+            },
+            {
+                "text": "A quiet traditional composition characterized by delicate ornamentation and a steady, rubato-like rhythm. It flows for 24 bars with a narrow pitch range, evoking a sense of ancient storytelling over 45 seconds."
+            },
+            {
+                "text": "This track presents a quiet traditional arrangement in a minor key. The music utilizes a sparse texture across 16 bars, maintaining a soft dynamic level and a moderate pace for a duration of 30 seconds."
+            },
+            {
+                "text": "Centered on a 3/4 time signature, this quiet traditional folk melody spans 40 bars. It features repetitive, hypnotic rhythmic patterns and a mid-range pitch spread, lasting for approximately 50 seconds."
+            },
+            {
+                "text": "This is a quiet traditional piece with a very low density of notes, focusing on long, sustained tones. It covers 12 bars and stays within a 3-octave range, providing a meditative experience for 40 seconds."
+            },
+            {
+                "text": "Defined by a complex yet quiet traditional modal structure, this piece progresses through 20 bars. The rhythmic profile is steady and unobtrusive, resulting in a 35-second performance with a focused melodic contour."
+            },
+            {
+                "text": "This song exhibits a quiet traditional style with a call-and-response structure. Spanning 28 bars in a major key, it uses a wide variety of velocities but stays consistently soft, playing for 55 seconds."
+            },
+            {
+                "text": "A quiet traditional lullaby featuring a simple, rocking rhythm in 6/8 time. It spans 18 bars with a very high pitch register, creating a delicate and airy soundscape that lasts for 30 seconds."
+            },
+            {
+                "text": "This music follows a quiet traditional heterophonic texture across 15 bars. The pitch range is compact, centered around a single octave, and the tempo is notably slow, spanning a total of 40 seconds."
+            },
+            {
+                "text": "This quiet traditional track features a syncopated but soft rhythmic drive. It spans 36 bars with a dynamic range that never exceeds mezzo-piano, offering a nuanced and intricate 60-second musical journey."
+            }
+        ],
+        "warm": [
+            {
+                "text": "This warm traditional piece features a gentle 4/4 time signature and a moderate tempo. Spanning 16 bars with a rich harmonic progression in a major key, the melody moves across a 4-octave range, creating a nostalgic and comforting atmosphere over 30 seconds."
+            },
+            {
+                "text": "Characterized by a warm and steady rhythmic pulse, this traditional composition lasts for 45 seconds. It utilizes a pentatonic scale within a 3-octave pitch range, evoking a sense of heritage and simplicity across 20 bars of music."
+            },
+            {
+                "text": "This warm traditional melody is set in a 3/4 waltz-like meter with a slow, expressive tempo. The track spans 12 bars and features dense chordal textures in a minor key, providing a soulful and resonant sound for approximately 25 seconds."
+            },
+            {
+                "text": "A warm traditional track that emphasizes a vibrant and syncopated rhythm. This 32-bar piece stays within a focused 2-octave range to highlight folk-inspired motifs, delivering an uplifting performance that runs for nearly 50 seconds."
+            },
+            {
+                "text": "This song exhibits a warm traditional aesthetic with a runtime of 40 seconds. It features a wide 5-octave pitch range that allows for intricate melodic ornaments, progressing through 18 bars of steady, legato phrasing."
+            },
+            {
+                "text": "Defined by its warm traditional tonal qualities, this music spans 14 bars. The composition uses a moderate-fast tempo and a major key to create a bright yet cozy feeling, lasting for 20 seconds with a consistent, driving rhythm."
+            },
+            {
+                "text": "With a runtime of 35 seconds, this warm traditional piece explores a 4/4 meter at a walking pace. The music covers 15 bars and uses a limited dynamic range to maintain a smooth, intimate, and acoustic-like texture throughout."
+            },
+            {
+                "text": "This warm traditional arrangement focuses on a 24-bar structure. It utilizes a 3-octave range with frequent use of sustains and rubato timing, resulting in a deeply resonant and historical sound that plays for about 55 seconds."
+            },
+            {
+                "text": "This track offers a warm traditional soundscape through 10 bars of slow-tempo music. The pitch range is compact at 3 octaves, focusing on middle-register harmonies that convey a sense of peace and tradition over 18 seconds."
+            },
+            {
+                "text": "Featuring an intense yet warm traditional rhythm, this 20-bar piece uses a 6/8 time signature. The melody spans 4 octaves and concludes after 42 seconds, blending folk elements with a rich, full-bodied harmonic structure."
+            }
+        ],
+        "funny": [
+            {
+                "text": "A funny traditional jig in a lively 6/8 time signature with a fast tempo. Spanning 24 ~ 32 bars, the melody features wide intervals and staccato notes that create a humorous, bouncy character over 30 seconds."
+            },
+            {
+                "text": "This track presents a funny traditional folk dance with a syncopated rhythm in a major key. The music lasts for 45 seconds and covers 16 bars, using a high-pitched register to emphasize its quirky nature."
+            },
+            {
+                "text": "A funny traditional march characterized by unexpected pauses and a moderate tempo. The piece spans 13 ~ 16 bars and uses a 4/4 time signature to deliver a playful, rhythmic performance lasting about 40 seconds."
+            },
+            {
+                "text": "This song captures a funny traditional atmosphere through the use of a dissonant melody and a steady 3/4 waltz beat. It plays for 20 ~ 25 seconds across 12 bars with a low-frequency harmonic foundation."
+            },
+            {
+                "text": "An energetic and funny traditional polka with an intense rhythm and a bright tonality. Spanning 32 bars, the music maintains a very fast tempo and a compact pitch range for a runtime of 50 seconds."
+            },
+            {
+                "text": "This music features a funny traditional melody played in a call-and-response style. It spans 15 bars with a runtime of 35 seconds, utilizing a 2/4 time signature and sudden dynamic shifts for comedic effect."
+            },
+            {
+                "text": "A slow-tempo funny traditional ballad that uses an exaggerated vibrato and a wide pitch range of 5 octaves. The track progresses over 10 ~ 12 bars and lasts for roughly 60 seconds."
+            },
+            {
+                "text": "This track is a funny traditional instrumental with a repetitive, circular rhythm. It covers 16 bars in a minor key, creating a mock-serious tone that plays for 30 seconds."
+            },
+            {
+                "text": "A funny traditional village tune with a highly syncopated and irregular rhythm. Spanning 20 bars, the song features a mix of staccato and legato phrases over a duration of 45 seconds."
+            },
+            {
+                "text": "This song has a funny traditional charm, characterized by a rapid tempo and a flurry of short notes. It spans 24 bars and uses a simple major scale to evoke a festive, humorous mood for 40 seconds."
+            }
+        ],
+        "magnificent": [
+            {
+                "text": "This magnificent traditional composition is written in a 4/4 time signature with a slow, solemn tempo. Spanning 32 bars, the melody utilizes a wide pitch range of 6 octaves to create a grand atmosphere, lasting for approximately 60 seconds."
+            },
+            {
+                "text": "A magnificent traditional folk melody featuring a syncopated 6/8 rhythm. The piece lasts 45 seconds across 24 bars, employing a pentatonic scale that evokes a sense of cultural heritage and ancient storytelling."
+            },
+            {
+                "text": "This track offers a magnificent traditional soundscape with an extremely fast tempo and a high-intensity rhythmic drive. Over 40 bars and 30 seconds, the dense note density showcases technical virtuosity in a major key."
+            },
+            {
+                "text": "Characterized by a 3/4 time signature, this magnificent traditional waltz-like piece spans 16 bars. It features a moderate tempo and a compact pitch range of 3 octaves, providing a focused and elegant 20-second performance."
+            },
+            {
+                "text": "This song presents a magnificent traditional ceremonial theme with a steady, walking pace. It covers 20 bars and 40 seconds, utilizing modal harmonies and a resonant low-register emphasis to ground the listener."
+            },
+            {
+                "text": "A magnificent traditional rhythmic exploration in an irregular 7/8 meter. The track progresses through 28 bars for 50 seconds, featuring sharp dynamic shifts and a bright, piercing melodic contour."
+            },
+            {
+                "text": "This music has a runtime of 55 seconds and spans 36 bars, delivering a magnificent traditional experience. Its use of a minor key and legato phrasing conveys a mournful yet powerful emotional resonance."
+            },
+            {
+                "text": "Featuring a highly decorative melodic line, this magnificent traditional piece flows through 12 bars of rubato timing. The 15-second snippet captures a breathy, organic texture with a narrow pitch range."
+            },
+            {
+                "text": "This track is a magnificent traditional anthem with a 2/4 time signature and a bright, staccato rhythm. Lasting 30 seconds across 18 bars, the music is characterized by repetitive motifs and a celebratory mood."
+            },
+            {
+                "text": "An expansive magnificent traditional arrangement that spans 48 bars and 70 seconds. It features a complex polyphonic texture and a full 7-octave range, shifting between various intensities and rhythmic patterns."
+            }
+        ],
+        "exciting": [
+            {
+                "text": "This track features an exciting and traditional folk dance rhythm in a fast 6/8 time signature. Spanning 32 bars with a bright major scale, the melody utilizes a wide 5-octave range to create a high-energy performance lasting 45 seconds."
+            },
+            {
+                "text": "An exciting traditional piece characterized by complex syncopation and a driving percussion-led tempo. It runs for 60 seconds across 40 bars, showcasing a pentatonic melody that feels both ancient and vibrantly alive."
+            },
+            {
+                "text": "With an intense and exciting traditional flair, this composition uses a 4/4 meter at 140 BPM. The music spans 24 bars and 4 octaves, delivering a powerful rhythmic drive that sustains for about 35 seconds."
+            },
+            {
+                "text": "This song captures an exciting traditional celebration through its rapid-fire melodic ornaments and 2/4 galloping rhythm. It covers 16 bars with a dense note density, resulting in a 20-second burst of sonic energy."
+            },
+            {
+                "text": "Experience an exciting traditional ensemble sound featuring a mix of staccato rhythms and sweeping polyphonic textures. The piece lasts 50 seconds and explores a harmonic minor key over a 20-bar structure."
+            },
+            {
+                "text": "This musical arrangement offers an exciting traditional experience with a 7/8 Balkan-style odd meter. The shifting accents across 30 bars create a restless, propulsive feel that lasts for 40 seconds."
+            },
+            {
+                "text": "The track presents an exciting traditional ritualistic beat, emphasizing low-register power and a 3-octave pitch range. It progresses steadily over 15 bars, concluding a brief but impactful 25-second performance."
+            },
+            {
+                "text": "Featuring a soaring melody in a high-register mixolydian mode, this exciting traditional track uses a steady 4/4 pulse. It spans 48 bars and 70 seconds, maintaining a festive and highly animated atmosphere throughout."
+            },
+            {
+                "text": "This 55-second piece delivers an exciting traditional soundscape with layered rhythmic counterpoints. Built on a 12-bar blues-like traditional structure, it uses a rapid tempo to highlight the virtuosity of the performance."
+            },
+            {
+                "text": "An exciting traditional march with a rigid yet energetic tempo and a runtime of 30 seconds. The 20-bar composition utilizes a bold major key and a 4-octave span to project a sense of triumph and historical grandeur."
+            }
+        ],
+        "happy": [
+            {
+                "text": "This track features a happy and traditional folk melody in a major key, characterized by a fast tempo and a lively 4/4 time signature. It spans 16 ~ 20 bars with a wide pitch range of 4 octaves, creating an uplifting atmosphere for 30 seconds."
+            },
+            {
+                "text": "The music presents a happy, traditional dance rhythm with a 3/4 time signature. Spanning 24 bars, the piece maintains a bright harmonic structure and a moderate pace, resulting in a joyful performance that lasts for about 45 seconds."
+            },
+            {
+                "text": "This composition highlights a happy and traditional acoustic arrangement with a highly intense rhythm. It covers 12 ~ 16 bars and utilizes a 5-octave pitch range to deliver a resonant, celebratory sound over 25 seconds."
+            },
+            {
+                "text": "Characterized by a smooth and steady flow, this happy traditional tune uses a pentatonic scale to evoke a sense of heritage. It plays for 40 seconds across 20 bars with a consistent, cheerful pulse."
+            },
+            {
+                "text": "A happy and traditional instrumental piece with a runtime of 50 seconds. It features complex syncopation within a 6/8 time signature and spans 32 bars, offering a festive and rhythmic musical experience."
+            },
+            {
+                "text": "This song delivers a happy, traditional vibe through its use of a high-pitched melody and staccato articulation. Spanning 15 bars, the track maintains a fast tempo and a light, airy texture for 20 seconds."
+            },
+            {
+                "text": "Featuring a robust 2/4 time signature, this happy traditional march spans 18 bars. The use of a major scale and a focused pitch range creates an impactful and energetic sound that lasts for 35 seconds."
+            },
+            {
+                "text": "This track is a happy and traditional celebration of rhythm, utilizing polyphonic textures across 22 bars. With a moderate tempo and a 4-octave range, it provides a warm and inviting sound for 42 seconds."
+            },
+            {
+                "text": "A happy traditional melody with a simple, repetitive structure that progresses over 16 bars. Its bright tonality and steady eighth-note rhythm produce a comforting and joyful effect for 28 seconds."
+            },
+            {
+                "text": "This music spans 30 bars and features an electrifying, happy traditional rhythm. Set in a 4/4 time signature with a runtime of 55 seconds, the wide melodic leaps and major harmony convey a sense of pure jubilation."
+            }
+        ],
+        "romantic": [
+            {
+                "text": "This romantic and traditional melody is set in a 3/4 waltz time signature with a moderate tempo. It spans 32 bars with a lyrical, flowing structure and a wide pitch range of 4 octaves, creating a nostalgic atmosphere over 45 seconds."
+            },
+            {
+                "text": "A romantic piece featuring traditional harmonic progressions in a minor key. The music moves at a slow, rubato pace for 16 bars, emphasizing expressive dynamics and a melancholic runtime of 30 seconds."
+            },
+            {
+                "text": "This track offers a romantic and traditional folk-inspired rhythm in 4/4 time. Spanning 24 bars, it utilizes a mid-range pitch spread of 3 octaves and a steady, dance-like tempo that lasts for 40 seconds."
+            },
+            {
+                "text": "Characterized by a highly intense and passionate rhythm, this romantic traditional composition spans 15 bars. It uses a major key to evoke grandiosity, with a compact pitch range and a runtime of 25 seconds."
+            },
+            {
+                "text": "This song features a smooth and steady romantic rhythm following traditional counterpoint rules. It progresses over 20 bars with a high density of notes, spanning 5 octaves for a full orchestral sound over 50 seconds."
+            },
+            {
+                "text": "A romantic and traditional serenade with a simple 2/4 time signature and a bright, allegro tempo. It covers 12 bars with a focused pitch range, resulting in a lighthearted musical performance of 20 seconds."
+            },
+            {
+                "text": "This music has a runtime of 60 seconds and spans 40 bars, showcasing a romantic traditional style. Its use of modulation between keys conveys a complex emotional journey with a moderate, fluid rhythm."
+            },
+            {
+                "text": "A romantic arrangement with traditional acoustic textures, featuring a slow adagio tempo. The piece spans 16 bars and maintains a low pitch register for a warm, intimate sound that lasts for 35 seconds."
+            },
+            {
+                "text": "This track showcases a romantic and traditional rhythmic pattern with syncopated accents. Spanning 28 bars and 4 octaves, the music maintains a lively energy throughout its 45-second duration."
+            },
+            {
+                "text": "With a runtime of 55 seconds, this romantic traditional piece spans 36 bars. It features a resonant sound achieved through wide-interval leaps and a soaring melodic line in a major key."
+            }
+        ],
+        "fear": [
+            {
+                "text": "This track evokes an ancient fear through traditional folk scales, featuring a slow 4/4 tempo and a dissonant 4-octave pitch range that persists for 45 seconds across 20 bars."
+            },
+            {
+                "text": "Characterized by traditional ritualistic percussion and sudden shifts in velocity, this piece captures a sense of primal fear, spanning 12 bars with a duration of 30 seconds."
+            },
+            {
+                "text": "This music utilizes a traditional minor pentatonic mode to create an atmosphere of lurking fear, played at a moderate tempo for 15 bars with a runtime of 40 seconds."
+            },
+            {
+                "text": "An intense, high-velocity traditional arrangement that simulates a chase of fear, spanning 5 octaves and 30 bars, lasting for approximately 60 seconds."
+            },
+            {
+                "text": "The traditional acoustic instrumentation in this 25-second track focuses on lower-register chords to instill a deep, resonant fear within a compact 8-bar structure."
+            },
+            {
+                "text": "Featuring a traditional 3/4 time signature and erratic rhythmic patterns, this composition expresses a psychological fear through 18 bars of complex melodic movement."
+            },
+            {
+                "text": "This 50-second piece blends traditional melodic motifs with microtonal inflections to convey a chilling fear, covering 24 bars in a high-pitched 5-octave range."
+            },
+            {
+                "text": "With a runtime of 35 seconds, this traditional dirge uses slow, dragging rhythms to represent a somber fear, spanning 10 bars with minimal pitch variation."
+            },
+            {
+                "text": "A traditional polyphonic texture creates a disorienting sense of fear in this 15-bar track, utilizing a wide dynamic range and a moderate tempo for 42 seconds."
+            },
+            {
+                "text": "This traditional musical piece uses staccato notes and a fast 2/4 meter to evoke a sharp, immediate fear, spanning 16 bars and finishing in exactly 32 seconds."
+            }
+        ],
+        "angry": [
+            {
+                "text": "This track features a rapid and aggressive percussion section, characteristic of angry traditional drumming. It spans 24 bars with a high intensity rhythm and a narrow, piercing pitch range that creates a sense of urgent confrontation."
+            },
+            {
+                "text": "An angry traditional melody played in a minor key with a runtime of 45 seconds. The music utilizes sharp, staccato articulations and a 4/4 time signature to convey a sense of historical resentment and power."
+            },
+            {
+                "text": "With a duration of 30 seconds and a tempo exceeding 140 BPM, this angry traditional piece focuses on dissonant intervals. It spans 16 bars and uses a heavy, stomping rhythmic pattern to simulate a war dance."
+            },
+            {
+                "text": "This music has a runtime of about 55 seconds and features complex polyrhythms. The angry traditional atmosphere is heightened by a wide pitch range of 4 octaves and sudden, explosive changes in volume over 32 bars."
+            },
+            {
+                "text": "Based on a 6/8 time signature, this track evokes an angry traditional folk spirit. It progresses through 20 bars with a dense texture and a highly syncopated rhythm that feels frantic and unsettled."
+            },
+            {
+                "text": "A 15-second snippet of an angry traditional chant, utilizing a very restricted pitch range to emphasize grit and raw vocal-like textures. The rhythm is irregular and unpredictable, spanning 8 bars."
+            },
+            {
+                "text": "This song has a truly menacing energy, lasting 40 seconds. The angry traditional instrumentation is simulated through jagged melodic leaps and a fast, driving beat that spans approximately 28 bars."
+            },
+            {
+                "text": "Spanning 12 bars, this track uses a low-register dominant pitch range to create a dark, angry traditional sound. The slow but heavy tempo of 60 BPM makes every beat feel like a deliberate strike."
+            },
+            {
+                "text": "This music features a runtime of 50 seconds and a highly intense rhythm. The angry traditional composition uses chromaticism and sharp accents over 24 bars to convey a feeling of brewing rebellion."
+            },
+            {
+                "text": "An angry traditional arrangement spanning 32 bars in a 3/4 time signature. It features a relentless, swirling melodic motion and a moderate-to-fast tempo that builds a sense of overwhelming frustration."
+            }
+        ],
+        "lazy": [
+            {
+                "text": "This lazy traditional piece features a slow 4/4 tempo and a pentatonic melody that stretches across 32 bars. The composition creates a relaxed, rural atmosphere with a runtime of 60 seconds."
+            },
+            {
+                "text": "Characterized by a lazy traditional gait, this track uses a 3/4 time signature and a limited pitch range of 2 octaves. It spans 16 bars and evokes a sense of ancient, unhurried storytelling."
+            },
+            {
+                "text": "This music exhibits a lazy traditional swing with rhythmic syncopations that feel loose and behind the beat. It plays for 45 seconds using a major key to maintain a warm, nostalgic feel."
+            },
+            {
+                "text": "A lazy traditional folk arrangement with a very low note density and a dragging tempo. The piece is 24 bars long and focuses on a single melodic line within a 3-octave range."
+            },
+            {
+                "text": "This track offers a lazy traditional soundscape in a minor key, featuring long sustained notes and a slow harmonic rhythm. It spans 20 bars and lasts for approximately 50 seconds."
+            },
+            {
+                "text": "With a 6/8 time signature, this lazy traditional lullaby moves at a sluggish pace. The melody stays within a compact 1.5 octave range over 12 bars, creating a drowsy, heritage-rich performance."
+            },
+            {
+                "text": "This song features a lazy traditional pulse with occasional pauses between phrases. It has a runtime of 40 seconds and uses a modal scale to emphasize its old-world, relaxed character."
+            },
+            {
+                "text": "Designed for a calm setting, this lazy traditional melody uses simple intervals and a steady but slow rhythmic drive. It covers 16 bars with a total duration of 30 seconds."
+            },
+            {
+                "text": "An instrumental track with a lazy traditional feel, utilizing a wide pitch range of 4 octaves but keeping the velocity very low. The music progresses slowly over 28 bars."
+            },
+            {
+                "text": "This lazy traditional composition centers on a repetitive, droning bass line and a wandering lead melody. It spans 35 bars and conveys a deep sense of stillness and historical weight."
+            }
+        ]
+    }
+}
