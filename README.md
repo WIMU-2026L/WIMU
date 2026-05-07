@@ -70,6 +70,10 @@ Ostatecznym krokiem potoku jest zebranie danych z procesu i wizualizacja ich np.
 
 Poszczególne etapy będą mogły być wywoływane z wykorzystaniem narzędzia make i przyjmowały formę np:
 
+## Podejście do używania AI
+
+# Oskar Gorgis
+Ja wykorzystuje generatywne AI do pisania mniejszych funkcji w kodzie. Używam Clauda modelu Sonnet 4.6. Poza pisaniem funkcji wykorzystuje go do planowania architektury, zadaje pytania i proszę o wytłumaczenie rozwiązań oraz podanie źródeł, z którch mogę zobaczyć jak ktoś na jakimś przykładzie je implementuje.
 
 ## Instrukcja uruchomienia projektu
 
