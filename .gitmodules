@@ -4,3 +4,6 @@
 [submodule "muzic"]
 	path = muzic
 	url = https://github.com/microsoft/muzic.git
+[submodule "CLAMP3"]
+	path = external/clamp3
+	url = https://github.com/sanderwood/clamp3
