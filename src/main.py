@@ -1,3 +1,5 @@
+from pathlib import Path
+from data.dataset_processing import organize_midi_files
 import data.data_loader as data_loader
 from data.midisample_class import MidiSample
 from config import XMIDI_DATA_DIR
@@ -6,6 +8,8 @@ from model.midillm.pipeline import generate_samples
 from config import XMIDI_DATA_DIR, XMIDI_SUBSET_DIR, XMIDI_GENERATED_DIR, LOGS_DIR
 # from metrics.fmd import calculate_fmd,calculate_fmd_inf
 import logging
+
+from metrics.clamp3 import evaluate_with_clamp3
 logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
@@ -13,8 +17,19 @@ if __name__ == "__main__":
     # data_loader.download_and_extract()
     # midi_samples: list[MidiSample] = data_loader.load_data(XMIDI_DATA_DIR)
     # print(f"Loaded {len(midi_samples)} MIDI samples.")
-    generate_samples()
 
+    # Generacja próbek muzycznych za pomocą modelu MIDILLM
+    # generate_samples()
+
+    # XMIDI_DIR = Path("D:\\GitHub\\WIMU\\data\\XMIDI_Dataset")       # folder z wszystkimi plikami
+    # OUTPUT_DIR = Path("D:\\GitHub\\WIMU\\data\\XMIDI_Organized") # docelowa struktura
+
+    # organize_midi_files(XMIDI_DIR, OUTPUT_DIR)
+
+    GENERATED_DIR = Path(r"D:\GitHub\WIMU\data\generated\\midi-llm")
+    REFERENCE_DIR = Path(r"D:\GitHub\WIMU\data\XMIDI_Organized")
+    RESULTS_DIR   = Path(r"D:\GitHub\WIMU\results")
+    evaluate_with_clamp3(GENERATED_DIR, REFERENCE_DIR, RESULTS_DIR)
      # MIDILLM
     # logging.basicConfig(filename=LOGS_DIR / "app.log", level=logging.INFO)
 
