@@ -26,10 +26,18 @@ if __name__ == "__main__":
 
     # organize_midi_files(XMIDI_DIR, OUTPUT_DIR)
 
-    GENERATED_DIR = Path(r"D:\GitHub\WIMU\data\generated\\midi-llm")
+    GENERATED_DIR = Path(r"D:\GitHub\WIMU\data\generated\\musecoco")
     REFERENCE_DIR = Path(r"D:\GitHub\WIMU\data\XMIDI_Organized")
     RESULTS_DIR   = Path(r"D:\GitHub\WIMU\results")
-    evaluate_with_clamp3(GENERATED_DIR, REFERENCE_DIR, RESULTS_DIR)
+    # evaluate_with_clamp3(GENERATED_DIR, REFERENCE_DIR, RESULTS_DIR)
+
+    evaluate_with_clamp3(
+        generated_dir=Path(r"D:\GitHub\WIMU\data\generated\musecoco"),
+        reference_dir=REFERENCE_DIR,
+        results_dir=RESULTS_DIR,
+        results_filename="xmidi_musecoco_clamp3_results.txt",
+        midi_subpath="topk15-t0.7-ngram16/0/midi",
+    )
      # MIDILLM
     # logging.basicConfig(filename=LOGS_DIR / "app.log", level=logging.INFO)
 

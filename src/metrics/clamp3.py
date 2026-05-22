@@ -9,9 +9,9 @@ CLAMP3_SCRIPT = Path(r"D:\GitHub\WIMU\external\clamp3\clamp3_score.py")
 CLAMP3_ENV_DIR = r"C:\Users\oskar\.conda\envs\clamp3"
 
 
-def evaluate_with_clamp3(generated_dir: Path, reference_dir: Path, results_dir: Path):
+def evaluate_with_clamp3(generated_dir: Path, reference_dir: Path, results_dir: Path, results_filename: str = "clamp3_results.txt", midi_subpath: str = None):
     results_dir.mkdir(parents=True, exist_ok=True)
-    results_file = results_dir / "xmidi_midillm_clamp3_results.txt"
+    results_file = results_dir / results_filename
     cache_dir = CLAMP3_SCRIPT.parent / "cache"
     results = {}
 
@@ -24,6 +24,13 @@ def evaluate_with_clamp3(generated_dir: Path, reference_dir: Path, results_dir: 
 
         for gen_vibe_dir in gen_genre_dir.iterdir():
             vibe = gen_vibe_dir.name
+
+            actual_gen_dir = gen_vibe_dir / midi_subpath if midi_subpath else gen_vibe_dir
+            
+            if not actual_gen_dir.exists():
+                print(f"Brak plików dla {genre}/{vibe} w {actual_gen_dir}, pomijam.")
+                continue
+
             ref_dir = reference_dir / genre / vibe
 
             if not ref_dir.exists():
@@ -39,7 +46,7 @@ def evaluate_with_clamp3(generated_dir: Path, reference_dir: Path, results_dir: 
                 if d.exists():
                     shutil.rmtree(d)
 
-            shutil.copytree(gen_vibe_dir, tmp_gen)
+            shutil.copytree(actual_gen_dir, tmp_gen)
             shutil.copytree(ref_dir, tmp_ref)
 
             # Wyczyść cache przed każdym wywołaniem
