@@ -71,10 +71,14 @@ Ostatecznym krokiem potoku jest zebranie danych z procesu i wizualizacja ich np.
 Poszczególne etapy będą mogły być wywoływane z wykorzystaniem narzędzia make i przyjmowały formę np:
 
 ## Informacja o sposobie użytkowania modeli LLM w projekcie
-Marcin Kowalczyk
+### Marcin Kowalczyk
 Model: Gemini 3.1 Pro 
 Sposób użycia: szybsze prototypowanie krótkich programów do analizy danych oraz wywołania funkcji. Debugowanie kodu oraz ogarniczony research.
 Narzędzia: Nie korzystam ze środowiska ze zintegorwanym LLM'em, zazwyczaj korzystam z wersji dostępnej przez stronę internetową.
+
+### Oskar Gorgis
+Ja wykorzystuje generatywne AI do pisania mniejszych funkcji w kodzie. Używam Clauda modelu Sonnet 4.6. Poza pisaniem funkcji wykorzystuje go do planowania architektury, zadaje pytania i proszę o wytłumaczenie rozwiązań oraz podanie źródeł, z którch mogę zobaczyć jak ktoś na jakimś przykładzie je implementuje.
+
 
 ## Instrukcja uruchomienia projektu
 
