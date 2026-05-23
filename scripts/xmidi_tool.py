@@ -8,6 +8,7 @@ from midiprocessor.midi_decoding import MidiDecoder
 midi_decoder = MidiDecoder("REMIGEN2")
 from dataclasses import dataclass
 
+
 from frechet_music_distance import FrechetMusicDistance
 
 try:
@@ -17,10 +18,10 @@ except ImportError:
     print("Zainstaluj ją wpisując w terminalu: pip install mido")
     sys.exit(1)
 
-
+VERBOSE = True
 
 def calculate_fmd(reference_path: str, test_path: str) -> float:
-    metric = FrechetMusicDistance(verbose=True)
+    metric = FrechetMusicDistance(verbose=VERBOSE)
     score = metric.score(
         reference_path=reference_path,
         test_path=test_path
@@ -29,7 +30,7 @@ def calculate_fmd(reference_path: str, test_path: str) -> float:
 
 
 def calculate_fmd_inf(reference_path: str, test_path: str, steps=25, min_n=5):
-    metric = FrechetMusicDistance(verbose=True)
+    metric = FrechetMusicDistance(verbose=VERBOSE)
     score = metric.score_inf(
         reference_path=reference_path,
         test_path=test_path,
@@ -39,20 +40,20 @@ def calculate_fmd_inf(reference_path: str, test_path: str, steps=25, min_n=5):
     return score
 
 
-@dataclass
+
 class MusicCluster:
-    genres_dict = {}
-    duration_analysis = False
-    # Globalne statystyki
-    stats = {
-    'total_files': 0,
-    'total_duration': 0,
-    'shortest': float('inf'),
-    'longest': 0,
-    'shortest_name': '',
-    'longest_name': '',
-    'skipped_files': 0
-    }
+    def __init__(self):
+        self.genres_dict = {}
+        self.duration_analysis = False
+        self.stats = {
+        'total_files': 0,
+        'total_duration': 0,
+        'shortest': float('inf'),
+        'longest': 0,
+        'shortest_name': '',
+        'longest_name': '',
+        'skipped_files': 0
+        }
 
     def set_duration_analysis(self, bool_value):
         self.duration_analysis = bool_value
@@ -60,7 +61,7 @@ class MusicCluster:
     def add(self, file_path, genre, mood):
         
         duration = 0
-        if duration_analysis:
+        if self.duration_analysis:
             duration = get_midi_length(file_path)
 
         if genre not in self.genres_dict:
@@ -90,7 +91,7 @@ class MusicCluster:
         moods = {}
         for genre, moods_dict in self.genres_dict.items():
             for mood, file_datas in moods_dict.items():
-                paths =  moods.get(moods, [])
+                paths =  moods.get(mood, [])
                 for data in file_datas:
                     paths.append(data["name"])
                 moods[mood] = paths
@@ -395,27 +396,123 @@ def calculate_fmd_for_custom_group(reference_file_paths, test_file_paths, fmd_fu
 
 
 def calculate_fmd_genres(reference_music_cluster, test_music_cluster):
-    pass
+    ref_genres = reference_music_cluster.get_grouped_by_genres()
+    test_genres = test_music_cluster.get_grouped_by_genres()
+    ref_keys = ref_genres.keys()
+    test_keys = test_genres.keys()
+    if ref_keys != test_keys:
+        raise Exception(f"The genres in both clusters are not consistent \n\t{ref_keys}\n\t{test_keys}")
+    
+    results = {}
+    
+    for key in ref_keys:
+        print("="*20, "CALCULATING FOR:", key, "="*20)
+        score = calculate_fmd_for_custom_group(ref_genres[key], test_genres[key], calculate_fmd)
+        results[key] = score
+        print("\n")
+        print("-" * 60)
+        print("Calculated FMD for ", key)
+        print("Score is:\t", score)
+        print("-" * 60)
+        print("\n")
+    
+    return results
 
 
-def calculate_fmd_genres(reference_music_cluster, test_music_cluster):
-    pass
+def calculate_fmd_moods(reference_music_cluster, test_music_cluster):
+    ref_moods = reference_music_cluster.get_grouped_by_moods()
+    test_moods = test_music_cluster.get_grouped_by_moods()
+    ref_keys = ref_moods.keys()
+    test_keys = test_moods.keys()
+    if ref_keys != test_keys:
+        raise Exception(f"The moods in both clusters are not consistent \n\t{ref_keys}\n\t{test_keys}")
+
+    results = {}
+
+    for key in ref_keys:
+        print("="*20, "CALCULATING FOR:", key, "="*20)
+        score = calculate_fmd_for_custom_group(ref_moods[key], test_moods[key], calculate_fmd)
+        results[key] = score
+        print("\n")
+        print("-" * 60)
+        print("Calculated FMD for ", key)
+        print("Score is:\t", score)
+        print("-" * 60)
+        print("\n")
+    
+    return results
 
 def calculate_fmd_genres_moods(reference_music_cluster, test_music_cluster):
-    pass
+    ref_dict = reference_music_cluster.genres_dict
+    test_dict = test_music_cluster.genres_dict
+    ref_keys = ref_dict.keys()
+    test_keys = test_dict.keys()
+    if ref_keys != test_keys:
+        raise Exception(f"The genres in both clusters are not consistent \n\t{ref_keys}\n\t{test_keys}")
+
+    # check if clusters are consistent, it is preferably to got error before calculating huge datasets, isn't it? 
+    for genre in ref_keys:
+        if ref_dict[genre].keys() != test_dict[genre].keys():
+            raise Exception(f"The moods in both clusters for {genre} are not consistent \n\t{ref_dict[genre].keys()}\n\t{test_dict[genre].keys()}")
+
+    results = {}
+
+    for genre in ref_keys:
+        ref_moods_dict = ref_dict[genre]
+        test_moods_dict = test_dict[genre]
+        moods = ref_moods_dict.keys()
+        for mood in moods:
+            ref_paths = [data["name"] for data in ref_moods_dict[mood]]
+            test_paths = [data["name"] for data in test_moods_dict[mood]]
+            print("="*20, "CALCULATING FOR:", genre, mood, "="*20)
+            print(len(ref_paths))
+            print(len(test_paths))
+            score = calculate_fmd_for_custom_group(ref_paths, test_paths, calculate_fmd)
+            key = genre + "-" + mood
+            results[key] = score
+            print("\n")
+            print("-" * 60)
+            print("Calculated FMD for ", genre, mood)
+            print("Score is:\t", score)
+            print("-" * 60)
+            print("\n")
+    return results
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Użycie: python xmidi_tool.py <sciezka_do_folderu_xmidi> <duration_analysis 0 or 1>")
+        print("Usage: python xmidi_tool.py <xmidi_path> <musecoco_path> <midillm_path>")
     else:
-        folder_path = sys.argv[1]
-        duration_analysis = int(sys.argv[2])
-        # cluster= group_xmidi_files(folder_path, duration_analysis)
-        cluster = group_musecoco_files(folder_path, duration_analysis)
-        print(cluster)
+        xmidi_path = sys.argv[1]
+        musecoco_path = sys.argv[2]
+        midillm_path = sys.argv[3]
+        xmidi_cluster = group_xmidi_files(xmidi_path, False)
+        print(musecoco_path)
+        musecoco_cluster = group_musecoco_files(musecoco_path, False)
+        midillm_cluster = group_musecoco_files(midillm_path, False)
+        print(xmidi_cluster)
+        print(musecoco_cluster)
+        print(midillm_cluster)
         # print(cluster.genres_dict)
-        genres = cluster.get_grouped_by_genres()
-        print(calculate_fmd_for_custom_group(genres["jazz"], genres["rock"], calculate_fmd))
+        # genres = musecoco_cluster.get_grouped_by_genres()
+        
+        # calculate fmds for xmidi and musecoco
+        musecoco_scores = {}
+        musecoco_scores["genre-mood"] = calculate_fmd_genres_moods(musecoco_cluster, musecoco_cluster)
+        musecoco_scores["mood"] = calculate_fmd_moods(musecoco_cluster, musecoco_cluster)
+        musecoco_scores["genre"] = calculate_fmd_genres(musecoco_cluster, musecoco_cluster)
+        
+        with open("musecoco-scores.json", "w") as fp:
+            json.dump(musecoco_scores, fp)
+        
+        # calculate fmds for xmidi and midillm
+        midillm_scores = {}
+        midillm_scores["genre-mood"] = calculate_fmd_genres_moods(midillm_cluster, midillm_cluster)
+        midillm_scores["mood"] = calculate_fmd_moods(midillm_cluster, midillm_cluster)
+        midillm_scores["genre"] = calculate_fmd_genres(midillm_cluster, midillm_cluster)
+        
+        with open("midillm-scores.json", "w") as fp:
+            json.dump(midillm_scores, fp)
+
         # generate_prompts('data/prompts/prompt_example.txt', 'data/prompts')
         # merge_jsons("data/prompts", music_cluster)
-        #process_all_remi_to_midi(folder_path)
+        # process_all_remi_to_midi(folder_path)
