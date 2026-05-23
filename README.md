@@ -70,6 +70,11 @@ Ostatecznym krokiem potoku jest zebranie danych z procesu i wizualizacja ich np.
 
 Poszczególne etapy będą mogły być wywoływane z wykorzystaniem narzędzia make i przyjmowały formę np:
 
+## Informacja o sposobie użytkowania modeli LLM w projekcie
+Marcin Kowalczyk
+Model: Gemini 3.1 Pro 
+Sposób użycia: szybsze prototypowanie krótkich programów do analizy danych oraz wywołania funkcji. Debugowanie kodu oraz ogarniczony research.
+Narzędzia: Nie korzystam ze środowiska ze zintegorwanym LLM'em, zazwyczaj korzystam z wersji dostępnej przez stronę internetową.
 
 ## Instrukcja uruchomienia projektu
 
