@@ -1,0 +1,23 @@
+[project]
+name = "wimu"
+version = "0.1.0"
+description = "Music generation quality evaluation using CLaMP3"
+requires-python = ">=3.10"
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src", "config", "data", "model", "metrics"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

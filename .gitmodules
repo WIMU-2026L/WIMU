@@ -3,7 +3,7 @@
 	url = https://github.com/slSeanWU/MIDI-LLM.git
 	ignore = untracked
 [submodule "muzic"]
-	path = muzic
+	path = external/muzic
 	url = https://github.com/microsoft/muzic.git
 	ignore = untracked
 [submodule "CLAMP3"]

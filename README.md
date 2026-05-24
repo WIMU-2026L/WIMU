@@ -125,7 +125,7 @@ Przejdź do repo modelu:
 cd muzic/musecoco
 ```
 
-Utwórz środowisko (zgodnie z repo MIDI-LLM, zwykle conda):
+Utwórz środowisko (zgodnie z repo MuseCoco, zwykle conda):
 
 ```bash
 conda create -n MuseCoco python=3.8
@@ -139,4 +139,101 @@ To run test sample generation, we should download model from the link [https://h
 
 Now, we can run the script form 2-attribute2musci_model dir with `bach interactive_1bilion.sh 0 10`, this will generate 20 samples (10 prompts x 2 batch size) in the new generate directory.
 
+---
 
+## Konfiguracja projektu
+
+Wszystkie ścieżki i ustawienia modeli są przechowywane w **`config.yaml`** w korzeniu repozytorium. Edytuj wartości `models.midillm.python`, `models.clamp3.python` i `models.clamp3.env_dir`, aby wskazywały na lokalne środowiska conda.
+
+Dla logowania do Weights & Biases ustaw `wandb.entity` na nazwę swojego konta/zespołu i wykonaj raz `wandb login`.
+
+---
+
+## Uruchamianie pipeline'u (CLI)
+
+Wszystkie komendy uruchamiane są z korzenia repozytorium:
+
+```bash
+# Reorganizacja surowego datasetu XMIDI
+python src/main.py organize
+
+# Generacja MIDI przez MIDI-LLM (3 pliki na prompt)
+python src/main.py generate --model midillm --n_outputs 3
+
+# Ewaluacja CLaMP3 – oba modele, wszystkie granularności
+python src/main.py evaluate --model all --mode all
+
+# Ewaluacja tylko MIDI-LLM, tylko per gatunek
+python src/main.py evaluate --model midillm --mode by_genre
+```
+
+### Granularności ewaluacji CLaMP3
+
+| Tryb | Opis | Plik wynikowy |
+|------|------|---------------|
+| `genre_vibe` | Każda para (gatunek, nastrój) osobno | `{model}_genre_vibe_clamp3.txt` |
+| `by_genre`   | Wszystkie nastroje danego gatunku razem | `{model}_by_genre_clamp3.txt` |
+| `by_vibe`    | Wszystkie gatunki danego nastroju razem | `{model}_by_vibe_clamp3.txt` |
+
+---
+
+## Testy automatyczne
+
+```bash
+PYTHONPATH=src python -m pytest tests/ -v
+```
+
+21 testów jednostkowych pokrywa: parsowanie JSON z promptami, reorganizację datasetu, parsowanie wyników CLaMP3 oraz kopiowanie plików MIDI.
+
+---
+
+## Jakość kodu
+
+```bash
+# Formatowanie
+black src/ tests/
+
+# Linting
+ruff check src/ tests/
+```
+
+Oba narzędzia skonfigurowane są w `pyproject.toml` z limitem linii 100 znaków (PEP 8 z rozszerzonym limitem).
+
+---
+
+## Struktura projektu
+
+```
+WIMU/
+├── config.yaml              # Konfiguracja ścieżek i modeli
+├── pyproject.toml           # Konfiguracja black / ruff / pytest
+├── src/
+│   ├── main.py              # CLI (argparse)
+│   ├── config.py            # Ładuje config.yaml, eksportuje stałe
+│   ├── data/
+│   │   ├── data_loader.py
+│   │   ├── dataset_processing.py
+│   │   └── midisample_class.py
+│   ├── model/midillm/
+│   │   ├── generator.py
+│   │   └── pipeline.py
+│   └── metrics/
+│       ├── clamp3.py
+│       ├── fmd.py
+│       └── wandb_logger.py  # Logowanie wyników do W&B
+├── tests/
+│   ├── test_dataset_processing.py
+│   ├── test_clamp3_parsing.py
+│   └── test_prompts.py
+├── data/
+│   ├── prompts/             # Pliki tekstowe z promptami
+│   ├── XMIDI_Organized/     # Dane referencyjne (tylko do odczytu)
+│   └── generated/           # Wygenerowane MIDI
+│       ├── midi-llm/
+│       └── musecoco/
+├── results/                 # Wyniki ewaluacji CLaMP3
+└── external/                # Submoduły git
+    ├── midi-llm/
+    ├── clamp3/
+    └── muzic/
+```
