@@ -16,5 +16,8 @@ data/generated/
 data/*
 !data/.gitkeep
 
+# results
+results/*
+
 !src/logs/*
 !src/logs/.gitkeep
