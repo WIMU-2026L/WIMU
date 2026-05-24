@@ -1,0 +1,2442 @@
+=== classical/angry ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 279 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_angry
+Reference folder: ../cache/mid-_eval_ref_classical_angry
+Total query features: 1
+Total reference features: 279
+Group similarity: 0.6859
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_angry ../cache/mid-_eval_ref_classical_angry --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_angry ../cache/mid-_eval_ref_classical_angry --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/exciting ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 732 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_exciting
+Reference folder: ../cache/mid-_eval_ref_classical_exciting
+Total query features: 1
+Total reference features: 732
+Group similarity: 0.6479
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_exciting ../cache/mid-_eval_ref_classical_exciting --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_exciting ../cache/mid-_eval_ref_classical_exciting --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/fear ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 941 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_fear
+Reference folder: ../cache/mid-_eval_ref_classical_fear
+Total query features: 1
+Total reference features: 941
+Group similarity: 0.6367
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_fear ../cache/mid-_eval_ref_classical_fear --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_fear ../cache/mid-_eval_ref_classical_fear --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/funny ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2088 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_funny
+Reference folder: ../cache/mid-_eval_ref_classical_funny
+Total query features: 1
+Total reference features: 2088
+Group similarity: 0.6401
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_funny ../cache/mid-_eval_ref_classical_funny --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_funny ../cache/mid-_eval_ref_classical_funny --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/happy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 847 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_happy
+Reference folder: ../cache/mid-_eval_ref_classical_happy
+Total query features: 1
+Total reference features: 847
+Group similarity: 0.5788
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_happy ../cache/mid-_eval_ref_classical_happy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_happy ../cache/mid-_eval_ref_classical_happy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/lazy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 73 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_lazy
+Reference folder: ../cache/mid-_eval_ref_classical_lazy
+Total query features: 1
+Total reference features: 73
+Group similarity: 0.6953
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_lazy ../cache/mid-_eval_ref_classical_lazy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_lazy ../cache/mid-_eval_ref_classical_lazy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/magnificent ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1343 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_magnificent
+Reference folder: ../cache/mid-_eval_ref_classical_magnificent
+Total query features: 1
+Total reference features: 1343
+Group similarity: 0.6195
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_magnificent ../cache/mid-_eval_ref_classical_magnificent --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_magnificent ../cache/mid-_eval_ref_classical_magnificent --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/quiet ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1034 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_quiet
+Reference folder: ../cache/mid-_eval_ref_classical_quiet
+Total query features: 1
+Total reference features: 1034
+Group similarity: 0.5714
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_quiet ../cache/mid-_eval_ref_classical_quiet --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_quiet ../cache/mid-_eval_ref_classical_quiet --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/romantic ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1805 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_romantic
+Reference folder: ../cache/mid-_eval_ref_classical_romantic
+Total query features: 1
+Total reference features: 1805
+Group similarity: 0.6095
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_romantic ../cache/mid-_eval_ref_classical_romantic --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_romantic ../cache/mid-_eval_ref_classical_romantic --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/sad ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1956 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_sad
+Reference folder: ../cache/mid-_eval_ref_classical_sad
+Total query features: 1
+Total reference features: 1956
+Group similarity: 0.6132
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_sad ../cache/mid-_eval_ref_classical_sad --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_sad ../cache/mid-_eval_ref_classical_sad --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== classical/warm ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1562 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_classical_warm
+Reference folder: ../cache/mid-_eval_ref_classical_warm
+Total query features: 1
+Total reference features: 1562
+Group similarity: 0.5355
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_classical_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_classical_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_classical_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_classical_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_classical_warm ../cache/mid-_eval_ref_classical_warm --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_classical_warm ../cache/mid-_eval_ref_classical_warm --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/angry ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 746 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_angry
+Reference folder: ../cache/mid-_eval_ref_country_angry
+Total query features: 1
+Total reference features: 746
+Group similarity: 0.5998
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_angry ../cache/mid-_eval_ref_country_angry --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_angry ../cache/mid-_eval_ref_country_angry --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/exciting ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 3709 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_exciting
+Reference folder: ../cache/mid-_eval_ref_country_exciting
+Total query features: 1
+Total reference features: 3709
+Group similarity: 0.6364
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_exciting ../cache/mid-_eval_ref_country_exciting --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_exciting ../cache/mid-_eval_ref_country_exciting --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/fear ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 320 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_fear
+Reference folder: ../cache/mid-_eval_ref_country_fear
+Total query features: 1
+Total reference features: 320
+Group similarity: 0.6994
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_fear ../cache/mid-_eval_ref_country_fear --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_fear ../cache/mid-_eval_ref_country_fear --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/funny ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2036 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_funny
+Reference folder: ../cache/mid-_eval_ref_country_funny
+Total query features: 1
+Total reference features: 2036
+Group similarity: 0.6473
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_funny ../cache/mid-_eval_ref_country_funny --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_funny ../cache/mid-_eval_ref_country_funny --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/happy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 4749 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_happy
+Reference folder: ../cache/mid-_eval_ref_country_happy
+Total query features: 1
+Total reference features: 4749
+Group similarity: 0.6574
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_happy ../cache/mid-_eval_ref_country_happy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_happy ../cache/mid-_eval_ref_country_happy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/lazy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 622 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_lazy
+Reference folder: ../cache/mid-_eval_ref_country_lazy
+Total query features: 1
+Total reference features: 622
+Group similarity: 0.4944
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_lazy ../cache/mid-_eval_ref_country_lazy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_lazy ../cache/mid-_eval_ref_country_lazy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/magnificent ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 81 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_magnificent
+Reference folder: ../cache/mid-_eval_ref_country_magnificent
+Total query features: 1
+Total reference features: 81
+Group similarity: 0.5813
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_magnificent ../cache/mid-_eval_ref_country_magnificent --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_magnificent ../cache/mid-_eval_ref_country_magnificent --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/quiet ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1007 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_quiet
+Reference folder: ../cache/mid-_eval_ref_country_quiet
+Total query features: 1
+Total reference features: 1007
+Group similarity: 0.4783
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_quiet ../cache/mid-_eval_ref_country_quiet --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_quiet ../cache/mid-_eval_ref_country_quiet --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/romantic ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 4350 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_romantic
+Reference folder: ../cache/mid-_eval_ref_country_romantic
+Total query features: 1
+Total reference features: 4350
+Group similarity: 0.3744
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_romantic ../cache/mid-_eval_ref_country_romantic --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_romantic ../cache/mid-_eval_ref_country_romantic --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/sad ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1308 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_sad
+Reference folder: ../cache/mid-_eval_ref_country_sad
+Total query features: 1
+Total reference features: 1308
+Group similarity: 0.5232
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_sad ../cache/mid-_eval_ref_country_sad --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_sad ../cache/mid-_eval_ref_country_sad --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== country/warm ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 4623 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_country_warm
+Reference folder: ../cache/mid-_eval_ref_country_warm
+Total query features: 1
+Total reference features: 4623
+Group similarity: 0.5198
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_country_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_country_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_country_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_country_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_country_warm ../cache/mid-_eval_ref_country_warm --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_country_warm ../cache/mid-_eval_ref_country_warm --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/angry ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 577 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_angry
+Reference folder: ../cache/mid-_eval_ref_jazz_angry
+Total query features: 1
+Total reference features: 577
+Group similarity: 0.6192
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_angry ../cache/mid-_eval_ref_jazz_angry --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_angry ../cache/mid-_eval_ref_jazz_angry --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/exciting ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2589 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_exciting
+Reference folder: ../cache/mid-_eval_ref_jazz_exciting
+Total query features: 1
+Total reference features: 2589
+Group similarity: 0.6574
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_exciting ../cache/mid-_eval_ref_jazz_exciting --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_exciting ../cache/mid-_eval_ref_jazz_exciting --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/fear ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 306 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_fear
+Reference folder: ../cache/mid-_eval_ref_jazz_fear
+Total query features: 1
+Total reference features: 306
+Group similarity: 0.6693
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_fear ../cache/mid-_eval_ref_jazz_fear --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_fear ../cache/mid-_eval_ref_jazz_fear --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/funny ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2175 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_funny
+Reference folder: ../cache/mid-_eval_ref_jazz_funny
+Total query features: 1
+Total reference features: 2175
+Group similarity: 0.6776
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_funny ../cache/mid-_eval_ref_jazz_funny --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_funny ../cache/mid-_eval_ref_jazz_funny --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/happy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1474 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_happy
+Reference folder: ../cache/mid-_eval_ref_jazz_happy
+Total query features: 1
+Total reference features: 1474
+Group similarity: 0.5873
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_happy ../cache/mid-_eval_ref_jazz_happy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_happy ../cache/mid-_eval_ref_jazz_happy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/lazy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 3399 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_lazy
+Reference folder: ../cache/mid-_eval_ref_jazz_lazy
+Total query features: 1
+Total reference features: 3399
+Group similarity: 0.611
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_lazy ../cache/mid-_eval_ref_jazz_lazy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_lazy ../cache/mid-_eval_ref_jazz_lazy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/magnificent ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 190 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_magnificent
+Reference folder: ../cache/mid-_eval_ref_jazz_magnificent
+Total query features: 1
+Total reference features: 190
+Group similarity: 0.6417
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_magnificent ../cache/mid-_eval_ref_jazz_magnificent --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_magnificent ../cache/mid-_eval_ref_jazz_magnificent --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/quiet ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 532 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_quiet
+Reference folder: ../cache/mid-_eval_ref_jazz_quiet
+Total query features: 1
+Total reference features: 532
+Group similarity: 0.5966
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_quiet ../cache/mid-_eval_ref_jazz_quiet --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_quiet ../cache/mid-_eval_ref_jazz_quiet --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/romantic ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2030 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_romantic
+Reference folder: ../cache/mid-_eval_ref_jazz_romantic
+Total query features: 1
+Total reference features: 2030
+Group similarity: 0.4963
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_romantic ../cache/mid-_eval_ref_jazz_romantic --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_romantic ../cache/mid-_eval_ref_jazz_romantic --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/sad ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 863 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_sad
+Reference folder: ../cache/mid-_eval_ref_jazz_sad
+Total query features: 1
+Total reference features: 863
+Group similarity: 0.6251
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_sad ../cache/mid-_eval_ref_jazz_sad --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_sad ../cache/mid-_eval_ref_jazz_sad --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== jazz/warm ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1727 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_jazz_warm
+Reference folder: ../cache/mid-_eval_ref_jazz_warm
+Total query features: 1
+Total reference features: 1727
+Group similarity: 0.6983
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_jazz_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_jazz_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_jazz_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_jazz_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_warm ../cache/mid-_eval_ref_jazz_warm --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_jazz_warm ../cache/mid-_eval_ref_jazz_warm --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/angry ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1965 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_angry
+Reference folder: ../cache/mid-_eval_ref_pop_angry
+Total query features: 1
+Total reference features: 1965
+Group similarity: 0.557
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_angry ../cache/mid-_eval_ref_pop_angry --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_angry ../cache/mid-_eval_ref_pop_angry --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/exciting ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 7542 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_exciting
+Reference folder: ../cache/mid-_eval_ref_pop_exciting
+Total query features: 1
+Total reference features: 7542
+Group similarity: 0.6757
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_exciting ../cache/mid-_eval_ref_pop_exciting --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_exciting ../cache/mid-_eval_ref_pop_exciting --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/fear ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 752 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_fear
+Reference folder: ../cache/mid-_eval_ref_pop_fear
+Total query features: 1
+Total reference features: 752
+Group similarity: 0.6372
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_fear ../cache/mid-_eval_ref_pop_fear --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_fear ../cache/mid-_eval_ref_pop_fear --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/funny ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 3487 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_funny
+Reference folder: ../cache/mid-_eval_ref_pop_funny
+Total query features: 1
+Total reference features: 3487
+Group similarity: 0.7327
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_funny ../cache/mid-_eval_ref_pop_funny --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_funny ../cache/mid-_eval_ref_pop_funny --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/happy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 3220 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_happy
+Reference folder: ../cache/mid-_eval_ref_pop_happy
+Total query features: 1
+Total reference features: 3220
+Group similarity: 0.7092
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_happy ../cache/mid-_eval_ref_pop_happy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_happy ../cache/mid-_eval_ref_pop_happy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/lazy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 274 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_lazy
+Reference folder: ../cache/mid-_eval_ref_pop_lazy
+Total query features: 1
+Total reference features: 274
+Group similarity: 0.5961
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_lazy ../cache/mid-_eval_ref_pop_lazy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_lazy ../cache/mid-_eval_ref_pop_lazy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/magnificent ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 304 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_magnificent
+Reference folder: ../cache/mid-_eval_ref_pop_magnificent
+Total query features: 1
+Total reference features: 304
+Group similarity: 0.6729
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_magnificent ../cache/mid-_eval_ref_pop_magnificent --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_magnificent ../cache/mid-_eval_ref_pop_magnificent --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/quiet ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 452 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_quiet
+Reference folder: ../cache/mid-_eval_ref_pop_quiet
+Total query features: 1
+Total reference features: 452
+Group similarity: 0.5854
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_quiet ../cache/mid-_eval_ref_pop_quiet --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_quiet ../cache/mid-_eval_ref_pop_quiet --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/romantic ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1821 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_romantic
+Reference folder: ../cache/mid-_eval_ref_pop_romantic
+Total query features: 1
+Total reference features: 1821
+Group similarity: 0.4682
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_romantic ../cache/mid-_eval_ref_pop_romantic --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_romantic ../cache/mid-_eval_ref_pop_romantic --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/sad ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2079 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_sad
+Reference folder: ../cache/mid-_eval_ref_pop_sad
+Total query features: 1
+Total reference features: 2079
+Group similarity: 0.5534
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_sad ../cache/mid-_eval_ref_pop_sad --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_sad ../cache/mid-_eval_ref_pop_sad --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== pop/warm ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 3686 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_pop_warm
+Reference folder: ../cache/mid-_eval_ref_pop_warm
+Total query features: 1
+Total reference features: 3686
+Group similarity: 0.5692
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_pop_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_pop_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_pop_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_pop_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_pop_warm ../cache/mid-_eval_ref_pop_warm --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_pop_warm ../cache/mid-_eval_ref_pop_warm --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/angry ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 5088 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_angry
+Reference folder: ../cache/mid-_eval_ref_rock_angry
+Total query features: 1
+Total reference features: 5088
+Group similarity: 0.4998
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_angry ../cache/mid-_eval_ref_rock_angry --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_angry ../cache/mid-_eval_ref_rock_angry --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/exciting ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 6073 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_exciting
+Reference folder: ../cache/mid-_eval_ref_rock_exciting
+Total query features: 1
+Total reference features: 6073
+Group similarity: 0.6036
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_exciting ../cache/mid-_eval_ref_rock_exciting --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_exciting ../cache/mid-_eval_ref_rock_exciting --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/fear ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1195 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_fear
+Reference folder: ../cache/mid-_eval_ref_rock_fear
+Total query features: 1
+Total reference features: 1195
+Group similarity: 0.7064
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_fear ../cache/mid-_eval_ref_rock_fear --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_fear ../cache/mid-_eval_ref_rock_fear --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/funny ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2371 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_funny
+Reference folder: ../cache/mid-_eval_ref_rock_funny
+Total query features: 1
+Total reference features: 2371
+Group similarity: 0.7547
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_funny ../cache/mid-_eval_ref_rock_funny --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_funny ../cache/mid-_eval_ref_rock_funny --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/happy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2660 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_happy
+Reference folder: ../cache/mid-_eval_ref_rock_happy
+Total query features: 1
+Total reference features: 2660
+Group similarity: 0.6776
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_happy ../cache/mid-_eval_ref_rock_happy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_happy ../cache/mid-_eval_ref_rock_happy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/lazy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 228 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_lazy
+Reference folder: ../cache/mid-_eval_ref_rock_lazy
+Total query features: 1
+Total reference features: 228
+Group similarity: 0.6078
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_lazy ../cache/mid-_eval_ref_rock_lazy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_lazy ../cache/mid-_eval_ref_rock_lazy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/magnificent ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 720 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_magnificent
+Reference folder: ../cache/mid-_eval_ref_rock_magnificent
+Total query features: 1
+Total reference features: 720
+Group similarity: 0.7311
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_magnificent ../cache/mid-_eval_ref_rock_magnificent --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_magnificent ../cache/mid-_eval_ref_rock_magnificent --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/quiet ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 1100 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_quiet
+Reference folder: ../cache/mid-_eval_ref_rock_quiet
+Total query features: 1
+Total reference features: 1100
+Group similarity: 0.6874
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_quiet ../cache/mid-_eval_ref_rock_quiet --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_quiet ../cache/mid-_eval_ref_rock_quiet --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/romantic ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2224 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_romantic
+Reference folder: ../cache/mid-_eval_ref_rock_romantic
+Total query features: 1
+Total reference features: 2224
+Group similarity: 0.732
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_romantic ../cache/mid-_eval_ref_rock_romantic --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_romantic ../cache/mid-_eval_ref_rock_romantic --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/sad ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2162 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_sad
+Reference folder: ../cache/mid-_eval_ref_rock_sad
+Total query features: 1
+Total reference features: 2162
+Group similarity: 0.6724
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_sad ../cache/mid-_eval_ref_rock_sad --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_sad ../cache/mid-_eval_ref_rock_sad --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== rock/warm ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 2887 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_rock_warm
+Reference folder: ../cache/mid-_eval_ref_rock_warm
+Total query features: 1
+Total reference features: 2887
+Group similarity: 0.556
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_rock_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_rock_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_rock_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_rock_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_rock_warm ../cache/mid-_eval_ref_rock_warm --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_rock_warm ../cache/mid-_eval_ref_rock_warm --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/angry ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 84 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_angry
+Reference folder: ../cache/mid-_eval_ref_traditional_angry
+Total query features: 1
+Total reference features: 84
+Group similarity: 0.6318
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_angry" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_angry" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_angry" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_angry" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_angry ../cache/mid-_eval_ref_traditional_angry --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_angry ../cache/mid-_eval_ref_traditional_angry --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/exciting ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 303 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_exciting
+Reference folder: ../cache/mid-_eval_ref_traditional_exciting
+Total query features: 1
+Total reference features: 303
+Group similarity: 0.5188
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_exciting" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_exciting" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_exciting" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_exciting" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_exciting ../cache/mid-_eval_ref_traditional_exciting --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_exciting ../cache/mid-_eval_ref_traditional_exciting --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/fear ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 107 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_fear
+Reference folder: ../cache/mid-_eval_ref_traditional_fear
+Total query features: 1
+Total reference features: 107
+Group similarity: 0.6007
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_fear" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_fear" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_fear" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_fear" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_fear ../cache/mid-_eval_ref_traditional_fear --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_fear ../cache/mid-_eval_ref_traditional_fear --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/funny ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 408 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_funny
+Reference folder: ../cache/mid-_eval_ref_traditional_funny
+Total query features: 1
+Total reference features: 408
+Group similarity: 0.7012
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_funny" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_funny" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_funny" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_funny" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_funny ../cache/mid-_eval_ref_traditional_funny --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_funny ../cache/mid-_eval_ref_traditional_funny --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/happy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 341 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_happy
+Reference folder: ../cache/mid-_eval_ref_traditional_happy
+Total query features: 1
+Total reference features: 341
+Group similarity: 0.6638
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_happy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_happy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_happy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_happy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_happy ../cache/mid-_eval_ref_traditional_happy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_happy ../cache/mid-_eval_ref_traditional_happy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/lazy ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 26 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_lazy
+Reference folder: ../cache/mid-_eval_ref_traditional_lazy
+Total query features: 1
+Total reference features: 26
+Group similarity: 0.5969
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_lazy" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_lazy" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_lazy" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_lazy" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_lazy ../cache/mid-_eval_ref_traditional_lazy --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_lazy ../cache/mid-_eval_ref_traditional_lazy --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/magnificent ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 154 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_magnificent
+Reference folder: ../cache/mid-_eval_ref_traditional_magnificent
+Total query features: 1
+Total reference features: 154
+Group similarity: 0.5576
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_magnificent" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_magnificent" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_magnificent" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_magnificent" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_magnificent ../cache/mid-_eval_ref_traditional_magnificent --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_magnificent ../cache/mid-_eval_ref_traditional_magnificent --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/quiet ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 306 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_quiet
+Reference folder: ../cache/mid-_eval_ref_traditional_quiet
+Total query features: 1
+Total reference features: 306
+Group similarity: 0.5776
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_quiet" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_quiet" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_quiet" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_quiet" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_quiet ../cache/mid-_eval_ref_traditional_quiet --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_quiet ../cache/mid-_eval_ref_traditional_quiet --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/romantic ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 656 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_romantic
+Reference folder: ../cache/mid-_eval_ref_traditional_romantic
+Total query features: 1
+Total reference features: 656
+Group similarity: 0.5394
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_romantic" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_romantic" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_romantic" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_romantic" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_romantic ../cache/mid-_eval_ref_traditional_romantic --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_romantic ../cache/mid-_eval_ref_traditional_romantic --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/sad ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 670 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_sad
+Reference folder: ../cache/mid-_eval_ref_traditional_sad
+Total query features: 1
+Total reference features: 670
+Group similarity: 0.5586
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_sad" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_sad" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_sad" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_sad" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_sad ../cache/mid-_eval_ref_traditional_sad --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_sad ../cache/mid-_eval_ref_traditional_sad --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
+=== traditional/warm ===
+Found 1 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Found 605 files in total
+Using device: cuda
+Total Parameter Number: 457896960
+Successfully Loaded CLaMP 3 Checkpoint from Epoch 10 with loss 0.4150416124612093
+Query folder: ../cache/mid-_eval_gen_traditional_warm
+Reference folder: ../cache/mid-_eval_ref_traditional_warm
+Total query features: 1
+Total reference features: 605
+Group similarity: 0.5734
+Detected query modality: mid
+Detected reference modality: mid
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_gen_traditional_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_gen_traditional_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp/mtf"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\preprocessing\midi"
+Executing: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_warm" ../../temp/mtf --m3_compatible"
+Successfully executed: "python batch_midi2mtf.py "D:\GitHub\WIMU\external\clamp3\_eval_ref_traditional_warm" ../../temp/mtf --m3_compatible"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\code"
+Executing: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_warm" --get_global"
+Successfully executed: "python extract_clamp3.py ../temp/mtf "D:\GitHub\WIMU\external\clamp3\cache\mid-_eval_ref_traditional_warm" --get_global"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3\inference"
+Executing: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_warm ../cache/mid-_eval_ref_traditional_warm --group"
+Successfully executed: "python clamp3_score.py ../cache/mid-_eval_gen_traditional_warm ../cache/mid-_eval_ref_traditional_warm --group"
+Changed directory to: "D:\GitHub\WIMU\external\clamp3"
+Successfully deleted: "temp"
+
