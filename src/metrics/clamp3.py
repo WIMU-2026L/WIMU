@@ -7,8 +7,10 @@ Three comparison modes are provided:
 """
 
 import os
+import re
 import shutil
 import subprocess
+from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
@@ -82,19 +84,79 @@ def _run_clamp3(tmp_gen: Path, tmp_ref: Path, label: str, env: dict) -> str:
     return result.stdout
 
 
-def _save_results(results: dict, results_file: Path, section_suffix: str = "") -> None:
-    """Write a results dict to a text file.
+def _parse_clamp3_output(raw: str) -> dict:
+    """Extract key metrics from raw CLaMP3 stdout.
 
     Args:
-        results: Mapping of label to CLaMP3 output string.
-        results_file: Path of the output file to write.
-        section_suffix: Optional suffix appended to each section header.
+        raw: Full stdout string from the CLaMP3 script.
+
+    Returns:
+        Dict with keys ``score``, ``query_n``, ``ref_n`` (all may be ``None``
+        if the pattern was not found in *raw*).
     """
-    with open(results_file, "w", encoding="utf-8") as f:
-        for key, output in results.items():
-            label = f"{key}{' ' + section_suffix if section_suffix else ''}"
-            f.write(f"=== {label} ===\n")
-            f.write(output + "\n")
+    score = re.search(r"Group similarity:\s*([0-9.]+)", raw)
+    query = re.search(r"Total query features:\s*(\d+)", raw)
+    ref = re.search(r"Total reference features:\s*(\d+)", raw)
+    return {
+        "score": float(score.group(1)) if score else None,
+        "query_n": int(query.group(1)) if query else None,
+        "ref_n": int(ref.group(1)) if ref else None,
+    }
+
+
+def _save_results(results: dict, results_file: Path, title: str = "") -> None:
+    """Parse CLaMP3 outputs and write a clean, human-readable report.
+
+    Each entry in *results* is parsed for its similarity score and file
+    counts.  A summary section with mean, min, and max is appended.
+
+    Args:
+        results: Mapping of label to raw CLaMP3 stdout string.
+        results_file: Path of the output file to write.
+        title: Optional description shown in the report header.
+    """
+    parsed = {k: _parse_clamp3_output(v) for k, v in results.items()}
+    scored = [(k, p["score"]) for k, p in parsed.items() if p["score"] is not None]
+
+    col_w = max((len(k) for k in results), default=12) + 2
+    header = f"CLaMP3 Evaluation{' — ' + title if title else ''}"
+    sep = "=" * 60
+    thin = "-" * 60
+
+    lines = [
+        header,
+        f"Wygenerowano: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        sep,
+        "",
+    ]
+
+    for key, raw in results.items():
+        p = parsed[key]
+        if p["score"] is not None:
+            counts = (
+                f"({p['query_n']} gen / {p['ref_n']} ref)"
+                if p["query_n"] is not None
+                else ""
+            )
+            lines.append(f"{key:<{col_w}} {p['score']:>8.4f}   {counts}")
+        else:
+            lines.append(f"{key:<{col_w}} {'N/A':>8}")
+
+    if scored:
+        vals = [s for _, s in scored]
+        avg = sum(vals) / len(vals)
+        min_label, min_val = min(scored, key=lambda x: x[1])
+        max_label, max_val = max(scored, key=lambda x: x[1])
+        lines += [
+            "",
+            thin,
+            f"{'Srednia:':<{col_w}} {avg:>8.4f}",
+            f"{'Min:':<{col_w}} {min_val:>8.4f}   ({min_label})",
+            f"{'Maks:':<{col_w}} {max_val:>8.4f}   ({max_label})",
+        ]
+
+    lines.append("")
+    results_file.write_text("\n".join(lines), encoding="utf-8")
     print(f"Wyniki zapisane do {results_file}")
 
 
@@ -164,7 +226,7 @@ def evaluate_with_clamp3(
             shutil.rmtree(tmp_gen)
             shutil.rmtree(tmp_ref)
 
-    _save_results(results, results_file)
+    _save_results(results, results_file, title="genre / vibe")
     return results
 
 
@@ -242,7 +304,7 @@ def evaluate_clamp3_by_genre(
         shutil.rmtree(tmp_gen)
         shutil.rmtree(tmp_ref)
 
-    _save_results(results, results_file, section_suffix="[wszystkie viby]")
+    _save_results(results, results_file, title="per gatunek (wszystkie viby)")
     return results
 
 
@@ -323,7 +385,7 @@ def evaluate_clamp3_by_vibe(
         shutil.rmtree(tmp_gen)
         shutil.rmtree(tmp_ref)
 
-    _save_results(results, results_file, section_suffix="[wszystkie gatunki]")
+    _save_results(results, results_file, title="per vibe (wszystkie gatunki)")
     return results
 
 

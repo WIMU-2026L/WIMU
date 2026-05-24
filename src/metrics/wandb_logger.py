@@ -30,7 +30,7 @@ def _parse_clamp3_score(output: str) -> Optional[float]:
     Returns:
         Parsed float score, or ``None`` if not found.
     """
-    match = re.search(r"CLaMP3\s+Score[:\s]+([0-9.]+)", output, re.IGNORECASE)
+    match = re.search(r"Group similarity[:\s]+([0-9.]+)", output, re.IGNORECASE)
     if match:
         return float(match.group(1))
     return None

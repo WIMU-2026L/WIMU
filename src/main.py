@@ -3,10 +3,16 @@
 Usage examples::
 
     python src/main.py organize
+
     python src/main.py generate --n_outputs 3
     python src/main.py evaluate --model all
     python src/main.py evaluate --model midillm --mode by_genre
 """
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
 
 import argparse
 import logging
