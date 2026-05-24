@@ -139,4 +139,45 @@ To run test sample generation, we should download model from the link [https://h
 
 Now, we can run the script form 2-attribute2musci_model dir with `bach interactive_1bilion.sh 0 10`, this will generate 20 samples (10 prompts x 2 batch size) in the new generate directory.
 
+### 5. Workflow przez Makefile
 
+Po przygotowaniu środowiska główne kroki projektu można uruchamiać przez `Makefile`:
+
+```bash
+make help
+make check-submodules
+make prepare-prompts
+make generate-midillm
+make eval-fmd
+make eval-clamp3-midillm
+```
+
+Jeśli `make check-submodules` zgłosi brak katalogów modeli, należy dociągnąć submoduły:
+
+```bash
+git submodule update --init --recursive
+```
+
+Domyślny pipeline dla `MIDI-LLM` można uruchomić komendą:
+
+```bash
+make all
+```
+
+`make all` wykonuje kolejno:
+
+- organizację zbioru XMIDI do struktury `genre/vibe`,
+- generowanie promptów dla `MIDI-LLM`,
+- generowanie próbek `MIDI-LLM`,
+- obliczenie FMD,
+- ewaluację `CLaMP3` dla `MIDI-LLM`.
+
+Najważniejsze zmienne, które można nadpisać przy wywołaniu:
+
+```bash
+make generate-midillm MIDILLM_OUTPUTS=5
+make eval-fmd XMIDI_REFERENCE_DIR=data/XMIDI_Organized MIDILLM_DIR=data/generated/midi-llm
+make eval-clamp3-musecoco MUSECOCO_DIR=data/generated/musecoco
+```
+
+`make merge-prompts` zostaje w repo jako starszy, pomocniczy flow do scalania gotowych plików JSON z promptami, ale nie jest wymagany przez domyślny pipeline `make all`.

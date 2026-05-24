@@ -3,19 +3,30 @@ from tqdm import tqdm
 import json
 from pathlib import Path
 import tempfile
-from midiprocessor.midi_decoding import MidiDecoder
 import argparse
-from frechet_music_distance import FrechetMusicDistance
-import mido
 
-
-midi_decoder = MidiDecoder("REMIGEN2")
+midi_decoder = None
 
 VERBOSE = True
 
 
+def _get_midi_decoder():
+    global midi_decoder
+    if midi_decoder is None:
+        from midiprocessor.midi_decoding import MidiDecoder
+
+        midi_decoder = MidiDecoder("REMIGEN2")
+    return midi_decoder
+
+
+def _create_fmd_metric():
+    from frechet_music_distance import FrechetMusicDistance
+
+    return FrechetMusicDistance(verbose=VERBOSE)
+
+
 def calculate_fmd(reference_path: str, test_path: str) -> float:
-    metric = FrechetMusicDistance(verbose=VERBOSE)
+    metric = _create_fmd_metric()
     score = metric.score(reference_path=reference_path, test_path=test_path)
     return score
 
@@ -24,13 +35,13 @@ def calculate_fmd_individual(reference_path: str, test_path: str) -> float:
     if len(test_path) != 0:
         print("[Warning] Using individual function for more than one test path.")
     test_path = test_path[0]
-    metric = FrechetMusicDistance(verbose=VERBOSE)
+    metric = _create_fmd_metric()
     score = metric.score_individual(reference_path=reference_path, test_path=test_path)
     return score
 
 
 def calculate_fmd_inf(reference_path: str, test_path: str, steps=25, min_n=5):
-    metric = FrechetMusicDistance(verbose=VERBOSE)
+    metric = _create_fmd_metric()
     score = metric.score_inf(
         reference_path=reference_path, test_path=test_path, steps=steps, min_n=min_n
     )
@@ -155,6 +166,8 @@ class MusicCluster:
 def get_midi_length(file_path):
     """Reading length of track in sec."""
     try:
+        import mido
+
         mid = mido.MidiFile(file_path)
         return mid.length
     except Exception:
@@ -250,13 +263,31 @@ def generate_prompts(prompt_example_path, out_dir, music_cluster):
         for mood in genres_dict[genre].keys():
             prompt_text = prompt_example_text.replace("{MOOD}", mood)
             prompt_text = prompt_text.replace("{GENRE}", genre)
-            directory = out_dir + "/" + genre + "/generate"
-            file_name = f"{mood}_{genre}_gemini_prompt.txt"
-            if not os.path.exists(directory):
-                os.makedirs(directory)
+            os.makedirs(out_dir, exist_ok=True)
+            file_name = f"{genre}_{mood}.txt"
 
-            with open(directory + "/" + file_name, "w") as fp:
+            with open(os.path.join(out_dir, file_name), "w") as fp:
                 fp.write(prompt_text)
+
+
+def load_cluster(target_dir, cluster_type="auto", duration_analysis=False):
+    if cluster_type == "xmidi":
+        return group_xmidi_files(target_dir, duration_analysis)
+    if cluster_type == "musecoco":
+        return group_musecoco_files(target_dir, duration_analysis)
+
+    if not os.path.isdir(target_dir):
+        print(f"[Error] Path '{target_dir}' is not directory.")
+        return None
+
+    has_root_midis = any(
+        os.path.isfile(os.path.join(target_dir, file_name))
+        and file_name.endswith((".mid", ".midi"))
+        for file_name in os.listdir(target_dir)
+    )
+    if has_root_midis:
+        return group_xmidi_files(target_dir, duration_analysis)
+    return group_musecoco_files(target_dir, duration_analysis)
 
 
 def merge_jsons(dir_path, music_cluster):
@@ -346,7 +377,7 @@ def generate_midi_from_remi(remi_path, midi_path):
         print("\t[Skipped] Not valid tokens found after cleaning.")
         return
 
-    midi_obj = midi_decoder.decode_from_token_str_list(tokens)
+    midi_obj = _get_midi_decoder().decode_from_token_str_list(tokens)
 
     midi_obj.dump(str(midi_path))
     print(f"  [Success] Saved to: {midi_path}")
@@ -518,6 +549,12 @@ def main():
         "--xmidi", required=True, help="Path to the folder with xmidi files"
     )
     fmd_parser.add_argument(
+        "--xmidi-type",
+        choices=["auto", "xmidi", "musecoco"],
+        default="auto",
+        help="Structure type of the XMIDI reference directory. Default: auto",
+    )
+    fmd_parser.add_argument(
         "--musecoco", required=False, help="Path to the musecoco folder"
     )
     fmd_parser.add_argument(
@@ -578,38 +615,43 @@ def main():
     # commends handling:
     if args.command == "fmd":
         print("Loading cluster XMIDI...")
-        xmidi_cluster = group_xmidi_files(args.xmidi, False)
+        xmidi_cluster = load_cluster(args.xmidi, args.xmidi_type, False)
+        if xmidi_cluster is None:
+            raise ValueError("XMIDI reference directory could not be loaded.")
         if args.musecoco:
             print("Loading cluster MuseCoco...")
-            musecoco_cluster = group_musecoco_files(args.musecoco, False)
+            musecoco_cluster = load_cluster(args.musecoco, "musecoco", False)
+            if musecoco_cluster is None:
+                print("Skipping MuseCoco FMD: generated directory is missing.")
+            else:
+                print("\n--- Calculating for MuseCoco ---")
+                musecoco_scores = {
+                    "genre-mood": calculate_fmd_genres_moods(
+                        xmidi_cluster, musecoco_cluster
+                    ),
+                    "mood": calculate_fmd_moods(xmidi_cluster, musecoco_cluster),
+                    "genre": calculate_fmd_genres(xmidi_cluster, musecoco_cluster),
+                }
 
-            print("\n--- Calculating for MuseCoco ---")
-            musecoco_scores = {
-                "genre-mood": calculate_fmd_genres_moods(
-                    xmidi_cluster, musecoco_cluster
-                ),
-                "mood": calculate_fmd_moods(xmidi_cluster, musecoco_cluster),
-                "genre": calculate_fmd_genres(xmidi_cluster, musecoco_cluster),
-            }
-
-            with open("results/musecoco-scores.json", "w") as fp:
-                json.dump(musecoco_scores, fp)
+                with open("results/musecoco-scores.json", "w") as fp:
+                    json.dump(musecoco_scores, fp)
 
         if args.midillm:
             print("Loading cluster MidiLLM...")
-            # the same function becouse structre of midi dir is almost the same
-            midillm_cluster = group_musecoco_files(args.midillm, False)
-
-            print("\n--- Calculating for MidiLLM ---")
-            midillm_scores = {
-                "genre-mood": calculate_fmd_genres_moods(
-                    xmidi_cluster, midillm_cluster
-                ),
-                "mood": calculate_fmd_moods(xmidi_cluster, midillm_cluster),
-                "genre": calculate_fmd_genres(xmidi_cluster, midillm_cluster),
-            }
-            with open("results/midillm-scores.json", "w") as fp:
-                json.dump(midillm_scores, fp)
+            midillm_cluster = load_cluster(args.midillm, "musecoco", False)
+            if midillm_cluster is None:
+                print("Skipping MidiLLM FMD: generated directory is missing.")
+            else:
+                print("\n--- Calculating for MidiLLM ---")
+                midillm_scores = {
+                    "genre-mood": calculate_fmd_genres_moods(
+                        xmidi_cluster, midillm_cluster
+                    ),
+                    "mood": calculate_fmd_moods(xmidi_cluster, midillm_cluster),
+                    "genre": calculate_fmd_genres(xmidi_cluster, midillm_cluster),
+                }
+                with open("results/midillm-scores.json", "w") as fp:
+                    json.dump(midillm_scores, fp)
 
     elif args.command == "prompts":
         if args.cluster_type == "xmidi":
