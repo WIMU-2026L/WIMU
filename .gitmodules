@@ -1,6 +1,12 @@
 [submodule "external/midi-llm"]
 	path = external/midi-llm
 	url = https://github.com/slSeanWU/MIDI-LLM.git
+	ignore = untracked
 [submodule "muzic"]
 	path = muzic
 	url = https://github.com/microsoft/muzic.git
+	ignore = untracked
+[submodule "CLAMP3"]
+	path = external/clamp3
+	url = https://github.com/sanderwood/clamp3
+	ignore = untracked
