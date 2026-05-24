@@ -46,7 +46,7 @@ organize-xmidi:
 	$(MAIN) organize-xmidi --source $(XMIDI_SOURCE) --output $(XMIDI_REFERENCE_DIR)
 
 prepare-prompts: organize-xmidi
-	$(XMIDI_TOOL) prompts --template $(PROMPT_TEMPLATE) --out $(PROMPTS_DIR) --cluster-dir $(XMIDI_REFERENCE_DIR) --cluster-type xmidi
+	$(XMIDI_TOOL) prompts --template $(PROMPT_TEMPLATE) --out $(PROMPTS_DIR) --cluster-dir $(XMIDI_REFERENCE_DIR) --cluster-type musecoco
 
 merge-prompts: prepare-prompts
 	$(XMIDI_TOOL) merge --dir $(PROMPTS_DIR) --cluster-dir $(XMIDI_REFERENCE_DIR) --cluster-type xmidi

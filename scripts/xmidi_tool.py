@@ -254,6 +254,9 @@ def group_musecoco_files(target_dir, duration_analysis):
 
 
 def generate_prompts(prompt_example_path, out_dir, music_cluster):
+    if music_cluster is None:
+        raise ValueError("Prompt generation requires a valid, existing cluster directory.")
+
     genres_dict = music_cluster.genres_dict
 
     with open(prompt_example_path, "r") as fp:

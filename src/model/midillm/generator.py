@@ -1,5 +1,4 @@
 from pathlib import Path
-import json
 import subprocess
 import sys
 
@@ -20,4 +19,10 @@ class MidiLLMGenerator:
             "--no-synthesize",
         ]
 
-        subprocess.run(cmd, check=True, cwd=self.script_path.parent)
+        try:
+            subprocess.run(cmd, check=True, cwd=self.script_path.parent)
+        except subprocess.CalledProcessError as exc:
+            raise RuntimeError(
+                "MIDI-LLM generation failed. Check that MIDILLM_PYTHON points to "
+                "an environment with the MIDI-LLM dependencies installed, "
+            ) from exc
