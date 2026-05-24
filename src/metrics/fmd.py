@@ -18,3 +18,8 @@ def calculate_fmd_inf(reference_path: str, test_path: str, steps=25, min_n=5):
         min_n=min_n
     )
     return score
+
+if __name__ == "__main__":
+    ref_path = "/home/arion/Workspace-private/WIMU/WIMU/muzic/musecoco/2-attribute2music_model/generation/0505/linear_mask-1billion-attribute2music_clean/infer/country/angry/topk15-t0.7-ngram16"
+    test_path = "/home/arion/Workspace-private/WIMU/WIMU/muzic/musecoco/2-attribute2music_model/generation/0505/linear_mask-1billion-attribute2music_clean/infer/jazz/angry/topk15-t0.7-ngram16"
+    print(calculate_fmd(ref_path, test_path))
