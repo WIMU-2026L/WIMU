@@ -68,6 +68,7 @@ Modele generatywne muzyki symbolicznej coraz częściej oferują kontrolę nad a
 
 4. **Porównanie modeli** – zestawienie MIDI-LLM vs MuseCoco pod kątem wierności semantycznej (CLaMP3) i dystrybutywnej (FMD).
 
+
 ---
 
 # Stack technologiczny
@@ -170,8 +171,48 @@ Dodatkowo, nasza maszyna powinna być wyposażona w odpowiedni kompilator gcc or
 
 Aby uruchomić generowanie próbek testowych, pobierz model z HuggingFace, umieść go w katalogu `external/muzic/musecoco/2-attribute2music_model/checkpoint/`.
 
----
+### 5. Konfiguracja CLaMP3 (submodule)
 
+#### 5.1. Utwórz i aktywuj środowisko conda
+
+```bash
+conda create -n clamp3 python=3.10.16 -y
+conda activate clamp3
+```
+
+#### 5.2. Zainstaluj PyTorch z obsługą CUDA
+
+```bash
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
+```
+
+#### 5.3. Zainstaluj pozostałe zależności
+
+```bash
+cd external/clamp3
+pip install -r requirements.txt
+```
+
+#### 5.4. Pobierz wagi modelu
+
+Projekt używa wersji **C2** (zoptymalizowanej pod muzykę symboliczną / MIDI). Pobierz plik `.pth` z Hugging Face:
+
+- [Pobierz CLaMP 3 C2](https://huggingface.co/sander-wood/clamp3/blob/main/weights_clamp3_c2_h_size_768_t_model_FacebookAI_xlm-roberta-base_t_length_128_a_size_768_a_layers_12_a_length_128_s_size_768_s_layers_12_p_size_64_p_length_512.pth)
+
+Umieść pobrany plik `.pth` w katalogu `external/clamp3/code/`.
+
+Następnie w pliku `external/clamp3/code/config.py` ustaw linię 66 tak, aby wskazywała na wariant `c2`:
+
+```python
+# linia 66
+MUSIC_ENCODER_NAME = "c2"   # zamiast "saas"
+```
+
+#### 5.5. Zaktualizuj `config.yaml`
+
+W głównym `config.yaml` ustaw ścieżki pasujące do Twojej instalacji conda.
+
+---
 ## Konfiguracja projektu
 
 Wszystkie ścieżki i ustawienia modeli są przechowywane w **`config.yaml`** w korzeniu repozytorium. Edytuj wartości `models.midillm.python`, `models.musecoco.python`, `models.clamp3.python` i `models.clamp3.env_dir`, aby wskazywały na lokalne interpretery pythona środowisk conda.
