@@ -135,7 +135,7 @@ def cmd_evaluate(args: argparse.Namespace) -> None:
                     generated_dir=gen_dir,
                     reference_dir=XMIDI_ORGANIZED_DIR,
                     results_dir=RESULTS_DIR,
-                    results_filename=f"{model_name}_genre_vibe_clamp3.txt",
+                    results_filename=f"{model_name}_genre_vibe_fmd.json",
                     midi_subpath=midi_subpath,
                 )
             elif args.mode == "by_genre":
@@ -143,15 +143,15 @@ def cmd_evaluate(args: argparse.Namespace) -> None:
                     generated_dir=gen_dir,
                     reference_dir=XMIDI_ORGANIZED_DIR,
                     results_dir=RESULTS_DIR,
-                    results_filename=f"{model_name}_by_genre_clamp3.txt",
+                    results_filename=f"{model_name}_by_genre_fmd.json",
                     midi_subpath=midi_subpath,
                 )
             elif args.mode == "by_vibe":
-                evaulate_fmd_by_genre_vibe(
+                evaulate_fmd_by_vibe(
                     generated_dir=gen_dir,
                     reference_dir=XMIDI_ORGANIZED_DIR,
                     results_dir=RESULTS_DIR,
-                    results_filename=f"{model_name}_by_vibe_clamp3.txt",
+                    results_filename=f"{model_name}_by_vibe_fmd.json",
                     midi_subpath=midi_subpath,
                 )
 

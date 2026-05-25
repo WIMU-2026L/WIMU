@@ -14,17 +14,22 @@ from data.music_cluster import *
 VERBOSE = True
 
 def calculate_fmd(reference_path: str, test_path: str) -> float:
+    if len(os.listdir(test_path)) < 2:
+        print("[WARNING] Only one files found in test path. USE calculate_fmd_individual function for that!")
+        
     metric = FrechetMusicDistance(verbose=VERBOSE)
     score = metric.score(reference_path=reference_path, test_path=test_path)
     return score
 
 
 def calculate_fmd_individual(reference_path: str, test_path: str) -> float:
-    if len(test_path) != 0:
-        print("[Warning] Using individual function for more than one test path.")
-    test_path = test_path[0]
+    files = os.listdir(test_path)
+    if len(files) > 1:
+        print("[WARNING] More than one files found in test path. USE calculate_fmd function for that instead calculate_fmd_individual!")
+    test_path = test_path / files[0]
+    print("[INFO] Using individual function for more than one test path.")
     metric = FrechetMusicDistance(verbose=VERBOSE)
-    score = metric.score_individual(reference_path=reference_path, test_path=test_path)
+    score = metric.score_individual(reference_path=reference_path, test_song_path=test_path)
     return score
 
 
@@ -83,6 +88,7 @@ def calculate_fmd_moods(reference_music_cluster, test_music_cluster):
 
     for key in ref_keys:
         print("=" * 20, "CALCULATING FOR:", key, "=" * 20)
+        
         score = calculate_fmd_for_custom_group(
             ref_moods[key], test_moods[key], calculate_fmd
         )
@@ -126,15 +132,12 @@ def calculate_fmd_genres_moods(reference_music_cluster, test_music_cluster):
             print("=" * 20, "CALCULATING FOR:", genre, mood, "=" * 20)
             print(len(ref_paths))
             print(len(test_paths))
-            score = -1
+            fmd_fun = calculate_fmd
             if len(test_paths) < 2:
-                score = calculate_fmd_for_custom_group(
-                    ref_paths, test_paths, calculate_fmd
-                )
-            else:
-                score = calculate_fmd_for_custom_group(
-                    ref_paths, test_paths, calculate_fmd
-                )
+                fmd_fun = calculate_fmd_individual
+            score = calculate_fmd_for_custom_group(
+                ref_paths, test_paths, fmd_fun
+            )
             key = genre + "-" + mood
             results[key] = score
             print("\n")
@@ -152,10 +155,10 @@ def calculate_fmd_for_custom_group(reference_file_paths, test_file_paths, fmd_fu
     file_paths_list: list of paths to files, np. ['dirA/file1.mid', 'dirB/file2.mid']
     """
 
-    if len(test_file_paths) == 1:
-        print(
-            f"[Warining] One file is not enough to calculate FMD. USE individual fun. Test files: {test_file_paths}"
-        )
+    # if len(test_file_paths) == 1:
+    #     print(
+    #         f"[Warining] One file is not enough to calculate FMD. USE individual fun. Test files: {test_file_paths}"
+    #     )
 
     # create tmp dir
     with tempfile.TemporaryDirectory() as ref_dir, tempfile.TemporaryDirectory() as test_dir:
@@ -183,38 +186,38 @@ def calculate_fmd_for_custom_group(reference_file_paths, test_file_paths, fmd_fu
 
         return score
     
-def evaulate_fmd_by_genre(generated_dir, reference_dir, results_dir, model_name, midi_subpath):
+def evaulate_fmd_by_genre(generated_dir, reference_dir, results_dir, midi_subpath, results_filename):
     print("Runing evaluation for fmd genre")
     ref_cluster = group_musecoco_files(reference_dir)
     test_cluster = group_musecoco_files(generated_dir)
-    return
+    
     score = calculate_fmd_genres(ref_cluster, test_cluster)
-    with open(results_dir + f"/{model_name}_fmd_scores_by_genre.json", 'w') as fp:
+    with open(results_dir /results_filename , 'w') as fp:
         json.dump(score, fp)
 
-def evaulate_fmd_by_vibe(generated_dir, reference_dir, results_dir, model_name, midi_subpath):
+def evaulate_fmd_by_vibe(generated_dir, reference_dir, results_dir, midi_subpath, results_filename):
     print("Runing evaluation for fmd vibe")
     ref_cluster = group_musecoco_files(reference_dir)
     test_cluster = group_musecoco_files(generated_dir)
-    return
+    
     score = calculate_fmd_moods(ref_cluster, test_cluster)
-    with open(results_dir + f"/{model_name}_fmd_scores_by_mood.json", 'w') as fp:
+    with open(results_dir / results_filename, 'w') as fp:
         json.dump(score, fp)
 
 
-def evaulate_fmd_by_genre_vibe(generated_dir, reference_dir, results_dir, model_name, midi_subpath):
+def evaulate_fmd_by_genre_vibe(generated_dir, reference_dir, results_dir, midi_subpath, results_filename):
     print("Runing evaluation for fmd genre vibe")
     ref_cluster = group_musecoco_files(reference_dir)
     test_cluster = group_musecoco_files(generated_dir)
-    return
+    
     score = calculate_fmd_genres_moods(ref_cluster, test_cluster)
-    with open(results_dir + f"/{model_name}_fmd_scores_by_genre_vibe.json", 'w') as fp:
+    with open(results_dir / results_filename, 'w') as fp:
         json.dump(score, fp)
 
 
 
 def evaulate_fmd_all(generated_dir, reference_dir, results_dir, model_name, midi_subpath):
     print("Runing evaluation for fmd all")
-    evaulate_fmd_by_genre_vibe(generated_dir, reference_dir, results_dir, model_name, midi_subpath)
-    evaulate_fmd_by_genre(generated_dir, reference_dir, results_dir, model_name, midi_subpath)
-    evaulate_fmd_by_vibe(generated_dir, reference_dir, results_dir, model_name, midi_subpath)
+    evaulate_fmd_by_genre_vibe(generated_dir, reference_dir, results_dir, results_filename=f"{model_name}_genre_vibe_fmd.json", midi_subpath=midi_subpath)
+    evaulate_fmd_by_genre(generated_dir, reference_dir, results_dir, results_filename=f"{model_name}_by_genre_fmd.json", midi_subpath=midi_subpath)
+    evaulate_fmd_by_vibe(generated_dir, reference_dir, results_dir, results_filename=f"{model_name}_by_vibe_fmd.json", midi_subpath=midi_subpath)
