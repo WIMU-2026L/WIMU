@@ -1,4 +1,4 @@
-# FMD jako narzędzie ewaluacji kontrolowalności modeli generatywnych
+﻿# FMD jako narzędzie ewaluacji kontrolowalności modeli generatywnych
 
 ## Design Proposal
 
@@ -22,9 +22,9 @@ Modele generatywne muzyki symbolicznej coraz częściej oferują kontrolę nad a
 | Nazwa | Autorzy | Link | Dostępność kodu | Pre-trenowane modele | Metryki ewaluacji | Zasoby obliczeniowe | Komentarz |
 |-------|---------|------|-----------------|----------------------|-------------------|---------------------|-----------|
 | **CLaMP 3** | Wu et al. (2025) | [arXiv:2502.10362](https://arxiv.org/abs/2502.10362) | ✅ [GitHub](https://github.com/sanderwood/clamp3) | ✅ HuggingFace (`slseanwu/clamp3`) | Group Similarity (cosine), Zero-shot classification accuracy | 8× A100 80GB, ~3 dni trenowania | Multimodalne (MIDI, audio, tekst, nuty) rozszerzenie CLaMP. Używany w projekcie jako główna metryka ewaluacji semantycznej. Obsługuje ekstrakcję embeddingów globalnych (`--get_global`) i lokalnych. |
-| **MIDI-LLM** | Wu & Yang (2023) | [arXiv:2305.10841](https://arxiv.org/abs/2305.10841) | ✅ [GitHub](https://github.com/slSeanWU/MIDI-LLM) | ✅ HuggingFace (`slseanwu/MIDI-LLM_Llama-3.2-1B`) | Perplexity, CLaMP similarity, human evaluation | 1× A100 80GB do inferencji (fine-tuning: 8× A100) | LLM warunkowany opisem tekstowym generujący pliki MIDI. Jeden z dwóch modeli ewaluowanych w projekcie. Generacja przez `generate_transformers.py` lub `generate_vllm.py`. |
+| **MIDI-LLM** | Wu & Yang (2023) | [arXiv:2511.03942](https://arxiv.org/abs/2511.03942) | ✅ [GitHub](https://github.com/slSeanWU/MIDI-LLM) | ✅ HuggingFace (`slseanwu/MIDI-LLM_Llama-3.2-1B`) | Perplexity, CLaMP similarity, human evaluation | 1× A100 80GB do inferencji (fine-tuning: 8× A100) | LLM warunkowany opisem tekstowym generujący pliki MIDI. Jeden z dwóch modeli ewaluowanych w projekcie. Generacja przez `generate_transformers.py` lub `generate_vllm.py`. |
 | **MuseCoco** | Lu et al. (2023) | [arXiv:2306.00110](https://arxiv.org/abs/2306.00110) | ✅ [GitHub (muzic)](https://github.com/microsoft/muzic/tree/main/musecoco) | ✅ HuggingFace (`XinXuNLPer/MuseCoco_attribute2music`) | Objective: pitch entropy, groove, chord coverage; Subjective: MOS | 8× V100 32GB, ~5 dni trenowania | Dwuetapowy pipeline: text-to-attribute (BERT) → attribute-to-music (Transformer). Kontrola przez atrybuty strukturalne (gatunek, nastrój, tempo, instrumentacja). Drugi model ewaluowany w projekcie. |
-| **FMD (Fréchet Music Distance)** | Gui et al. (2024) | [arXiv:2404.00613](https://arxiv.org/abs/2404.00613) | ✅ [GitHub](https://github.com/jongwook/fmd) | ✅ (VGGish, OpenL3, MERT) | FMD score (analogia do FID), KID | GPU opcjonalne (CPU wystarczy do embeddingów) | Adaptacja FID do muzyki. Mierzy odległość Frécheta między rozkładami embeddingów zbiorów generowanego i referencyjnego. Planowane jako główna metryka dystrybucyjna w projekcie. |
+| **FMD (Fréchet Music Distance)** | Gui et al. (2024) | [arXiv:2412.07948](https://arxiv.org/abs/2412.07948) | ✅ [GitHub](https://github.com/jongwook/fmd) | ✅ (VGGish, OpenL3, MERT) | FMD score (analogia do FID), KID | GPU opcjonalne (CPU wystarczy do embeddingów) | Adaptacja FID do muzyki. Mierzy odległość Frécheta między rozkładami embeddingów zbiorów generowanego i referencyjnego. Planowane jako główna metryka dystrybucyjna w projekcie. |
 | **XMIDI Dataset** | Kan et al. (2024) | [arXiv:2406.01512](https://arxiv.org/abs/2406.01512) | ✅ [GitHub](https://github.com/xmidi/xmidi) | — | Pokrycie gatunków/nastrojów, statystyki MIDI | — | Duży dataset MIDI z etykietami gatunku i nastroju. Używany jako zbiór referencyjny w ewaluacji CLaMP3. Pliki o strukturze `XMIDI_{vibe}_{genre}_{id}.midi`. |
 
 ## Kontekst badań – powiązane prace
@@ -271,11 +271,11 @@ WIMU/
 
 1. Wu, S., Donahue, C., Watanabe, S., & Yang, Y.-H. (2025). *CLaMP 3: Universal Music Information Retrieval Across Unaligned Modalities and Unseen Languages*. arXiv:2502.10362. https://arxiv.org/abs/2502.10362
 
-2. Wu, S., & Yang, Y.-H. (2023). *MIDI-LLM: A Large Language Model for Symbolic Music Generation*. arXiv:2305.10841. https://arxiv.org/abs/2305.10841
+2. Wu, S., & Yang, Y.-H. (2023). *MIDI-LLM: A Large Language Model for Symbolic Music Generation*. arXiv:2511.03942. https://arxiv.org/abs/2511.03942
 
 3. Lu, Z., Xu, X., Liu, C., Liu, X., Zhu, Q., & Yin, H. (2023). *MuseCoco: Generating Symbolic Music from Text*. arXiv:2306.00110. https://arxiv.org/abs/2306.00110
 
-4. Gui, A., Gamper, H., Braun, S., & Emmanouilidou, D. (2024). *Adapting Frechet Audio Distance for Generative Music Evaluation*. arXiv:2404.00613. https://arxiv.org/abs/2404.00613
+4. Gui, A., Gamper, H., Braun, S., & Emmanouilidou, D. (2024). *Adapting Frechet Audio Distance for Generative Music Evaluation*. arXiv:2412.07948. https://arxiv.org/abs/2412.07948
 
 5. Kan, Y., et al. (2024). *XMIDI: A Large-Scale Symbolic Music Dataset with Emotion and Genre Labels*. arXiv:2406.01512. https://arxiv.org/abs/2406.01512
 
