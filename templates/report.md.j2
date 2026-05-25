@@ -1,0 +1,62 @@
+# Raport Ewaluacji CLaMP3 i FMD
+
+Źródła danych użyte do wygenerowania raportu:
+{% for item in generated_from %}
+- `{{ item }}`
+{% endfor %}
+
+## 1. Podsumowanie zbiorcze
+
+{{ summary_table }}
+
+## 2. CLaMP3 – per gatunek
+
+Timestamps źródłowe:
+- `MIDI-LLM`: {{ timestamps.midillm_genre }}
+- `MuseCoco`: {{ timestamps.musecoco_genre }}
+
+{{ clamp3_by_genre_table }}
+
+![CLaMP3 per genre]({{ plot_paths.clamp3_by_genre }})
+
+## 3. CLaMP3 – per vibe
+
+Timestamps źródłowe:
+- `MIDI-LLM`: {{ timestamps.midillm_vibe }}
+- `MuseCoco`: {{ timestamps.musecoco_vibe }}
+
+{{ clamp3_by_vibe_table }}
+
+![CLaMP3 per vibe]({{ plot_paths.clamp3_by_vibe }})
+
+## 4. CLaMP3 – genre × vibe
+
+Timestamps źródłowe:
+- `MIDI-LLM`: {{ timestamps.midillm_genre_vibe }}
+- `MuseCoco`: {{ timestamps.musecoco_genre_vibe }}
+
+{{ clamp3_genre_vibe_table }}
+
+![CLaMP3 heatmap MIDI-LLM]({{ plot_paths.clamp3_heatmap_midillm }})
+
+![CLaMP3 heatmap MuseCoco]({{ plot_paths.clamp3_heatmap_musecoco }})
+
+## 5. FMD – per gatunek
+
+{{ fmd_genre_table }}
+
+![FMD per genre]({{ plot_paths.fmd_by_genre }})
+
+## 6. FMD – per mood
+
+{{ fmd_mood_table }}
+
+![FMD per mood]({{ plot_paths.fmd_by_mood }})
+
+## 7. Podsumowanie tekstowe
+
+Poniżej zachowano dotychczasowy tekst interpretacyjny jako wersję roboczą, bez dopisywania nowej interpretacji:
+
+{% for line in legacy_summary %}
+{{ line }}
+{% endfor %}
