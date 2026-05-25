@@ -265,6 +265,34 @@ WIMU/
     └── muzic/
 ```
 
+# Wyniki
+ 
+## CLaMP3 – Group Similarity
+ 
+Ewaluacja z użyciem metryki CLaMP3 (Group Similarity, tryb `--group`) względem zbioru referencyjnego XMIDI. Wyższy wynik oznacza lepsze dopasowanie semantyczne do referencji.
+ 
+### Per gatunek i per nastrój
+ 
+![CLaMP3 per gatunek i per nastrój](results/CLAMP3_diagram_1.png)
+ 
+### Per gatunek × nastrój (pogrupowane)
+ 
+![CLaMP3 per gatunek × nastrój](results/CLAMP3_diagram_2.png)
+ 
+---
+ 
+## FMD – Fréchet Music Distance
+ 
+Ewaluacja z użyciem metryki FMD względem zbioru referencyjnego XMIDI. Niższy wynik oznacza mniejszy dystans dystrybutywny od referencji.
+ 
+### Per gatunek i per nastrój
+ 
+![FMD per gatunek i per nastrój](results/FMD_diagram_1.png)
+ 
+### Per gatunek × nastrój (pogrupowane)
+ 
+![FMD per gatunek × nastrój](results/FMD_diagram_2.png)
+
 ---
 
 # Bibliografia
