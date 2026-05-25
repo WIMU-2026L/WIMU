@@ -40,5 +40,5 @@ class MidiLLMGenerator:
             str(n_outputs),
             "--no-synthesize",
         ]
-
+        print(cmd)
         subprocess.run(cmd, check=True, cwd=self.script_path.parent)

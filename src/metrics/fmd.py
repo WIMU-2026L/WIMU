@@ -4,7 +4,6 @@ from tqdm import tqdm
 import json
 from pathlib import Path
 import tempfile
-from midiprocessor.midi_decoding import MidiDecoder
 import argparse
 from frechet_music_distance import FrechetMusicDistance
 import mido
