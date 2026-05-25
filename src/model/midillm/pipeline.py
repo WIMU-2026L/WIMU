@@ -51,6 +51,10 @@ def generate_midillm_samples(n_outputs: int = 1) -> None:
     for genre, moods in data.items():
         for mood in moods:
             prompts_file = PROMPTS_DIR / f"{genre}_{mood}.txt"
+            with open(prompts_file, 'w') as fp:
+                prompts = [ d['text'] + "\n" for d in data[genre][mood] ]
+                fp.writelines(prompts)
+
             if not prompts_file.exists():
                 print(f"Brak pliku promptow: {prompts_file}, pomijam.")
                 continue
