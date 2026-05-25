@@ -129,11 +129,21 @@ git clone --recurse-submodules https://github.com/WIMU-2026L/WIMU
 cd WIMU
 ```
 
-### 2. Konfiguracja środowiska (głównego projektu)
+### 2. Konfiguracja środoswiska (głównego projektu)
 
 ```bash
 python -m venv .venv
+```
+
+```bash
 .venv\Scripts\activate   # Windows
+```
+lub
+```bash
+source .venv\bin\activate   # Linux
+```
+
+```bash
 pip install -r requirements.txt
 ```
 
@@ -141,7 +151,7 @@ pip install -r requirements.txt
 
 ```bash
 cd external/midi-llm
-conda create -n midi-llm python=3.10
+conda create -n midi-llm python=3.11.15
 conda activate midi-llm
 pip install -r requirements.txt
 ```
@@ -149,28 +159,22 @@ pip install -r requirements.txt
 ### 4. Konfiguracja MuseCoco (submodule)
 
 ```bash
-cd muzic/musecoco
+cd external/muzic/musecoco
 conda create -n MuseCoco python=3.8
 conda activate MuseCoco
 conda install pytorch=1.11.0 -c pytorch
 pip install -r requirements.txt
 ```
 
-Additionally our machine should be provided with appropriate gcc and nvidia toolkit for CUDA usage.
+Dodatkowo, nasza maszyna powinna być wyposażona w odpowiedni kompilator gcc oraz zestaw narzędzi NVIDIA (NVIDIA toolkit) do obsługi CUDA.
 
-To run test sample generation, download the model from [HuggingFace](https://huggingface.co/XinXuNLPer/MuseCoco_attribute2music/tree/main), put it in `2-attribute2music_model/checkpoint/` directory, then run from `2-attribute2music_model/`:
-
-```bash
-bash interactive_1billion.sh 0 10
-```
-
-This will generate 20 samples (10 prompts × 2 batch size) in the new `generate/` directory.
+Aby uruchomić generowanie próbek testowych, pobierz model z HuggingFace, umieść go w katalogu `external/muzic/musecoco/2-attribute2music_model/checkpoint/`.
 
 ---
 
 ## Konfiguracja projektu
 
-Wszystkie ścieżki i ustawienia modeli są przechowywane w **`config.yaml`** w korzeniu repozytorium. Edytuj wartości `models.midillm.python`, `models.clamp3.python` i `models.clamp3.env_dir`, aby wskazywały na lokalne środowiska conda.
+Wszystkie ścieżki i ustawienia modeli są przechowywane w **`config.yaml`** w korzeniu repozytorium. Edytuj wartości `models.midillm.python`, `models.musecoco.python`, `models.clamp3.python` i `models.clamp3.env_dir`, aby wskazywały na lokalne interpretery pythona środowisk conda.
 
 Dla logowania do Weights & Biases ustaw `wandb.entity` na nazwę swojego konta/zespołu i wykonaj raz `wandb login`.
 
@@ -178,8 +182,28 @@ Dla logowania do Weights & Biases ustaw `wandb.entity` na nazwę swojego konta/z
 
 ## Uruchamianie pipeline'u (CLI)
 
-Wszystkie komendy uruchamiane są z korzenia repozytorium:
+Najpierw trzeb umieścić w folderze `data` zbiór danych XMIDI tak aby powstał folder `XMIDI_Dataset`. 
 
+Wszystkie komendy uruchamiane są z korzenia repozytorium używają środowiska .venv zdefiniowanego powyżej. Cały proces generowania i ewaluacji jest zintegorwany w skrypcie `src/main.py`. W celu inicjalizacji środowiska trzeba najpierw wywołać `src/main.py organize`
+
+```bash
+# Reorganizacja surowego datasetu XMIDI, tę komendę trzeba wywołać na przed uruchomieniem jakiejkolwiek funkcjonalności programu.  
+python src/main.py -h
+usage: wimu [-h] {organize,generate,evaluate} ...
+
+WIMU - Music Generation Quality Evaluation Pipeline
+
+positional arguments:
+  {organize,generate,evaluate}
+    organize            Reorganize raw XMIDI dataset into genre/vibe folder structure
+    generate            Generate MIDI samples with a model
+    evaluate            Evaluate generated MIDI with CLaMP3
+
+options:
+  -h, --help            show this help message and exit
+```
+
+Przekładowe wyowłania
 ```bash
 # Reorganizacja surowego datasetu XMIDI
 python src/main.py organize

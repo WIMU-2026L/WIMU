@@ -12,8 +12,10 @@ venv/
 
 # data
 data/XMIDI_Dataset/
+data/XMIDI_Organized/
 data/generated/
-data/*
+data/
+
 !data/.gitkeep
 
 # results
