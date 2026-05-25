@@ -3,8 +3,8 @@
 	url = https://github.com/slSeanWU/MIDI-LLM.git
 	ignore = untracked
 [submodule "muzic"]
-	path = external/muzic
-	url = https://github.com/microsoft/muzic.git
+	path = muzic
+	url = https://github.com/arion023/muzic-wimu.git
 	ignore = untracked
 [submodule "CLAMP3"]
 	path = external/clamp3
