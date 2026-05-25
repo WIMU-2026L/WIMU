@@ -119,7 +119,7 @@ Narzędzia: Nie korzystam ze środowiska ze zintegrowanym LLM'em, zazwyczaj korz
 ### Oskar Gorgis
 Ja wykorzystuję generatywne AI do pisania mniejszych funkcji w kodzie. Używam Claude, modelu Sonnet 4.6. Poza pisaniem funkcji wykorzystuję go do planowania architektury, zadaję pytania i proszę o wytłumaczenie rozwiązań oraz podanie źródeł, z których mogę zobaczyć jak ktoś na jakimś przykładzie je implementuje.
 
-Paweł Kutyła
+### Paweł Kutyła
 Model: DeepSeek Coder / Gemini 3.5 Flash
 Sposób użycia: wykorzystuje AI głównie jako wsparcie w codziennej pracy programistycznej — do generowania fragmentów kodu, konsultowania pomysłów architektonicznych oraz szybkiego researchu technicznego. Korzysta również z modeli do wyjaśniania bardziej złożonych zagadnień i porównywania możliwych podejść do implementacji.
 Narzędzia: najczęściej korzystam z modeli przez interfejs webowy, okazjonalnie wspomagając się integracjami w IDE przy pracy nad kodem.
