@@ -81,7 +81,7 @@ def generate_musecoco_samples(n_outputs: int = 2) -> None:
     path = Path(MUSECOCO_PYTHON)
     custom_env["PATH"] = f"{path.parent}{os.pathsep}{custom_env.get('PATH', '')}"
     # print(custom_env["PATH"])
-    # subprocess.call('external/muzic/musecoco/1-text2attribute_model/predict.sh', shell=True, env=custom_env )
+    subprocess.call('external/muzic/musecoco/1-text2attribute_model/predict.sh', shell=True, env=custom_env )
     subprocess.call(f'external/muzic/musecoco/2-attribute2music_model/interactive_1billion.sh 0 {n_outputs}', shell=True, env=custom_env, executable="/bin/bash")
 
 if __name__ == "__main__":
