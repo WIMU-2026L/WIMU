@@ -7,6 +7,7 @@ using the MIDI-LLM model via :class:`MidiLLMGenerator`.
 import json
 import shutil
 from pathlib import Path
+import subprocess
 
 from config import MIDILLM_OUTPUT_DIR, MIDILLM_PYTHON, MIDILLM_SCRIPT, PROMPTS_DIR, PROMPTS_JSON
 from model.midillm.generator import MidiLLMGenerator
@@ -29,7 +30,7 @@ def collect_generated_midis(raw_output_dir: Path, target_dir: Path) -> None:
     shutil.rmtree(raw_output_dir, ignore_errors=True)
 
 
-def generate_samples(n_outputs: int = 1) -> None:
+def generate_midillm_samples(n_outputs: int = 1) -> None:
     """Generate MIDI samples for every (genre, vibe) pair using MIDI-LLM.
 
     Iterates over all entries in ``all_prompts.json`` and looks for a
@@ -65,5 +66,9 @@ def generate_samples(n_outputs: int = 1) -> None:
             print(f"  -> zapisano do {target}")
 
 
+def generate_musecoco_samples(n_outputs: int = 2) -> None:
+    subprocess.call('muzic/musecoco/1-text2attribute_model/predict.sh', shell=True )
+    subprocess.call(f'muzic/musecoco/2-attribute2music_model/interactive_1billion.sh 0 {n_outputs}', shell=True)
+
 if __name__ == "__main__":
-    generate_samples()
+    generate_midillm_samples()
