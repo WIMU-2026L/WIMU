@@ -119,6 +119,11 @@ Narzędzia: Nie korzystam ze środowiska ze zintegrowanym LLM'em, zazwyczaj korz
 ### Oskar Gorgis
 Ja wykorzystuję generatywne AI do pisania mniejszych funkcji w kodzie. Używam Claude, modelu Sonnet 4.6. Poza pisaniem funkcji wykorzystuję go do planowania architektury, zadaję pytania i proszę o wytłumaczenie rozwiązań oraz podanie źródeł, z których mogę zobaczyć jak ktoś na jakimś przykładzie je implementuje.
 
+Paweł Kutyła
+Model: DeepSeek Coder / Gemini 3.5 Flash
+Sposób użycia: wykorzystuje AI głównie jako wsparcie w codziennej pracy programistycznej — do generowania fragmentów kodu, konsultowania pomysłów architektonicznych oraz szybkiego researchu technicznego. Korzysta również z modeli do wyjaśniania bardziej złożonych zagadnień i porównywania możliwych podejść do implementacji.
+Narzędzia: najczęściej korzystam z modeli przez interfejs webowy, okazjonalnie wspomagając się integracjami w IDE przy pracy nad kodem.
+
 ---
 
 ## Instrukcja uruchomienia projektu
@@ -167,9 +172,23 @@ conda install pytorch=1.11.0 -c pytorch
 pip install -r requirements.txt
 ```
 
+W środowisku MuseCoco uruchomić
+`conda install "mkl<2024"`
+
+oraz pobrać repozytorium
+
+`git clone https://github.com/idiap/fast-transformers`
+
+i zainstalować je za pomocą pip'a. 
+
+```bash
+cd fast-transformers
+pip install .
+```
+
 Dodatkowo, nasza maszyna powinna być wyposażona w odpowiedni kompilator gcc oraz zestaw narzędzi NVIDIA (NVIDIA toolkit) do obsługi CUDA.
 
-Aby uruchomić generowanie próbek testowych, pobierz model z HuggingFace, umieść go w katalogu `external/muzic/musecoco/2-attribute2music_model/checkpoint/`.
+Aby uruchomić generowanie próbek testowych, pobierz model z HuggingFace, umieść go w katalogu `external/muzic/musecoco/2-attribute2music_model/checkpoint/`. Opisane również w konfiguracji projektu.
 
 ### 5. Konfiguracja CLaMP3 (submodule)
 
@@ -215,15 +234,17 @@ W głównym `config.yaml` ustaw ścieżki pasujące do Twojej instalacji conda.
 ---
 ## Konfiguracja projektu
 
-Wszystkie ścieżki i ustawienia modeli są przechowywane w **`config.yaml`** w korzeniu repozytorium. Edytuj wartości `models.midillm.python`, `models.musecoco.python`, `models.clamp3.python` i `models.clamp3.env_dir`, aby wskazywały na lokalne interpretery pythona środowisk conda.
+Wszystkie ścieżki i ustawienia modeli są przechowywane w **`config.yaml`** w korzeniu repozytorium. Edytuj wartości `models.midillm.python`, `models.musecoco.python`, `models.clamp3.python` i `models.clamp3.env_dir`, aby wskazywały na lokalne interpretery pythona środowisk conda. Przykład jak to zrobić został zmaieszczony na filmiku.
+
+Potrzebne jest też umieszczenie w odpowiednch folderach zbioru danych XMIDI. Umieść w folderze `data` zbiór danych XMIDI tak aby powstał folder `XMIDI_Dataset`.
+
+Dotatkowo trzeba umieścić wcześniej pobrane wagi modelu MuseCoco. Umieść plik o nazwie `attribute2music_clean.pt` z wagami modelu w folderze: `external/muzic/musecoco/2-attribute2music_model/checkpoints/linear_mask-1billion/`.
 
 Dla logowania do Weights & Biases ustaw `wandb.entity` na nazwę swojego konta/zespołu i wykonaj raz `wandb login`.
 
 ---
 
 ## Uruchamianie pipeline'u (CLI)
-
-Najpierw trzeb umieścić w folderze `data` zbiór danych XMIDI tak aby powstał folder `XMIDI_Dataset`. 
 
 Wszystkie komendy uruchamiane są z korzenia repozytorium używają środowiska .venv zdefiniowanego powyżej. Cały proces generowania i ewaluacji jest zintegorwany w skrypcie `src/main.py`. W celu inicjalizacji środowiska trzeba najpierw wywołać `src/main.py organize`
 

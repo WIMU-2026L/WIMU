@@ -2,7 +2,7 @@
 
 import shutil
 from pathlib import Path
-
+import tqdm
 
 def organize_midi_files(xmidi_dir: Path, output_dir: Path) -> None:
     """Copy XMIDI ``.midi`` files into a ``genre/vibe/`` folder hierarchy.
@@ -15,7 +15,7 @@ def organize_midi_files(xmidi_dir: Path, output_dir: Path) -> None:
         xmidi_dir: Directory containing the raw flat XMIDI ``.midi`` files.
         output_dir: Root of the target folder hierarchy.
     """
-    for midi_file in xmidi_dir.glob("*.midi"):
+    for midi_file in tqdm.tqdm(xmidi_dir.glob("*.midi")):
         parts = midi_file.stem.split("_")
         # Expected format: XMIDI_{vibe}_{genre}_{id}
         if len(parts) < 4 or parts[0] != "XMIDI":
