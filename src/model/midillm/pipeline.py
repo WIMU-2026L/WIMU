@@ -8,8 +8,8 @@ import json
 import shutil
 from pathlib import Path
 import subprocess
-
-from config import MIDILLM_OUTPUT_DIR, MIDILLM_PYTHON, MIDILLM_SCRIPT, PROMPTS_DIR, PROMPTS_JSON
+import os
+from config import MIDILLM_OUTPUT_DIR, MIDILLM_PYTHON, MIDILLM_SCRIPT, PROMPTS_DIR, PROMPTS_JSON, MUSECOCO_PYTHON
 from model.midillm.generator import MidiLLMGenerator
 
 
@@ -67,8 +67,18 @@ def generate_midillm_samples(n_outputs: int = 1) -> None:
 
 
 def generate_musecoco_samples(n_outputs: int = 2) -> None:
-    subprocess.call('muzic/musecoco/1-text2attribute_model/predict.sh', shell=True )
-    subprocess.call(f'muzic/musecoco/2-attribute2music_model/interactive_1billion.sh 0 {n_outputs}', shell=True)
+    
+    
+    if MUSECOCO_PYTHON == "":
+        raise Exception("Musecoco python path not defined.")
+    custom_env = os.environ.copy()
+    
+    
+    path = Path(MUSECOCO_PYTHON)
+    custom_env["PATH"] = f"{path.parent}{os.pathsep}{custom_env.get('PATH', '')}"
+    # print(custom_env["PATH"])
+    # subprocess.call('muzic/musecoco/1-text2attribute_model/predict.sh', shell=True, env=custom_env )
+    subprocess.call(f'muzic/musecoco/2-attribute2music_model/interactive_1billion.sh 0 {n_outputs}', shell=True, env=custom_env, executable="/bin/bash")
 
 if __name__ == "__main__":
     generate_midillm_samples()

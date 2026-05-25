@@ -22,9 +22,9 @@ models:
     env_dir: "C:/Users/oskar/.conda/envs/clamp3"
 
   musecoco:
+    python: "/home/arion/miniconda3/envs/MuseCoco/bin/python"
     output_dir: "data/generated/musecoco"
     midi_subpath: "topk15-t0.7-ngram16/0/midi"
-
 wandb:
   project: "wimu-music-eval"
   entity: null  # ustaw na nazwę swojego zespołu/użytkownika W&B

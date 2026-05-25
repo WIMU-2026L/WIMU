@@ -45,6 +45,7 @@ CLAMP3_SCRIPT: Path = Path(_clamp3["script"])
 CLAMP3_ENV_DIR: str = _clamp3["env_dir"]
 
 MUSECOCO_OUTPUT_DIR: Path = _ROOT / _musecoco["output_dir"]
+MUSECOCO_PYTHON: str = _musecoco["python"]
 MUSECOCO_MIDI_SUBPATH: str = _musecoco["midi_subpath"]
 
 # ---------------------------------------------------------------------------
