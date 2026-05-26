@@ -51,7 +51,7 @@ Modele generatywne muzyki symbolicznej coraz częściej oferują kontrolę nad a
 | 27.04–03.05 | automatyzacja eksperymentów, napisanie testów integracyjnych | ✅ |
 | 04.05–10.05 | przygotowanie wyników i statystyk, analiza wyników | ✅ |
 | 11.05–17.05 | refaktoryzacja kodu projektu, poprawienie błędów | ✅ |
-| 18.05–24.05 | przygotowanie raportu i prezentacji | 🔄 |
+| 18.05–24.05 | przygotowanie raportu i prezentacji | ✅ |
 
 ---
 
@@ -378,6 +378,22 @@ Ewaluacja z użyciem metryki FMD względem zbioru referencyjnego XMIDI. Niższy 
 ### Per gatunek × nastrój (pogrupowane)
  
 ![FMD per gatunek × nastrój](results/FMD_diagram_2.png)
+
+---
+
+# Wyniki
+
+**CLaMP3 (podobieństwo semantyczne)**
+
+MIDI-LLM osiąga wyższe wyniki na poziomie zagregowanym – wygrywa w 5 z 6 gatunków i 9 z 11 nastrojów. Wyjątkiem jest *traditional* gdzie oba modele są praktycznie równe oraz *fear* i *quiet* gdzie MuseCoco nieznacznie prowadzi. Na poziomie szczegółowym (gatunek × nastrój) przewagi są mniej jednoznaczne – widoczne są duże rozbieżności w konkretnych parach jak `pop/angry` czy `rock/angry`, gdzie MuseCoco wypada wyraźnie lepiej pomimo gorszych wyników zagregowanych.
+
+**FMD (dystans dystrybutywny)**
+
+MIDI-LLM dominuje wyraźniej – wygrywa w zdecydowanej większości par gatunek × nastrój oraz per gatunek (rock, jazz, pop). MuseCoco lepiej radzi sobie z *classical* i *traditional*. Największe różnice widać w jazzie, gdzie MIDI-LLM jest bliżej rozkładu referencyjnego o ponad 150 punktów średnio.
+
+**Wspólny wniosek**
+
+Obie metryki wskazują na przewagę MIDI-LLM w odwzorowaniu cech gatunkowych muzyki referencyjnej. Rozbieżności między CLaMP3 a FMD w niektórych parach (np. `pop/angry`) sugerują że metryki mierzą różne aspekty jakości generacji – CLaMP3 ocenia podobieństwo semantyczne embeddingów, FMD dystans rozkładów – i warto je interpretować łącznie.
 
 ---
 
