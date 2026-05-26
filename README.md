@@ -136,7 +136,7 @@ cd WIMU
 ```
 
 ### 2. Konfiguracja środoswiska (głównego projektu)
-
+Wymagane jest utworzenie wirtualnego środowiska Python z wersją Python 3.11 lub nowszą.
 ```bash
 python -m venv .venv
 ```
